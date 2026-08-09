@@ -581,6 +581,97 @@ export const outsourcedLabEvaluation: FormSpec = {
   ],
 };
 
+/**
+ * NDC/DI/6.8 page 10 — source page 113.
+ *
+ * An agreement rather than a grid: the terms are reproduced verbatim as prose,
+ * with the second party's details and the signature block as fields. The
+ * source's own placeholders — "XX day of Month Year", "X Y Z Lab" — are kept,
+ * because they are what the controlled format prints.
+ */
+export const mouOutsourcedLab: FormSpec = {
+  id: "mou-outsourced-lab",
+  title: "MOU - OUTSOURCED LAB FORM",
+  recordingSchedule: "(Recording schedule – With every outsourced lab)",
+  clause: "6.8",
+  pageOfClause: 10,
+  sourcePage: 113,
+  sourcePageSize: "A4",
+  footerTitle: EXT_FOOTER,
+  orientation: "portrait",
+  sheetPeriod: "month",
+  bands: [
+    {
+      key: "heading",
+      heading: "",
+      layout: "fields",
+      cadence: "asRequired",
+      rows: [],
+      fields: [{ key: "agreementTitle", label: "", section: "AGREEMENT" }],
+    },
+    {
+      key: "parties",
+      heading: "",
+      layout: "prose",
+      cadence: "asRequired",
+      rows: [],
+      paragraphs: [
+        "This agreement is made and executed on XX\u1d57\u02b0 day of Month Year between Noble Diagnostic Centre, New Delhi, India through its Lab Director Dr. Upinder Singh who is authorized to sign this agreement for and on behalf of the First Party.",
+        "AND",
+        "X Y Z Lab, Address ________________________________________________ India through its Lab Director Dr. ___________, who is authorized to sign this agreement for and on behalf of the second Party.",
+        "As per the agreement the second party agrees to accept Samples (Patient as well as for ILC) from the first party as and when requested",
+        "Being an NABL accredited lab, X Y Z Lab, City agrees to comply with (at the minimum), the procedures given below and shall take all necessary precautions / action for compliance",
+      ],
+    },
+    {
+      key: "procedures",
+      heading: "",
+      layout: "prose",
+      cadence: "asRequired",
+      rows: [],
+      numbered: true,
+      listStyle: "lower-roman",
+      paragraphs: [
+        "Sample transportation procedure",
+        "Sample Storage procedure",
+        "Sample re testing procedure  (If requested by Noble Diagnostic Centre)",
+        "QC procedure  (Internal QC, EQAS and Validation procedure)",
+        "Reporting procedure  (including NABL approved format, Alert Value information, Turn Around Time)",
+      ],
+    },
+    {
+      key: "terms",
+      heading: "",
+      layout: "prose",
+      cadence: "asRequired",
+      rows: [],
+      paragraphs: [
+        "In case of any discrepancy observed while following the above mentioned procedures, the second party shall inform the same to the first party for necessary information / action.",
+        "The second party agrees to follow any other instructions / requests, if any given by the first party while sending the sample for testing.",
+        "The second party shall on request and through appointment give access of their lab to the representative of the first lab.",
+        "The agreement shall be reviewed as and when required after mutual consultation by both the parties",
+      ],
+    },
+    {
+      key: "signatures",
+      heading: "",
+      layout: "fields",
+      cadence: "asRequired",
+      rows: [],
+      fields: [
+        { key: "firstPartySign", label: "", cell: "initial", width: 0.5 },
+        { key: "secondPartySign", label: "", cell: "initial", width: 0.5 },
+        { key: "firstPartyName", label: "(Dr. Upinder Singh)", width: 0.5, noRule: true },
+        { key: "secondPartyName", label: "(Dr. ___________)", width: 0.5, noRule: true },
+        { key: "firstPartyRole", label: "Lab Director, Noble Diagnostic Centre", width: 0.5, noRule: true },
+        { key: "secondPartyRole", label: "Lab Director, X Y Z Lab", width: 0.5, noRule: true },
+        { key: "firstPartyPlace", label: "Place: New Delhi", width: 0.5, noRule: true },
+        { key: "secondPartyPlace", label: "Place:", width: 0.5 },
+      ],
+    },
+  ],
+};
+
 export const supplyForms: FormSpec[] = [
   phBufferMonitoring,
   purchaseOrderForm,
@@ -589,5 +680,6 @@ export const supplyForms: FormSpec[] = [
   supplierRegistration,
   supplierPerformanceEvaluation,
   supplierOnsiteVisit,
+  mouOutsourcedLab,
   outsourcedLabEvaluation,
 ];

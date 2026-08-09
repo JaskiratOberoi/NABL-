@@ -175,6 +175,8 @@ export interface Band {
   paragraphs?: string[];
   /** Numbers the paragraphs of a `prose` band, as the agreements do. */
   numbered?: boolean;
+  /** Numbering style for a numbered `prose` band. Defaults to decimal. */
+  listStyle?: "decimal" | "lower-roman";
   /** How many activity/status column pairs an `authGrid` lays out. */
   pairColumns?: number;
   /** Column heading above each status column of an `authGrid`. */

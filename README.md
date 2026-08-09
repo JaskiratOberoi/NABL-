@@ -21,7 +21,7 @@ A web application that captures the daily quality records required by
 `NDC/DI/6` and prints them as controlled copies indistinguishable in format
 from the pages of NDC-DI they replace.
 
-**Covers 42 of the 43 record formats in DI 6**, across all seven sub-clauses:
+**Covers all 43 record formats in DI 6**, across all seven sub-clauses:
 
 | Sub-clause | Formats |
 |---|---|
@@ -31,11 +31,7 @@ from the pages of NDC-DI they replace.
 | NDC/DI/6.5 — Equipment calibration | 1 of 1 |
 | NDC/DI/6.6 — Reagents and consumables | 2 of 2 |
 | NDC/DI/6.7 — Service agreements | 1 of 1 |
-| NDC/DI/6.8 — Externally provided products and services | 4 of 5 |
-
-The MOU with an outsourced laboratory (`NDC/DI/6.8` page 10) is a contract
-rather than a record format and is better handled as a document template than
-as a form; it is deliberately not included.
+| NDC/DI/6.8 — Externally provided products and services | 5 of 5 |
 
 Navigation is organised by sub-clause and each format carries its
 "Page N of clause X" reference, so a printed record traces directly back to the

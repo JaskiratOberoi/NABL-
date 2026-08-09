@@ -63,7 +63,12 @@ function Prose({ band }: { band: Band }) {
   const paragraphs = band.paragraphs ?? [];
   const Tag = band.numbered ? "ol" : "div";
   return (
-    <Tag className={band.numbered ? "prose prose--numbered" : "prose"}>
+    <Tag
+      className={band.numbered ? "prose prose--numbered" : "prose"}
+      style={
+        band.listStyle ? { listStyleType: band.listStyle } : undefined
+      }
+    >
       {paragraphs.map((text, i) =>
         band.numbered ? (
           <li key={i}>{text}</li>
