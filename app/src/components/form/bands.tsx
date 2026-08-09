@@ -51,7 +51,81 @@ export function BandTable({ bands, ...rest }: BandRunProps) {
       return <HalfYearGrid band={lead} {...rest} />;
     case "fields":
       return <Fields band={lead} {...rest} />;
+    case "prose":
+      return <Prose band={lead} />;
+    case "authGrid":
+      return <AuthGrid band={lead} {...rest} />;
   }
+}
+
+/** Numbered or plain paragraphs, reproduced verbatim from the source. */
+function Prose({ band }: { band: Band }) {
+  const paragraphs = band.paragraphs ?? [];
+  const Tag = band.numbered ? "ol" : "div";
+  return (
+    <Tag className={band.numbered ? "prose prose--numbered" : "prose"}>
+      {paragraphs.map((text, i) =>
+        band.numbered ? (
+          <li key={i}>{text}</li>
+        ) : (
+          <p key={i}>{text}</p>
+        ),
+      )}
+    </Tag>
+  );
+}
+
+/**
+ * The authorization forms.
+ *
+ * The source lays a long list of activities out as three activity/status
+ * column pairs read down each column in turn, which is what this reproduces.
+ */
+function AuthGrid({ band, data, signatures }: BandProps) {
+  const pairs = band.pairColumns ?? 3;
+  const rows = band.rows;
+  const perColumn = Math.ceil(rows.length / pairs);
+  const columns = Array.from({ length: pairs }, (_, c) =>
+    rows.slice(c * perColumn, (c + 1) * perColumn),
+  );
+
+  return (
+    <table className="band">
+      <thead>
+        <tr>
+          {columns.map((_, c) => (
+            <Fragmented key={c}>
+              <th className="lbl">Activities authorized for</th>
+              <th className="lbl">{band.statusLabel ?? "Status"}</th>
+            </Fragmented>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {range(0, perColumn - 1).map((i) => (
+          <tr key={i} className="row">
+            {columns.map((col, c) => {
+              const row = col[i];
+              return (
+                <Fragmented key={c}>
+                  <td className="lbl">{row?.label ?? ""}</td>
+                  <td>
+                    {row ? (
+                      <CellValue
+                        kind={row.cell ?? band.cell ?? "text"}
+                        value={get(data, band.key, row.key, "v")}
+                        signatures={signatures}
+                      />
+                    ) : null}
+                  </td>
+                </Fragmented>
+              );
+            })}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
 }
 
 /**
@@ -83,7 +157,14 @@ function Fields({ band, data, signatures }: BandProps) {
 
   return (
     <div className="fields">
-      {lines.map((line, i) => (
+      {lines.map((line, i) =>
+        line[0].photo ? (
+          <div key={i} className="fields__photo">
+            Please affix your
+            <br />
+            photograph here
+          </div>
+        ) : (
         <div key={i} className="fields__item">
           {line[0].section && (
             <div className="fields__section">{line[0].section}</div>
@@ -99,13 +180,15 @@ function Fields({ band, data, signatures }: BandProps) {
                   style={{ flexBasis: `${(f.width ?? 1) * 100}%` }}
                 >
                   {f.label && <span className="fields__label">{f.label}</span>}
-                  <span className="fields__value">
-                    <CellValue
-                      kind={f.cell ?? "text"}
-                      value={get(data, band.key, f.key, "v")}
-                      signatures={signatures}
-                    />
-                  </span>
+                  {!f.noRule && (
+                    <span className="fields__value">
+                      <CellValue
+                        kind={f.cell ?? "text"}
+                        value={get(data, band.key, f.key, "v")}
+                        signatures={signatures}
+                      />
+                    </span>
+                  )}
                 </div>
               ))}
             </div>
@@ -137,7 +220,8 @@ function Fields({ band, data, signatures }: BandProps) {
               ))
             : null}
         </div>
-      ))}
+        ),
+      )}
     </div>
   );
 }
@@ -385,28 +469,57 @@ function SlotBand({ bands, data, signatures, labels }: BandRunProps) {
                 ))}
               </tr>
             )}
-            {band.rows.map((row) => (
-              <tr key={`${band.key}-${row.key}`} className="row row--slot">
-                <td className="lbl">
-                  {labelOf(row, labels)}
-                  {row.sublabel ? (
-                    <>
-                      <br />
-                      {row.sublabel}
-                    </>
-                  ) : null}
-                </td>
-                {slots.map((s) => (
-                  <td key={s}>
-                    <CellValue
-                      kind={cellOf(band, row)}
-                      value={get(data, band.key, row.key, `s${s}`)}
-                      signatures={signatures}
-                    />
+            {band.rows.map((row, ri) => {
+              if (row.sectionRow) {
+                return (
+                  <tr key={`${band.key}-${row.key}`} className="row">
+                    <td className="lbl bandhead" colSpan={slots.length + 1}>
+                      {labelOf(row, labels)}
+                    </td>
+                  </tr>
+                );
+              }
+              // A span cell is drawn once and merged down its run of rows.
+              const spanRun = row.spanWith
+                ? band.rows.filter((r) => r.spanWith === row.spanWith)
+                : null;
+              const spanStart =
+                !row.spanWith ||
+                band.rows[ri - 1]?.spanWith !== row.spanWith;
+              return (
+                <tr key={`${band.key}-${row.key}`} className="row row--slot">
+                  <td className="lbl">
+                    {labelOf(row, labels)}
+                    {row.sublabel ? (
+                      <>
+                        <br />
+                        {row.sublabel}
+                      </>
+                    ) : null}
                   </td>
-                ))}
-              </tr>
-            ))}
+                  {slots.map((s) => {
+                    const isSpanCol = row.spanWith && s === slots.length - 1;
+                    if (isSpanCol && !spanStart) return null;
+                    return (
+                      <td
+                        key={s}
+                        rowSpan={isSpanCol ? spanRun!.length : undefined}
+                      >
+                        {isSpanCol ? (
+                          row.spanValue
+                        ) : (
+                          <CellValue
+                            kind={cellOf(band, row)}
+                            value={get(data, band.key, row.key, `s${s}`)}
+                            signatures={signatures}
+                          />
+                        )}
+                      </td>
+                    );
+                  })}
+                </tr>
+              );
+            })}
           </Fragmented>
         ))}
       </tbody>
@@ -487,15 +600,27 @@ function Ledger({ band, data, signatures }: BandProps) {
       </thead>
       <tbody>
         {lines.map((n) => (
-          <tr key={n} className="row row--slot">
+          <tr
+            key={n}
+            className="row row--slot"
+            style={
+              band.ledgerRowHeight
+                ? { height: `${band.ledgerRowHeight}mm` }
+                : undefined
+            }
+          >
             {cols.map((c) => (
               <td key={c.key}>
-                <CellValue
-                  kind={c.cell}
-                  value={get(data, band.key, `r${n}`, c.key)}
-                  range={c.range}
-                  signatures={signatures}
-                />
+                {c.cell === "serial" ? (
+                  n
+                ) : (
+                  <CellValue
+                    kind={c.cell}
+                    value={get(data, band.key, `r${n}`, c.key)}
+                    range={c.range}
+                    signatures={signatures}
+                  />
+                )}
               </td>
             ))}
           </tr>

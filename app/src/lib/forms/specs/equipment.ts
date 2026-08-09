@@ -509,8 +509,211 @@ export const decontaminationSchedule: FormSpec = {
   ],
 };
 
+
+/** NDC/DI/6.4 page 31 — source page 72. */
+export const equipmentHistoryCard: FormSpec = {
+  id: "equipment-history-card",
+  title: "EQUIPMENT HISTORY CARD",
+  recordingSchedule:
+    "(Recording schedule – Initially and after every Calibration and PM)",
+  clause: "6.4",
+  pageOfClause: 31,
+  sourcePage: 72,
+  sourcePageSize: "A4",
+  orientation: "portrait",
+  sheetPeriod: "month",
+  bands: [
+    {
+      key: "identity",
+      heading: "",
+      layout: "fields",
+      cadence: "asRequired",
+      rows: [],
+      fields: [
+        { key: "equipmentName", label: "EQUIPMENT NAME" },
+        { key: "makeModel", label: "MAKE / MODEL" },
+        { key: "location", label: "LOCATION" },
+        { key: "serialNo", label: "Serial No." },
+        { key: "receiptDate", label: "Receipt Date", width: 0.33 },
+        { key: "installationDate", label: "Installation Date", width: 0.33 },
+        { key: "pqDate", label: "PQ acceptance Date", width: 0.33 },
+      ],
+    },
+    {
+      key: "condition",
+      heading: "Condition when received",
+      layout: "slots",
+      cadence: "asRequired",
+      slotLabels: ["New", "Refurbished / RR", "Used"],
+      cell: "tick",
+      rows: [{ key: "condition", label: "" }],
+    },
+    {
+      key: "contacts",
+      heading: "",
+      layout: "fields",
+      cadence: "asRequired",
+      rows: [],
+      fields: [
+        {
+          key: "supplier",
+          label: "Supplier Name, Address and Contact Details",
+          lines: 2,
+        },
+        {
+          key: "serviceEngineer",
+          label: "SERVICE ENGINEER NAME & PHONE NO.",
+          lines: 1,
+        },
+        {
+          key: "authorizedUsers",
+          label: "EQUIPMENT AUTHORIZED USERS",
+          lines: 2,
+        },
+        {
+          key: "manufacturerInstructions",
+          label: "Manufacturer / Supplier’s Instructions — Ref Operating Manual of",
+        },
+        {
+          key: "userMaintenance",
+          label: "User Maintenance Schedule — Ref format No. -",
+        },
+        {
+          key: "serviceRecordRef",
+          label: "Equipment Service Record — Ref Department Record File:",
+        },
+      ],
+    },
+    {
+      key: "pmSchedule",
+      heading: "EQUIPMENT PM SCHEDULE (Quarterly / 6 Monthly / Yearly)",
+      layout: "ledger",
+      cadence: "asRequired",
+      rows: [],
+      ledgerRows: 6,
+      columns: [
+        { key: "dueOnA", label: "Due On", cell: "text", width: 12 },
+        { key: "doneOnA", label: "Done On", cell: "text", width: 12 },
+        { key: "doneByA", label: "Done By", cell: "initial", width: 11 },
+        { key: "remarksA", label: "Remarks", cell: "text", width: 15 },
+        { key: "dueOnB", label: "Due On", cell: "text", width: 12 },
+        { key: "doneOnB", label: "Done On", cell: "text", width: 12 },
+        { key: "doneByB", label: "Done By", cell: "initial", width: 11 },
+        { key: "remarksB", label: "Remarks", cell: "text", width: 15 },
+      ],
+    },
+    {
+      key: "serviceRecord",
+      heading: "EQUIPMENT SERVICE RECORD",
+      layout: "ledger",
+      cadence: "asRequired",
+      rows: [],
+      ledgerRows: 6,
+      columns: [
+        { key: "doneOnA", label: "Done On", cell: "text", width: 12 },
+        { key: "doneByA", label: "Done By", cell: "initial", width: 11 },
+        { key: "partA", label: "Part Replaced", cell: "text", width: 12 },
+        { key: "remarksA", label: "Remarks", cell: "text", width: 15 },
+        { key: "doneOnB", label: "Done On", cell: "text", width: 12 },
+        { key: "doneByB", label: "Done By", cell: "initial", width: 11 },
+        { key: "partB", label: "Part Replaced", cell: "text", width: 12 },
+        { key: "remarksB", label: "Remarks", cell: "text", width: 15 },
+      ],
+    },
+    {
+      key: "calibrationSchedule",
+      heading: "EQUIPMENT CALIBRATION SCHEDULE (Quarterly / 6 Monthly / Yearly)",
+      layout: "ledger",
+      cadence: "asRequired",
+      rows: [],
+      ledgerRows: 6,
+      columns: [
+        { key: "dueOnA", label: "Due On", cell: "text", width: 12 },
+        { key: "doneOnA", label: "Done On", cell: "text", width: 12 },
+        { key: "doneByA", label: "Done By", cell: "initial", width: 11 },
+        { key: "remarksA", label: "Remarks", cell: "text", width: 15 },
+        { key: "dueOnB", label: "Due On", cell: "text", width: 12 },
+        { key: "doneOnB", label: "Done On", cell: "text", width: 12 },
+        { key: "doneByB", label: "Done By", cell: "initial", width: 11 },
+        { key: "remarksB", label: "Remarks", cell: "text", width: 15 },
+      ],
+    },
+  ],
+};
+
+/** NDC/DI/6.4 page 33 — source page 74. */
+export const equipmentServiceLog: FormSpec = {
+  id: "equipment-service-log",
+  title: "EQUIPMENT SERVICE LOG",
+  recordingSchedule: "(Recording schedule – After every equipment service)",
+  clause: "6.4",
+  pageOfClause: 33,
+  sourcePage: 74,
+  sourcePageSize: "A4",
+  orientation: "landscape",
+  sheetPeriod: "month",
+  bands: [
+    {
+      key: "ledger",
+      heading: "",
+      layout: "ledger",
+      cadence: "asRequired",
+      rows: [],
+      ledgerRows: 16,
+      columns: [
+        { key: "date", label: "Date of Complaint", cell: "text", width: 8 },
+        { key: "equipment", label: "Equipment", cell: "text", width: 12 },
+        {
+          key: "complaint",
+          label: "Complaint Details",
+          cell: "text",
+          width: 18,
+        },
+        {
+          key: "action",
+          label: "Action Taken on complaint",
+          cell: "text",
+          width: 18,
+        },
+        {
+          key: "attendedBy",
+          label: "Complaint Attended by",
+          cell: "initial",
+          width: 9,
+        },
+        {
+          key: "verifiedBy",
+          label: "Equipment Working Verified by",
+          cell: "initial",
+          width: 9,
+        },
+        {
+          key: "workingDate",
+          label: "Equipment working — Date",
+          cell: "text",
+          width: 8,
+        },
+        {
+          key: "workingTime",
+          label: "Equipment working — Time",
+          cell: "time",
+          width: 8,
+        },
+        {
+          key: "downtime",
+          label: "Total Equipment Downtime",
+          cell: "text",
+          width: 10,
+        },
+      ],
+    },
+  ],
+};
+
 export const equipmentForms: FormSpec[] = [
+  equipmentHistoryCard,
   equipmentLogBook,
+  equipmentServiceLog,
   maintenanceCentrifuge,
   maintenanceMicroscope,
   maintenanceBiolis30i,

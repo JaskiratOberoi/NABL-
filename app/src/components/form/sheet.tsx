@@ -48,11 +48,18 @@ export function FormSheet({
         <h1 className="sheet__title">{spec.title}</h1>
         <div className="sheet__subtitle">{spec.recordingSchedule}</div>
 
-        {spec.headerFields?.map((f) => (
-          <div key={f.key} className="sheet__headerfields">
-            {f.label} {header[f.key] ?? ""}
+        {spec.headerFields && spec.headerFields.length > 0 && (
+          <div className="sheet__headerfields">
+            {spec.headerFields.map((f) => (
+              <span key={f.key} className="sheet__headerfield">
+                <span className="sheet__headerlabel">{f.label}</span>
+                <span className="sheet__headervalue">
+                  {header[f.key] ?? ""}
+                </span>
+              </span>
+            ))}
           </div>
-        ))}
+        )}
 
         {(spec.showMonthCaption || header.location) && (
           <div className="sheet__monthcaption">

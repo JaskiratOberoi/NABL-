@@ -53,7 +53,9 @@ export type CellKind =
   | "text"
   | "number"
   | "time"
-  | "dateInitial";
+  | "dateInitial"
+  /** The row's own number, printed rather than entered. */
+  | "serial";
 
 export interface NumericRange {
   min?: number;
@@ -95,6 +97,18 @@ export interface ActivityRow {
   freq?: string;
   /** Marks the row as an attestation line rendered in the source's heavier style. */
   attestation?: boolean;
+  /**
+   * Renders as a full-width heading spanning the band, for the section breaks
+   * the induction training format uses (INTRODUCTION, LAB PREMISES ROUND …).
+   */
+  sectionRow?: boolean;
+  /**
+   * Merges this row's value cell with adjacent rows carrying the same key, as
+   * the induction format does for the Accompanied By column.
+   */
+  spanWith?: string;
+  /** Value printed in a merged span cell. */
+  spanValue?: string;
 }
 
 /**
@@ -109,6 +123,8 @@ export interface ActivityRow {
  * `halfYearGrid` date rows 1..31 against six month/Done-By column pairs
  * `fields`       labelled free-text fields, for formats that are a record
  *                about one subject rather than a grid of days
+ * `prose`        numbered or plain paragraphs, for the agreements and letters
+ * `authGrid`     activities laid out as repeated activity/status column pairs
  */
 export type BandLayout =
   | "dayGrid"
@@ -118,7 +134,9 @@ export type BandLayout =
   | "ledger"
   | "pairedLedger"
   | "halfYearGrid"
-  | "fields";
+  | "fields"
+  | "prose"
+  | "authGrid";
 
 export interface LedgerColumn {
   key: string;
@@ -153,12 +171,22 @@ export interface Band {
   slotLabels?: string[];
   /** Field definitions for a `fields` band. */
   fields?: FormField[];
+  /** Paragraphs for a `prose` band, verbatim from the source. */
+  paragraphs?: string[];
+  /** Numbers the paragraphs of a `prose` band, as the agreements do. */
+  numbered?: boolean;
+  /** How many activity/status column pairs an `authGrid` lays out. */
+  pairColumns?: number;
+  /** Column heading above each status column of an `authGrid`. */
+  statusLabel?: string;
   /** Extra label columns printed before the data columns, e.g. ["Location","Date"]. */
   labelColumns?: string[];
   /** Column definitions for `ledger` and `pairedLedger` bands. */
   columns?: LedgerColumn[];
   /** Number of blank lines to print in a `ledger` band. */
   ledgerRows?: number;
+  /** Height in millimetres of each `ledger` line, where the source is taller. */
+  ledgerRowHeight?: number;
   /** Six months covered by a `halfYearGrid`, e.g. ["JAN",…,"JUN"]. */
   months?: string[];
   /** Appends the Done By / Verified By rows that close every dayGrid band. */
@@ -191,6 +219,13 @@ export interface FormField {
   lines?: number;
   /** A numbered sub-list, as the supplier registration form uses. */
   listCount?: number;
+  /** Renders the bordered "Please affix your photograph here" box. */
+  photo?: boolean;
+  /**
+   * Prints the label alone with no rule to write on, for the caption lines the
+   * source sets under a signature or as a standing sentence.
+   */
+  noRule?: boolean;
   /** Printed above the field as a section rule. */
   section?: string;
 }

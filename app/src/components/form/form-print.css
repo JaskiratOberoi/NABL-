@@ -62,9 +62,32 @@
   margin-left: 12mm;
 }
 
+/* Header entries pair two to a line, as the source sets them. */
 .sheet__headerfields {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 9pt;
-  margin: 0 0 2mm 4mm;
+  margin: 0 0 2mm 2mm;
+  row-gap: 1.6mm;
+}
+
+.sheet__headerfield {
+  display: flex;
+  align-items: baseline;
+  gap: 2mm;
+  flex: 0 0 50%;
+  padding-right: 6mm;
+  box-sizing: border-box;
+}
+
+.sheet__headerlabel {
+  white-space: nowrap;
+}
+
+.sheet__headervalue {
+  flex: 1 1 auto;
+  min-height: 4mm;
+  border-bottom: 0.5pt solid #000;
 }
 
 .sheet__body {
@@ -217,6 +240,46 @@
 
 .fields__list .fields__value {
   display: block;
+}
+
+/* The photograph box on the staff personnel record. */
+.fields__photo {
+  float: right;
+  width: 34mm;
+  height: 30mm;
+  margin: 0 2mm 2mm 4mm;
+  border: var(--rule);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10pt;
+}
+
+/* ---- prose ------------------------------------------------------------- */
+
+.prose {
+  font-size: 8.5pt;
+  line-height: 1.45;
+  padding: 1mm 2mm;
+  text-align: justify;
+}
+
+.prose p {
+  margin: 0 0 2.4mm;
+}
+
+.prose--numbered {
+  margin: 0;
+  padding-left: 8mm;
+  list-style: decimal;
+}
+
+.prose--numbered li {
+  margin-bottom: 2.4mm;
+  padding-left: 2mm;
 }
 
 /* Two bands printed level with one another. */

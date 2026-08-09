@@ -3,6 +3,7 @@ import { CLAUSE_TITLES } from "./types";
 import { facilitiesForms } from "./specs/facilities";
 import { equipmentForms } from "./specs/equipment";
 import { supplyForms } from "./specs/supplies";
+import { personnelForms } from "./specs/personnel";
 
 /**
  * Every record format the platform can produce.
@@ -13,6 +14,7 @@ import { supplyForms } from "./specs/supplies";
  * the master document.
  */
 export const ALL_FORMS: FormSpec[] = [
+  ...personnelForms,
   ...facilitiesForms,
   ...equipmentForms,
   ...supplyForms,
