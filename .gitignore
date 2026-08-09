@@ -1,0 +1,14 @@
+# Quality records — never commit. This is live laboratory data.
+app/data/
+*.db
+*.db-wal
+*.db-shm
+
+node_modules/
+.next/
+.DS_Store
+*.log
+.env*.local
+
+# Word lock files
+~$*

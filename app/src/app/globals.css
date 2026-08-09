@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/*
+ * The platform is used at bench terminals under fluorescent light, often by
+ * staff wearing gloves. It stays in a single light theme: a dark mode that
+ * flipped depending on the terminal's OS setting would make the on-screen
+ * preview stop resembling the printed sheet, which is the whole point.
+ */
+
+@theme inline {
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  font-family: var(--font-sans);
+}

@@ -1,0 +1,350 @@
+/*
+ * Reproduction of the NDC-DI page layout.
+ *
+ * Dimensions are in millimetres and points so that the rendered page matches
+ * the source PDF when printed, rather than merely looking similar on screen.
+ * The same stylesheet drives the on-screen preview and the printed output, so
+ * what a user approves is what comes out of the printer.
+ */
+
+.sheet {
+  --page-w: 210mm;
+  --page-h: 297mm;
+  --inset: 7mm;
+  --rule: 0.75pt solid #000;
+
+  position: relative;
+  width: var(--page-w);
+  min-height: var(--page-h);
+  padding: var(--inset);
+  background: #fff;
+  color: #000;
+  font-family: Arial, Helvetica, "Liberation Sans", sans-serif;
+  font-size: 8pt;
+  line-height: 1.15;
+  box-sizing: border-box;
+}
+
+.sheet--landscape {
+  --page-w: 297mm;
+  --page-h: 210mm;
+}
+
+/* The single hairline box that frames every DI page. */
+.sheet__frame {
+  border: 1pt solid #000;
+  min-height: calc(var(--page-h) - (2 * var(--inset)));
+  padding: 5mm 4mm 4mm;
+  box-sizing: border-box;
+}
+
+.sheet__title {
+  text-align: center;
+  font-size: 11.5pt;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin: 1mm 0 0.8mm;
+}
+
+.sheet__subtitle {
+  text-align: center;
+  font-size: 8.5pt;
+  margin-bottom: 2mm;
+}
+
+.sheet__monthcaption {
+  font-size: 8.5pt;
+  margin: 0 0 1mm 1mm;
+}
+
+.sheet__headerfields {
+  font-size: 9pt;
+  margin: 0 0 2mm 4mm;
+}
+
+.sheet__body {
+  /* Nothing to stretch: the footer follows the last band, as it does on the
+     source pages, rather than being pinned to the foot of the sheet. */
+}
+
+.sheet__note,
+.sheet__footnote,
+.sheet__legend {
+  font-size: 7.5pt;
+  margin: 1mm 0 2mm;
+}
+
+.sheet__legend {
+  margin-top: 2mm;
+}
+
+/* ---- bands ------------------------------------------------------------- */
+
+.band {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-bottom: 0;
+}
+
+.band + .band {
+  margin-top: 0;
+}
+
+.band td,
+.band th {
+  border: var(--rule);
+  padding: 0.3mm 0.5mm;
+  font-size: 7pt;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+/* Activity labels sit in the first column, centred as in the source. */
+.band .lbl {
+  text-align: center;
+  padding: 0.3mm 0.7mm;
+  font-size: 6.6pt;
+  line-height: 1.12;
+}
+
+.band .lbl--left {
+  text-align: left;
+}
+
+/* Attestation rows print in the source's slightly larger face. */
+.band .att {
+  font-size: 7.5pt;
+}
+
+/* Band headings — WEEKLY, FORTNIGHTLY, MONTHLY — are noticeably larger than
+   the activity labels beneath them. */
+.band .bandhead {
+  font-size: 9pt;
+}
+
+.band th.dayhead,
+.band td.daycell {
+  font-size: 7.5pt;
+}
+
+/* A data row's minimum height, matching the source's row pitch. */
+.band .row {
+  height: 4.2mm;
+}
+
+.band .row--tall {
+  height: 5.4mm;
+}
+
+.band .row--slot {
+  height: 4.9mm;
+}
+
+.band .spacer td {
+  border: none;
+  height: 2mm;
+}
+
+/* Two bands printed level with one another. */
+.band-pair {
+  display: flex;
+  gap: 4mm;
+  align-items: flex-start;
+}
+
+.band-pair > * {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* ---- cell contents ----------------------------------------------------- */
+
+.tick {
+  font-size: 8pt;
+  line-height: 1;
+}
+
+.sig {
+  display: block;
+  max-width: 100%;
+  max-height: 4mm;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.dateinit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3mm;
+  line-height: 1;
+}
+
+.dateinit__date {
+  font-size: 6.5pt;
+}
+
+.dateinit .sig {
+  max-height: 3.2mm;
+}
+
+.val {
+  font-size: 7pt;
+}
+
+.val--out {
+  font-weight: 700;
+  /* An out-of-range value is shown in the source's own ink, not colour, so it
+     survives monochrome printing; the entry screen is where it is flagged. */
+  text-decoration: underline;
+}
+
+/* ---- controlled-copy footer -------------------------------------------- */
+
+.sheet__footer {
+  padding-top: 3mm;
+}
+
+.footer {
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 8pt;
+}
+
+.footer td {
+  border: var(--rule);
+  padding: 0.4mm 1.2mm;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.footer .f-org {
+  font-size: 10pt;
+}
+
+.footer .f-strap {
+  font-size: 9pt;
+}
+
+.footer .f-docno,
+.footer .f-page {
+  font-size: 8pt;
+  font-weight: 700;
+}
+
+.footer .f-meta {
+  font-size: 7.5pt;
+}
+
+.footer .f-controlled {
+  font-size: 9.5pt;
+  font-weight: 700;
+  /* The source prints this on one line; wrapping it would look like a defect. */
+  white-space: nowrap;
+}
+
+.footer .f-logo {
+  width: 22mm;
+  padding: 1mm;
+}
+
+.footer .f-logo img {
+  display: block;
+  width: 13mm;
+  height: 13mm;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.footer .f-sign {
+  padding: 0;
+  height: 9mm;
+}
+
+.f-sign__img {
+  display: block;
+  height: 5.6mm;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.f-sign__caption {
+  font-size: 7.5pt;
+  padding-bottom: 0.5mm;
+}
+
+/* ---- screen preview chrome --------------------------------------------- */
+
+.sheet-preview {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  background: #52525b;
+  overflow: auto;
+}
+
+/* The sheet is a fixed physical size. Letting flex shrink it would reflow the
+   tables and make the preview stop matching the printed page. */
+.sheet-preview .sheet {
+  flex: none;
+  box-shadow: 0 4px 24px rgb(0 0 0 / 35%);
+}
+
+/* ---- print ------------------------------------------------------------- */
+
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+@media print {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+  }
+
+  /* Everything that is not the sheet is application chrome. */
+  body > *:not(.print-root),
+  .no-print {
+    display: none !important;
+  }
+
+  .sheet-preview {
+    padding: 0;
+    background: #fff;
+    display: block;
+  }
+
+  .sheet {
+    box-shadow: none;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .sheet:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  /* Keep the greys and rules from being dropped by the browser. */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* The footer occupies a narrower measure on landscape pages. */
+.sheet--landscape .footer {
+  width: 66% !important;
+}
+
+/* Paired day ledgers use the source's more generous row pitch. */
+.band .row--ledger {
+  height: 5.2mm;
+}
