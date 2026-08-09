@@ -107,6 +107,8 @@ export interface ActivityRow {
  * `ledger`       free rows under named columns, e.g. the autoclave form
  * `pairedLedger` two identical day ledgers side by side, 1..16 and 17..31
  * `halfYearGrid` date rows 1..31 against six month/Done-By column pairs
+ * `fields`       labelled free-text fields, for formats that are a record
+ *                about one subject rather than a grid of days
  */
 export type BandLayout =
   | "dayGrid"
@@ -115,7 +117,8 @@ export type BandLayout =
   | "monthGrid"
   | "ledger"
   | "pairedLedger"
-  | "halfYearGrid";
+  | "halfYearGrid"
+  | "fields";
 
 export interface LedgerColumn {
   key: string;
@@ -142,6 +145,14 @@ export interface Band {
   dayTo?: number;
   /** Number of Date/Initial columns for `slots` bands. */
   slotCount?: number;
+  /**
+   * Column headings for a `slots` band, where the source uses something other
+   * than "Date/Initial" — the half-year columns of the outsourced lab
+   * evaluation, or the named criteria of the supplier performance evaluation.
+   */
+  slotLabels?: string[];
+  /** Field definitions for a `fields` band. */
+  fields?: FormField[];
   /** Extra label columns printed before the data columns, e.g. ["Location","Date"]. */
   labelColumns?: string[];
   /** Column definitions for `ledger` and `pairedLedger` bands. */
@@ -167,6 +178,21 @@ export interface Band {
    * QUARTERLY and 6 MONTHLY under MONTHLY.
    */
   continues?: boolean;
+}
+
+/** A labelled entry on a `fields` band. */
+export interface FormField {
+  key: string;
+  label: string;
+  cell?: CellKind;
+  /** Fraction of the row this field occupies; 1 is the full measure. */
+  width?: 0.25 | 0.33 | 0.5 | 1;
+  /** Renders as a block of lines rather than a single rule. */
+  lines?: number;
+  /** A numbered sub-list, as the supplier registration form uses. */
+  listCount?: number;
+  /** Printed above the field as a section rule. */
+  section?: string;
 }
 
 export interface FormSpec {

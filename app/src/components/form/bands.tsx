@@ -49,7 +49,97 @@ export function BandTable({ bands, ...rest }: BandRunProps) {
       return <PairedLedger band={lead} {...rest} />;
     case "halfYearGrid":
       return <HalfYearGrid band={lead} {...rest} />;
+    case "fields":
+      return <Fields band={lead} {...rest} />;
   }
+}
+
+/**
+ * Labelled fields.
+ *
+ * Used by the formats that record one subject rather than a month of days —
+ * a supplier's registration details, an outsourced laboratory's onsite visit.
+ * Blank fields print as a rule, matching the paper form that gets written on.
+ */
+function Fields({ band, data, signatures }: BandProps) {
+  const fields = band.fields ?? [];
+
+  // Consecutive part-width fields share a line, which is how the source sets
+  // Phone / Fax / E Mail and Date / Person Visited / Person Contacted.
+  const lines: (typeof fields)[] = [];
+  for (const f of fields) {
+    const last = lines[lines.length - 1];
+    const partial = (f.width ?? 1) < 1;
+    const lastPartial = last && (last[0].width ?? 1) < 1;
+    if (partial && lastPartial && !f.section) {
+      const used = last.reduce((sum, x) => sum + (x.width ?? 1), 0);
+      if (used + (f.width ?? 1) <= 1.001) {
+        last.push(f);
+        continue;
+      }
+    }
+    lines.push([f]);
+  }
+
+  return (
+    <div className="fields">
+      {lines.map((line, i) => (
+        <div key={i} className="fields__item">
+          {line[0].section && (
+            <div className="fields__section">{line[0].section}</div>
+          )}
+          {/* A section rule with no label of its own is a heading, not an
+              entry, so it draws no line to write on. */}
+          {!(line[0].section && !line[0].label) && (
+            <div className="fields__row">
+              {line.map((f) => (
+                <div
+                  key={f.key}
+                  className="fields__cell"
+                  style={{ flexBasis: `${(f.width ?? 1) * 100}%` }}
+                >
+                  {f.label && <span className="fields__label">{f.label}</span>}
+                  <span className="fields__value">
+                    <CellValue
+                      kind={f.cell ?? "text"}
+                      value={get(data, band.key, f.key, "v")}
+                      signatures={signatures}
+                    />
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
+          {line[0].listCount ? (
+            <ol className="fields__list">
+              {range(1, line[0].listCount).map((n) => (
+                <li key={n}>
+                  <span className="fields__value">
+                    <CellValue
+                      kind="text"
+                      value={get(data, band.key, line[0].key, `i${n}`)}
+                      signatures={signatures}
+                    />
+                  </span>
+                </li>
+              ))}
+            </ol>
+          ) : null}
+          {line[0].lines
+            ? range(1, line[0].lines).map((n) => (
+                <div key={n} className="fields__line">
+                  <CellValue
+                    kind="text"
+                    value={get(data, band.key, line[0].key, `l${n}`)}
+                    signatures={signatures}
+                  />
+                </div>
+              ))
+            : null}
+        </div>
+      ))}
+    </div>
+  );
 }
 
 /** Resolves a row's printed label, preferring a lab-configured override. */
@@ -264,7 +354,8 @@ function FullMonthGrid({ band, data, signatures, labels }: BandProps) {
 /** A heading column then N "Date/Initial" columns. */
 function SlotBand({ bands, data, signatures, labels }: BandRunProps) {
   const lead = bands[0];
-  const slots = range(1, lead.slotCount ?? 5);
+  const headings = lead.slotLabels;
+  const slots = range(1, headings?.length ?? lead.slotCount ?? 5);
   return (
     <table className="band">
       <colgroup>
@@ -278,7 +369,7 @@ function SlotBand({ bands, data, signatures, labels }: BandRunProps) {
           <th className="lbl bandhead">{lead.heading}</th>
           {slots.map((s) => (
             <th key={s} className="lbl">
-              Date/Initial
+              {headings ? headings[s - 1] : "Date/Initial"}
             </th>
           ))}
         </tr>

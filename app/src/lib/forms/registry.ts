@@ -2,6 +2,7 @@ import type { ClauseRef, FormSpec } from "./types";
 import { CLAUSE_TITLES } from "./types";
 import { facilitiesForms } from "./specs/facilities";
 import { equipmentForms } from "./specs/equipment";
+import { supplyForms } from "./specs/supplies";
 
 /**
  * Every record format the platform can produce.
@@ -11,7 +12,11 @@ import { equipmentForms } from "./specs/equipment";
  * can go straight from the footer's "Page N of clause X" to the same place in
  * the master document.
  */
-export const ALL_FORMS: FormSpec[] = [...facilitiesForms, ...equipmentForms];
+export const ALL_FORMS: FormSpec[] = [
+  ...facilitiesForms,
+  ...equipmentForms,
+  ...supplyForms,
+];
 
 export interface ClauseGroup {
   clause: ClauseRef;

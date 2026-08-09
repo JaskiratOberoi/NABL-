@@ -114,6 +114,43 @@ Rev 00 on every sheet. **When the set is re-issued as Issue V, the issue block
 in `src/components/form/footer.tsx` must be updated**, or the platform will keep
 printing superseded document control data onto live records.
 
+## S-08 — A record format carries another organisation's document number (MAJOR)
+
+`NDC/DI/6.7` page 6, SERVICE AGREEMENT DEVIATION FORM, prints:
+
+> Doc No. **MMD / P&P / 6.7**
+
+Every other page in the set reads `NDC / DI / <clause>`. This one carries a
+different organisation's prefix and a different document-type code (`P&P`
+rather than `DI`), which is direct evidence that the format was copied from
+another laboratory's manual and never renumbered.
+
+An assessor who spots this will reasonably ask what else in the set was adopted
+without review — and given X-02, the answer is not comfortable. Correct at
+Issue V.
+
+**Handled in the platform:** reproduced verbatim, so the printed sheet matches
+the controlled format. Change the spec's `docNoOverride` once corrected.
+
+## S-09 — The outside collection slip is referenced but does not exist (MAJOR)
+
+`NDC/DI/6.7` page 3 states:
+
+> All sample received from home / hospital accompany the outside collection slip
+> as given in section 6
+
+Section 6 of `NDC/DI/6.7` lists exactly one format — the Service Agreement
+Deviation Form. There is no outside collection slip anywhere in the document.
+
+This is the same failure mode as finding C-01 (`NDC/DI/7.4.2` listed in the
+contents but absent): a procedure requires a record for which no format exists,
+so the requirement cannot be met as written. Given the collection centre at
+WZ-405A/A and finding X-03, a collection slip is exactly the record an assessor
+will ask to see.
+
+The same section's table gives the deviation form as "Page No. 5" while the
+page itself is footed "Page 6 of clause 6.7".
+
 ---
 
 ## What this means for the platform

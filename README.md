@@ -21,12 +21,21 @@ A web application that captures the daily quality records required by
 `NDC/DI/6` and prints them as controlled copies indistinguishable in format
 from the pages of NDC-DI they replace.
 
-**Covers 18 record formats** across two sub-clauses:
+**Covers 26 record formats** across six sub-clauses:
 
-| Sub-clause | Formats |
-|---|---|
-| NDC/DI/6.3 — Facilities and environmental conditions | 7 |
-| NDC/DI/6.4 — Handling equipment | 11 |
+| Sub-clause | Formats | Status |
+|---|---|---|
+| NDC/DI/6.2 — Personnel | 0 of 14 | not yet onboarded |
+| NDC/DI/6.3 — Facilities and environmental conditions | 7 of 7 | complete |
+| NDC/DI/6.4 — Handling equipment | 11 of 11 | complete |
+| NDC/DI/6.5 — Equipment calibration | 1 of 1 | complete |
+| NDC/DI/6.6 — Reagents and consumables | 2 of 2 | complete |
+| NDC/DI/6.7 — Service agreements | 1 of 1 | complete |
+| NDC/DI/6.8 — Externally provided products and services | 4 of 5 | MOU deferred |
+
+The MOU with an outsourced laboratory (`NDC/DI/6.8` page 10) is a contract
+rather than a record format and is better handled as a document template than
+as a form; it is deliberately not included.
 
 Navigation is organised by sub-clause and each format carries its
 "Page N of clause X" reference, so a printed record traces directly back to the
