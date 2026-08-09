@@ -89,6 +89,12 @@ export default async function AppLayout({
               Staff and signatures
             </Link>
             <Link
+              href="/settings/locations"
+              className="block rounded-md px-3 py-2 text-sm text-slate-700 hover:bg-slate-100"
+            >
+              Monitored locations
+            </Link>
+            <Link
               href="/settings/formats"
               className="block rounded-md px-3 py-2 text-sm text-slate-700 hover:bg-slate-100"
             >

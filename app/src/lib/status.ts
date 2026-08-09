@@ -2,6 +2,8 @@ import "server-only";
 import type { Band, EntryData, FormSpec } from "./forms/types";
 import { dayKey } from "./forms/types";
 import { ALL_FORMS } from "./forms/registry";
+import { resolveSpec } from "./forms/resolve";
+import { activeLocations, formLabels } from "./config";
 import { findSheet, periodKey } from "./sheets";
 
 /**
@@ -175,12 +177,16 @@ function monthAbbrev(d: Date): string {
 }
 
 export function formStatus(
-  spec: FormSpec,
+  input: FormSpec,
   when: Date,
   site = "main",
   configuredLabels: Record<string, string> = {},
+  location = "",
 ): FormStatus {
-  const sheet = findSheet(spec.id, periodKey(spec, when), site);
+  // Work from the location-resolved format so the row count matches what the
+  // entry screen and the printed sheet actually show.
+  const spec = resolveSpec(input, activeLocations(site));
+  const sheet = findSheet(spec.id, periodKey(spec, when), site, location);
   const data = sheet?.data ?? {};
 
   const needsConfiguration = spec.bands.some((b) =>
@@ -242,12 +248,8 @@ export function formStatus(
   return { spec, state, bands, needsConfiguration };
 }
 
-export function allStatuses(
-  when: Date,
-  site = "main",
-  labelsFor: (formId: string) => Record<string, string> = () => ({}),
-): FormStatus[] {
+export function allStatuses(when: Date, site = "main"): FormStatus[] {
   return ALL_FORMS.map((spec) =>
-    formStatus(spec, when, site, labelsFor(spec.id)),
+    formStatus(spec, when, site, formLabels(spec.id)),
   );
 }

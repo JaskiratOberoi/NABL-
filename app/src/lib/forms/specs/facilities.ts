@@ -162,6 +162,10 @@ export const temperatureHumidityMonitoring: FormSpec = {
   sourcePageSize: "Letter",
   orientation: "landscape",
   sheetPeriod: "month",
+  // The source leaves the Location column blank and provides only four row
+  // pairs. Rows are generated from the configured monitored locations instead,
+  // so every point named in the acceptance criteria can be recorded.
+  locationScope: "rows",
   bands: [
     {
       key: "daily1",
@@ -173,8 +177,6 @@ export const temperatureHumidityMonitoring: FormSpec = {
       cell: "number",
       labelColumns: ["Location", "Date"],
       attestation: true,
-      // Four monitored locations, each recorded morning and evening. The source
-      // leaves the location names blank; they come from site configuration.
       rows: locationRows(),
     },
     {
@@ -195,23 +197,22 @@ export const temperatureHumidityMonitoring: FormSpec = {
   ],
 };
 
+/**
+ * The four blank row pairs the source prints. These are a fallback only: with
+ * locations configured, `resolveSpec` replaces them with one pair per
+ * monitored location.
+ */
 function locationRows(): ActivityRow[] {
   const rows: ActivityRow[] = [];
   for (let i = 1; i <= 4; i++) {
-    rows.push({
-      key: `loc${i}M`,
-      label: "(M)",
-      group: `loc${i}`,
-      groupLabel: "",
-      editableLabel: true,
-    });
-    rows.push({
-      key: `loc${i}E`,
-      label: "(E)",
-      group: `loc${i}`,
-      groupLabel: "",
-      editableLabel: true,
-    });
+    for (const period of ["M", "E"] as const) {
+      rows.push({
+        key: `loc${i}${period}`,
+        label: `(${period})`,
+        group: `loc${i}`,
+        groupLabel: "",
+      });
+    }
   }
   return rows;
 }
@@ -290,6 +291,8 @@ export const housekeepingSchedule: FormSpec = {
   docNoOverride: "NDC / DI/ 6.3",
   orientation: "landscape",
   sheetPeriod: "month",
+  locationScope: "sheet",
+  locationKinds: ["room"],
   showMonthCaption: true,
   bands: [
     {

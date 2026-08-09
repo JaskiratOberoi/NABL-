@@ -17,6 +17,7 @@ export function DayEntry({
   formId,
   period,
   site,
+  location,
   band,
   day,
   data,
@@ -27,6 +28,7 @@ export function DayEntry({
   formId: string;
   period: string;
   site: string;
+  location: string;
   band: Band;
   day: number;
   data: EntryData;
@@ -66,6 +68,7 @@ export function DayEntry({
         <input type="hidden" name="formId" value={formId} />
         <input type="hidden" name="period" value={period} />
         <input type="hidden" name="site" value={site} />
+        <input type="hidden" name="location" value={location} />
         <input type="hidden" name="bandKey" value={band.key} />
         <input type="hidden" name="day" value={day} />
 
@@ -139,6 +142,7 @@ export function DayEntry({
             <input type="hidden" name="formId" value={formId} />
             <input type="hidden" name="period" value={period} />
             <input type="hidden" name="site" value={site} />
+            <input type="hidden" name="location" value={location} />
             <input type="hidden" name="bandKey" value={band.key} />
             <input type="hidden" name="day" value={day} />
             <button
@@ -161,6 +165,7 @@ export function DayEntry({
               <input type="hidden" name="formId" value={formId} />
               <input type="hidden" name="period" value={period} />
               <input type="hidden" name="site" value={site} />
+              <input type="hidden" name="location" value={location} />
               <input type="hidden" name="bandKey" value={band.key} />
               <input type="hidden" name="day" value={day} />
               <button

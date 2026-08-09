@@ -483,6 +483,8 @@ export const decontaminationSchedule: FormSpec = {
   sourcePageSize: "A4",
   orientation: "portrait",
   sheetPeriod: "month",
+  locationScope: "sheet",
+  locationKinds: ["room"],
   showMonthCaption: true,
   bands: [
     ...dailyBands(

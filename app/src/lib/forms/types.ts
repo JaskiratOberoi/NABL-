@@ -197,6 +197,21 @@ export interface FormSpec {
   sheetPeriod: "month" | "halfYear";
   /** Binds the sheet to an equipment record so it can pull a configured activity list. */
   equipmentKey?: string;
+  /**
+   * How the laboratory's monitored locations apply to this format.
+   *
+   * `rows`  one row group per location, filling the format's Location column —
+   *         the temperature and humidity form
+   * `sheet` a separate sheet per location, so Lab 1 and Lab 2 each have their
+   *         own monthly record
+   * `none`  one sheet covering the whole laboratory (the default)
+   */
+  locationScope?: "rows" | "sheet" | "none";
+  /**
+   * Restricts which kinds of location the format applies to. A housekeeping
+   * schedule belongs to a room, not to a refrigerator.
+   */
+  locationKinds?: string[];
   /** Prints the "MONTH" caption above the first band. */
   showMonthCaption?: boolean;
   bands: Band[];
@@ -206,6 +221,20 @@ export interface FormSpec {
   legend?: string;
   /** Free-text header fields, e.g. "Equipment Name:". */
   headerFields?: { key: string; label: string }[];
+}
+
+/**
+ * The subset of a configured location the renderer needs.
+ *
+ * Declared here rather than imported from the configuration module so that the
+ * spec layer and the components stay free of server-only code.
+ */
+export interface FormLocation {
+  key: string;
+  name: string;
+  kind: string;
+  minC?: number;
+  maxC?: number;
 }
 
 /** Stored entry payload, addressed as data[bandKey][rowKey][columnKey]. */

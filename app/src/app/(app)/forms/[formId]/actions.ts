@@ -4,7 +4,8 @@ import { revalidatePath } from "next/cache";
 import { requireStaff } from "@/lib/auth";
 import { getForm } from "@/lib/forms/registry";
 import { applyCellUpdates, getOrCreateSheet } from "@/lib/sheets";
-import { formLabels } from "@/lib/config";
+import { activeLocations, formLabels } from "@/lib/config";
+import { resolveSpec } from "@/lib/forms/resolve";
 import { dayKey } from "@/lib/forms/types";
 
 /**
@@ -20,15 +21,17 @@ export async function saveDay(formData: FormData) {
   const formId = String(formData.get("formId"));
   const period = String(formData.get("period"));
   const site = String(formData.get("site") ?? "main");
+  const location = String(formData.get("location") ?? "");
   const bandKey = String(formData.get("bandKey"));
   const day = Number(formData.get("day"));
 
-  const spec = getForm(formId);
-  if (!spec) throw new Error(`Unknown format: ${formId}`);
+  const base = getForm(formId);
+  if (!base) throw new Error(`Unknown format: ${formId}`);
+  const spec = resolveSpec(base, activeLocations(site));
   const band = spec.bands.find((b) => b.key === bandKey);
   if (!band) throw new Error(`Unknown band: ${bandKey}`);
 
-  const sheet = getOrCreateSheet(formId, period, site);
+  const sheet = getOrCreateSheet(formId, period, site, location);
   const col = dayKey(day);
 
   const updates: {
@@ -81,10 +84,11 @@ export async function verifyDay(formData: FormData) {
   const formId = String(formData.get("formId"));
   const period = String(formData.get("period"));
   const site = String(formData.get("site") ?? "main");
+  const location = String(formData.get("location") ?? "");
   const bandKey = String(formData.get("bandKey"));
   const day = Number(formData.get("day"));
 
-  const sheet = getOrCreateSheet(formId, period, site);
+  const sheet = getOrCreateSheet(formId, period, site, location);
   applyCellUpdates(
     sheet.id,
     staff.id,
@@ -116,16 +120,18 @@ export async function carryForward(formData: FormData) {
   const formId = String(formData.get("formId"));
   const period = String(formData.get("period"));
   const site = String(formData.get("site") ?? "main");
+  const location = String(formData.get("location") ?? "");
   const bandKey = String(formData.get("bandKey"));
   const day = Number(formData.get("day"));
 
-  const spec = getForm(formId);
-  if (!spec) throw new Error(`Unknown format: ${formId}`);
+  const base = getForm(formId);
+  if (!base) throw new Error(`Unknown format: ${formId}`);
+  const spec = resolveSpec(base, activeLocations(site));
   const band = spec.bands.find((b) => b.key === bandKey);
   if (!band) throw new Error(`Unknown band: ${bandKey}`);
   if (day <= 1) throw new Error("There is no previous day on this sheet.");
 
-  const sheet = getOrCreateSheet(formId, period, site);
+  const sheet = getOrCreateSheet(formId, period, site, location);
   const prev = dayKey(day - 1);
   const col = dayKey(day);
 
@@ -157,12 +163,13 @@ export async function saveSlot(formData: FormData) {
   const formId = String(formData.get("formId"));
   const period = String(formData.get("period"));
   const site = String(formData.get("site") ?? "main");
+  const location = String(formData.get("location") ?? "");
   const bandKey = String(formData.get("bandKey"));
   const rowKey = String(formData.get("rowKey"));
   const slot = String(formData.get("slot"));
   const date = String(formData.get("date"));
 
-  const sheet = getOrCreateSheet(formId, period, site);
+  const sheet = getOrCreateSheet(formId, period, site, location);
   applyCellUpdates(
     sheet.id,
     staff.id,

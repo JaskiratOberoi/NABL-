@@ -45,12 +45,14 @@ db.exec(`
     form_id TEXT NOT NULL,
     period_key TEXT NOT NULL,
     site TEXT NOT NULL DEFAULT 'main',
+    location TEXT NOT NULL DEFAULT '',
     data TEXT NOT NULL DEFAULT '{}',
     header TEXT NOT NULL DEFAULT '{}',
     created_at TEXT NOT NULL DEFAULT (datetime('now')),
-    updated_at TEXT NOT NULL DEFAULT (datetime('now')),
-    UNIQUE (form_id, period_key, site)
+    updated_at TEXT NOT NULL DEFAULT (datetime('now'))
   );
+  CREATE UNIQUE INDEX IF NOT EXISTS idx_sheets_identity
+    ON sheets(form_id, period_key, site, location);
   CREATE TABLE IF NOT EXISTS audit_log (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     sheet_id INTEGER NOT NULL REFERENCES sheets(id) ON DELETE CASCADE,

@@ -57,6 +57,11 @@
   margin: 0 0 1mm 1mm;
 }
 
+/* Which room the sheet covers, for formats kept per location. */
+.sheet__location {
+  margin-left: 12mm;
+}
+
 .sheet__headerfields {
   font-size: 9pt;
   margin: 0 0 2mm 4mm;

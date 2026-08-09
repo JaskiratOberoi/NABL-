@@ -7,6 +7,8 @@ export interface Sheet {
   form_id: string;
   period_key: string;
   site: string;
+  /** Empty for formats that keep one sheet for the whole laboratory. */
+  location: string;
   data: EntryData;
   header: Record<string, string>;
   created_at: string;
@@ -18,6 +20,7 @@ interface SheetRow {
   form_id: string;
   period_key: string;
   site: string;
+  location: string;
   data: string;
   header: string;
   created_at: string;
@@ -60,51 +63,49 @@ export function getOrCreateSheet(
   formId: string,
   period: string,
   site = "main",
+  location = "",
 ): Sheet {
-  const conn = db();
-  const existing = one<SheetRow>(
-    "SELECT * FROM sheets WHERE form_id = ? AND period_key = ? AND site = ?",
-    formId,
-    period,
-    site,
-  );
-  if (existing) return parse(existing);
+  const existing = findSheet(formId, period, site, location);
+  if (existing) return existing;
 
-  conn
+  db()
     .prepare(
-      "INSERT INTO sheets (form_id, period_key, site) VALUES (?, ?, ?)",
+      "INSERT INTO sheets (form_id, period_key, site, location) VALUES (?, ?, ?, ?)",
     )
-    .run(formId, period, site);
+    .run(formId, period, site, location);
 
-  return parse(
-    one<SheetRow>(
-      "SELECT * FROM sheets WHERE form_id = ? AND period_key = ? AND site = ?",
-      formId,
-      period,
-      site,
-    )!,
-  );
+  return findSheet(formId, period, site, location)!;
 }
 
 export function findSheet(
   formId: string,
   period: string,
   site = "main",
+  location = "",
 ): Sheet | null {
   const row = one<SheetRow>(
-    "SELECT * FROM sheets WHERE form_id = ? AND period_key = ? AND site = ?",
+    `SELECT * FROM sheets
+     WHERE form_id = ? AND period_key = ? AND site = ? AND location = ?`,
     formId,
     period,
     site,
+    location,
   );
   return row ? parse(row) : null;
 }
 
-export function listPeriods(formId: string, site = "main"): string[] {
+export function listPeriods(
+  formId: string,
+  site = "main",
+  location = "",
+): string[] {
   return all<{ period_key: string }>(
-    "SELECT period_key FROM sheets WHERE form_id = ? AND site = ? ORDER BY period_key DESC",
+    `SELECT period_key FROM sheets
+     WHERE form_id = ? AND site = ? AND location = ?
+     ORDER BY period_key DESC`,
     formId,
     site,
+    location,
   ).map((r) => r.period_key);
 }
 

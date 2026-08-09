@@ -23,14 +23,91 @@ export function db(): DatabaseSync {
   const conn = new DatabaseSync(DB_PATH);
   // WAL keeps readers from blocking the bench terminal that is writing.
   conn.exec("PRAGMA journal_mode = WAL");
-  conn.exec("PRAGMA foreign_keys = ON");
   conn.exec("PRAGMA busy_timeout = 5000");
+
+  // Migrations run before foreign keys are enforced. A table rebuild has to
+  // drop and recreate `sheets`, and with enforcement on that cascades into
+  // `audit_log` and destroys the attribution trail.
   migrate(conn);
+
+  conn.exec("PRAGMA foreign_keys = ON");
   instance = conn;
   return conn;
 }
 
+/**
+ * Schema migrations.
+ *
+ * Stepped on `PRAGMA user_version` so an installed laboratory database is
+ * upgraded in place rather than needing to be rebuilt — quality records are
+ * the one thing here that cannot be recreated.
+ */
 function migrate(conn: DatabaseSync) {
+  const version = (
+    conn.prepare("PRAGMA user_version").get() as { user_version: number }
+  ).user_version;
+
+  if (version < 1) migrateV1(conn);
+  if (version < 2) migrateV2(conn);
+
+  conn.exec("PRAGMA user_version = 2");
+}
+
+/**
+ * Adds the location dimension to a sheet.
+ *
+ * A format such as the housekeeping schedule keeps one sheet per room, so the
+ * sheet's identity becomes form + period + site + location. SQLite cannot drop
+ * an inline UNIQUE constraint, so the table is rebuilt and the constraint moved
+ * to a named index.
+ */
+function migrateV2(conn: DatabaseSync) {
+  const columns = conn.prepare("PRAGMA table_info(sheets)").all() as {
+    name: string;
+  }[];
+  if (columns.some((c) => c.name === "location")) return;
+
+  // Belt and braces: `db()` defers enabling foreign keys until migrations are
+  // done, but this asserts it here too, because getting it wrong silently
+  // deletes every audit row via ON DELETE CASCADE when `sheets` is dropped.
+  conn.exec("PRAGMA foreign_keys = OFF");
+
+  conn.exec(`
+    BEGIN IMMEDIATE;
+
+    CREATE TABLE sheets_new (
+      id          INTEGER PRIMARY KEY AUTOINCREMENT,
+      form_id     TEXT NOT NULL,
+      period_key  TEXT NOT NULL,
+      site        TEXT NOT NULL DEFAULT 'main',
+      location    TEXT NOT NULL DEFAULT '',
+      data        TEXT NOT NULL DEFAULT '{}',
+      header      TEXT NOT NULL DEFAULT '{}',
+      created_at  TEXT NOT NULL DEFAULT (datetime('now')),
+      updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
+    );
+
+    INSERT INTO sheets_new (id, form_id, period_key, site, data, header, created_at, updated_at)
+      SELECT id, form_id, period_key,
+             COALESCE(site, 'main'),
+             COALESCE(data, '{}'),
+             COALESCE(header, '{}'),
+             COALESCE(created_at, datetime('now')),
+             COALESCE(updated_at, datetime('now'))
+      FROM sheets;
+
+    DROP TABLE sheets;
+    ALTER TABLE sheets_new RENAME TO sheets;
+
+    CREATE UNIQUE INDEX idx_sheets_identity
+      ON sheets(form_id, period_key, site, location);
+    CREATE INDEX idx_sheets_form ON sheets(form_id, period_key);
+
+    COMMIT;
+  `);
+}
+
+function migrateV1(conn: DatabaseSync) {
   conn.exec(`
     CREATE TABLE IF NOT EXISTS staff (
       id            INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -53,18 +130,25 @@ function migrate(conn: DatabaseSync) {
       created_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
 
-    -- One sheet per record format per period, e.g. facility-round-checklist / 2026-08.
+    /*
+     * One sheet per record format per period, per site, per location — for
+     * example facility-round-checklist / 2026-08 / main / (no location), or
+     * housekeeping-schedule / 2026-08 / main / lab-1.
+     */
     CREATE TABLE IF NOT EXISTS sheets (
       id          INTEGER PRIMARY KEY AUTOINCREMENT,
       form_id     TEXT NOT NULL,
       period_key  TEXT NOT NULL,
       site        TEXT NOT NULL DEFAULT 'main',
+      location    TEXT NOT NULL DEFAULT '',
       data        TEXT NOT NULL DEFAULT '{}',
       header      TEXT NOT NULL DEFAULT '{}',
       created_at  TEXT NOT NULL DEFAULT (datetime('now')),
-      updated_at  TEXT NOT NULL DEFAULT (datetime('now')),
-      UNIQUE (form_id, period_key, site)
+      updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
     );
+
+    CREATE UNIQUE INDEX IF NOT EXISTS idx_sheets_identity
+      ON sheets(form_id, period_key, site, location);
 
     /*
      * Append-only record of who set what and when. Nothing in the application

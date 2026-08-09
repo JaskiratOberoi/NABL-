@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import { requireStaff } from "@/lib/auth";
 import { db } from "@/lib/db";
-import { formLabels } from "@/lib/config";
+import { activeLocations, formLabels, locationName } from "@/lib/config";
 import { getForm } from "@/lib/forms/registry";
+import { resolveSpec } from "@/lib/forms/resolve";
 import { FormSheet } from "@/components/form/sheet";
 import type { SignatureLookup } from "@/components/form/cells";
 import { findSheet, periodLabel } from "@/lib/sheets";
@@ -20,16 +21,17 @@ export default async function PrintPage({
   searchParams,
 }: {
   params: Promise<{ formId: string; period: string }>;
-  searchParams: Promise<{ site?: string }>;
+  searchParams: Promise<{ site?: string; location?: string }>;
 }) {
   await requireStaff();
   const { formId, period } = await params;
-  const { site = "main" } = await searchParams;
+  const { site = "main", location = "" } = await searchParams;
 
-  const spec = getForm(formId);
-  if (!spec) notFound();
+  const base = getForm(formId);
+  if (!base) notFound();
 
-  const sheet = findSheet(spec.id, period, site);
+  const spec = resolveSpec(base, activeLocations(site));
+  const sheet = findSheet(spec.id, period, site, location);
   const labels = formLabels(spec.id);
 
   const rows = db()
@@ -62,6 +64,7 @@ export default async function PrintPage({
           <div className="text-xs text-slate-500">
             NDC/DI/{spec.clause} · Page {spec.pageOfClause} of clause{" "}
             {spec.clause} · {periodLabel(period)}
+            {location && ` · ${locationName(location)}`}
           </div>
         </div>
         <PrintButton />
@@ -74,6 +77,7 @@ export default async function PrintPage({
           header={{
             ...(sheet?.header ?? {}),
             monthLabel: periodLabel(period),
+            ...(location ? { location: locationName(location) } : {}),
           }}
           signatures={signatures}
           labels={labels}

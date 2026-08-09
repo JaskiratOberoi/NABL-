@@ -14,6 +14,7 @@ export function SlotEntry({
   formId,
   period,
   site,
+  location,
   band,
   data,
   labels,
@@ -23,6 +24,7 @@ export function SlotEntry({
   formId: string;
   period: string;
   site: string;
+  location: string;
   band: Band;
   data: EntryData;
   labels: Record<string, string>;
@@ -70,6 +72,7 @@ export function SlotEntry({
                       <input type="hidden" name="formId" value={formId} />
                       <input type="hidden" name="period" value={period} />
                       <input type="hidden" name="site" value={site} />
+                      <input type="hidden" name="location" value={location} />
                       <input type="hidden" name="bandKey" value={band.key} />
                       <input type="hidden" name="rowKey" value={row.key} />
                       <input type="hidden" name="slot" value={slot} />

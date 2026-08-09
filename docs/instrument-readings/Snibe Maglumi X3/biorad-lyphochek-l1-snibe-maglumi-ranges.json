@@ -1,0 +1,36 @@
+{
+  "product": "Lyphochek Immunoassay Plus Control, Levels 1, 2 and 3",
+  "instrument": "SNIBE MAGLUMI",
+  "revision_date": "2026-08-06",
+  "level": 1,
+  "lot": "40471",
+  "source": "Bio-Rad insert (screenshot 2026-08-06)",
+  "sheet_units": {
+    "Estradiol": { "units": "pg/mL", "mean": 87.1, "range": [61.0, 113] },
+    "FSH": { "units": "mIU/mL", "mean": 7.58, "range": [5.31, 9.85] },
+    "hCG": { "units": "mIU/mL", "mean": 8.70, "range": [6.09, 11.3] },
+    "LH": { "units": "mIU/mL", "mean": 1.82, "range": [1.27, 2.37] },
+    "Prolactin": { "units": "µIU/mL", "mean": 151, "range": [106, 196] },
+    "T3 (Total)": { "units": "ng/mL", "mean": 0.704, "range": [0.493, 0.915] },
+    "T4 (Total)": { "units": "ng/mL", "mean": 62.0, "range": [43.4, 80.6] },
+    "Testosterone": { "units": "ng/mL", "mean": 1.25, "range": [0.875, 1.63] },
+    "TSH": { "units": "µIU/mL", "mean": 0.499, "range": [0.349, 0.649] }
+  },
+  "maglumi_report_units": {
+    "comment": "Units as printed on MAGLUMI X3 Sample Result Report; conversions applied where sheet units differ.",
+    "conversions": {
+      "Prolactin": "µIU/mL ÷ 21.2 → ng/ml",
+      "T4 (Total)": "ng/mL ÷ 10 → ug/dl",
+      "Testosterone": "ng/mL × 100 → ng/dl"
+    },
+    "FSH": { "assay": "FSH", "units": "mlU/mL", "mean": 7.58, "range": [5.31, 9.85] },
+    "LH": { "assay": "LH", "units": "mIU/mL", "mean": 1.82, "range": [1.27, 2.37] },
+    "PRL": { "assay": "PRL", "units": "ng/ml", "mean": 7.123, "range": [5.0, 9.245] },
+    "E2": { "assay": "E2", "units": "pg/mL", "mean": 87.1, "range": [61.0, 113] },
+    "T3": { "assay": "T3", "units": "ng/mL", "mean": 0.704, "range": [0.493, 0.915] },
+    "T4": { "assay": "T4", "units": "ug/dl", "mean": 6.2, "range": [4.34, 8.06] },
+    "TEST": { "assay": "TEST", "units": "ng/dl", "mean": 125.0, "range": [87.5, 163.0] },
+    "HCG/B-HCG": { "assay": "HCG/B-HCG", "units": "mlU/mL", "mean": 8.7, "range": [6.09, 11.3] },
+    "TSH": { "assay": "TSH", "units": "ulU/mL", "mean": 0.499, "range": [0.349, 0.649] }
+  }
+}

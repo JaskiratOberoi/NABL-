@@ -2,8 +2,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireStaff } from "@/lib/auth";
 import { db } from "@/lib/db";
-import { formLabels } from "@/lib/config";
+import { activeLocations, formLabels } from "@/lib/config";
 import { clauseShortTitle, getForm } from "@/lib/forms/registry";
+import { applicableLocations, resolveSpec } from "@/lib/forms/resolve";
 import { FormSheet } from "@/components/form/sheet";
 import type { SignatureLookup } from "@/components/form/cells";
 import {
@@ -21,25 +22,43 @@ export default async function FormPage({
   searchParams,
 }: {
   params: Promise<{ formId: string }>;
-  searchParams: Promise<{ period?: string; site?: string; day?: string }>;
+  searchParams: Promise<{
+    period?: string;
+    site?: string;
+    day?: string;
+    location?: string;
+  }>;
 }) {
   const staff = await requireStaff();
   const { formId } = await params;
   const query = await searchParams;
 
-  const spec = getForm(formId);
-  if (!spec) notFound();
+  const base = getForm(formId);
+  if (!base) notFound();
 
   const now = new Date();
-  const period = query.period ?? periodKey(spec, now);
   const site = query.site ?? "main";
+  const siteLocations = activeLocations(site);
+
+  // The temperature form's rows come from the configured locations, so the
+  // spec is resolved before anything reads its bands.
+  const spec = resolveSpec(base, siteLocations);
+
+  // Formats scoped per location keep a separate sheet for each room.
+  const choices = applicableLocations(spec, siteLocations);
+  const perLocation = spec.locationScope === "sheet" && choices.length > 0;
+  const location = perLocation
+    ? (query.location ?? choices[0].key)
+    : "";
+
+  const period = query.period ?? periodKey(spec, now);
   const day = query.day ? Number(query.day) : now.getDate();
 
-  const sheet = getOrCreateSheet(spec.id, period, site);
+  const sheet = getOrCreateSheet(spec.id, period, site, location);
   const labels = formLabels(spec.id);
   const { lookup, names } = staffDirectory();
   const audit = sheetAudit(sheet.id, 12);
-  const periods = listPeriods(spec.id, site);
+  const periods = listPeriods(spec.id, site, location);
 
   const dailyBands = spec.bands.filter(
     (b) => b.layout === "dayGrid" || b.layout === "fullMonthGrid",
@@ -80,14 +99,24 @@ export default async function FormPage({
             </p>
           </div>
           <div className="flex items-center gap-2">
+            {perLocation && (
+              <LocationPicker
+                formId={spec.id}
+                period={period}
+                site={site}
+                current={location}
+                choices={choices}
+              />
+            )}
             <PeriodPicker
               formId={spec.id}
               current={period}
               periods={periods}
               site={site}
+              location={location}
             />
             <Link
-              href={`/print/${spec.id}/${period}?site=${site}`}
+              href={`/print/${spec.id}/${period}?site=${site}&location=${location}`}
               target="_blank"
               className="rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-700 hover:bg-slate-50"
             >
@@ -117,7 +146,13 @@ export default async function FormPage({
               <h2 className="text-sm font-semibold text-slate-900">
                 Daily entry
               </h2>
-              <DayPicker formId={spec.id} period={period} site={site} day={day} />
+              <DayPicker
+                formId={spec.id}
+                period={period}
+                site={site}
+                location={location}
+                day={day}
+              />
             </div>
             <div className="space-y-4">
               {activeDaily.map((band) => (
@@ -126,6 +161,7 @@ export default async function FormPage({
                   formId={spec.id}
                   period={period}
                   site={site}
+                  location={location}
                   band={band}
                   day={day}
                   data={sheet.data}
@@ -149,6 +185,7 @@ export default async function FormPage({
                 formId={spec.id}
                 period={period}
                 site={site}
+                location={location}
                 band={band}
                 data={sheet.data}
                 labels={labels}
@@ -217,7 +254,16 @@ export default async function FormPage({
             <FormSheet
               spec={spec}
               data={sheet.data}
-              header={{ monthLabel: periodLabel(period) }}
+              header={{
+                monthLabel: periodLabel(period),
+                ...(location
+                  ? {
+                      location:
+                        choices.find((c) => c.key === location)?.name ??
+                        location,
+                    }
+                  : {}),
+              }}
               signatures={lookup}
               labels={labels}
             />
@@ -277,11 +323,13 @@ function DayPicker({
   formId,
   period,
   site,
+  location,
   day,
 }: {
   formId: string;
   period: string;
   site: string;
+  location: string;
   day: number;
 }) {
   const days = Array.from({ length: 31 }, (_, i) => i + 1);
@@ -289,6 +337,7 @@ function DayPicker({
     <form className="flex items-center gap-2" action={`/forms/${formId}`}>
       <input type="hidden" name="period" value={period} />
       <input type="hidden" name="site" value={site} />
+      <input type="hidden" name="location" value={location} />
       <label htmlFor="day" className="text-xs text-slate-500">
         Day
       </label>
@@ -314,21 +363,63 @@ function DayPicker({
   );
 }
 
+/** Switches between the per-location sheets of a location-scoped format. */
+function LocationPicker({
+  formId,
+  period,
+  site,
+  current,
+  choices,
+}: {
+  formId: string;
+  period: string;
+  site: string;
+  current: string;
+  choices: { key: string; name: string }[];
+}) {
+  return (
+    <form action={`/forms/${formId}`} className="flex items-center gap-2">
+      <input type="hidden" name="period" value={period} />
+      <input type="hidden" name="site" value={site} />
+      <select
+        name="location"
+        defaultValue={current}
+        className="rounded-md border border-slate-300 px-2 py-2 text-sm"
+      >
+        {choices.map((c) => (
+          <option key={c.key} value={c.key}>
+            {c.name}
+          </option>
+        ))}
+      </select>
+      <button
+        type="submit"
+        className="rounded-md border border-slate-300 px-2.5 py-2 text-sm text-slate-700 hover:bg-slate-50"
+      >
+        Open
+      </button>
+    </form>
+  );
+}
+
 function PeriodPicker({
   formId,
   current,
   periods,
   site,
+  location,
 }: {
   formId: string;
   current: string;
   periods: string[];
   site: string;
+  location: string;
 }) {
   const options = periods.includes(current) ? periods : [current, ...periods];
   return (
     <form action={`/forms/${formId}`} className="flex items-center gap-2">
       <input type="hidden" name="site" value={site} />
+      <input type="hidden" name="location" value={location} />
       <select
         name="period"
         defaultValue={current}

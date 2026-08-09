@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import { FormSheet } from "@/components/form/sheet";
 import { getForm } from "@/lib/forms/registry";
+import { resolveSpec } from "@/lib/forms/resolve";
+import { activeLocations } from "@/lib/config";
 
 /**
  * Blank-format preview.
@@ -14,8 +16,12 @@ export default async function PreviewPage({
   params: Promise<{ formId: string }>;
 }) {
   const { formId } = await params;
-  const spec = getForm(formId);
-  if (!spec) notFound();
+  const base = getForm(formId);
+  if (!base) notFound();
+
+  // Resolved against the configured locations, so the preview shows the sheet
+  // the laboratory will actually print rather than the source's blank rows.
+  const spec = resolveSpec(base, activeLocations("main"));
 
   return (
     <div className="print-root sheet-preview">

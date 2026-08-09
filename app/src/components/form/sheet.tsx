@@ -54,9 +54,14 @@ export function FormSheet({
           </div>
         ))}
 
-        {spec.showMonthCaption && (
+        {(spec.showMonthCaption || header.location) && (
           <div className="sheet__monthcaption">
-            MONTH {header.monthLabel ?? ""}
+            {spec.showMonthCaption && <>MONTH {header.monthLabel ?? ""}</>}
+            {header.location && (
+              <span className="sheet__location">
+                LOCATION {header.location}
+              </span>
+            )}
           </div>
         )}
 
