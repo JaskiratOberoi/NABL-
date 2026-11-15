@@ -1,0 +1,114 @@
+[
+  {
+    "file": "20260908_143502",
+    "sample": "2 - 4",
+    "type": "Serum",
+    "datetime": "07/05/2025 13:11:15",
+    "sample_id": "LV-NORM-CHOL",
+    "rows": [{"item": "CHOL", "result": "162.9", "rc": "134177"}]
+  },
+  {
+    "file": "20260908_143513",
+    "sample": "2 - 5",
+    "type": "Serum",
+    "datetime": "07/05/2025 13:11:20",
+    "sample_id": "LV-PATH-CHOL",
+    "rows": [{"item": "CHOL", "result": "314.3", "rc": "134178"}]
+  },
+  {
+    "file": "20260908_143520",
+    "sample": "3 - 16",
+    "type": "Serum",
+    "datetime": "15/04/2025 14:21:23",
+    "sample_id": "LV-NORM-GLU",
+    "rows": [{"item": "GLU", "result": "93.2", "rc": "134083"}]
+  },
+  {
+    "file": "20260908_143529",
+    "sample": "3 - 17",
+    "type": "Serum",
+    "datetime": "15/04/2025 14:21:30",
+    "sample_id": "LV-PATH-GLU",
+    "rows": [{"item": "GLU", "result": "246.7", "rc": "134084"}]
+  },
+  {
+    "file": "20260908_143534",
+    "sample": "3 - 14",
+    "type": "Serum",
+    "datetime": "15/04/2025 14:21:12",
+    "sample_id": "LV-NORM-TPR",
+    "rows": [{"item": "TPR", "result": "6.13", "rc": "134081"}]
+  },
+  {
+    "file": "20260908_143546",
+    "sample": "3 - 15",
+    "type": "Serum",
+    "datetime": "15/04/2025 14:21:18",
+    "sample_id": "LV-PATH-TPR",
+    "rows": [{"item": "TPR", "result": "8.07", "rc": "134082"}]
+  },
+  {
+    "file": "20260908_143714",
+    "sample": "3 - 8",
+    "type": "Serum",
+    "datetime": "10/04/2025 14:38:19",
+    "sample_id": "LV-NORM-UREA UV",
+    "rows": [{"item": "UREA UV", "result": "31.1", "rc": "134012"}]
+  },
+  {
+    "file": "20260908_143719",
+    "sample": "3 - 9",
+    "type": "Serum",
+    "datetime": "10/04/2025 14:38:25",
+    "sample_id": "LV-PATH-UREA UV",
+    "rows": [{"item": "UREA UV", "result": "154.3", "rc": "134013"}]
+  },
+  {
+    "file": "20260908_143725",
+    "sample": "3 - 10",
+    "type": "Serum",
+    "datetime": "10/04/2025 14:38:30",
+    "sample_id": "LV-NORM-SGOT",
+    "rows": [{"item": "SGOT", "result": "30.22", "rc": "134014"}]
+  },
+  {
+    "file": "20260908_143740",
+    "sample": "3 - 11",
+    "type": "Serum",
+    "datetime": "10/04/2025 14:38:36",
+    "sample_id": "LV-PATH-SGOT",
+    "rows": [{"item": "SGOT", "result": "127.4", "rc": "134015"}]
+  },
+  {
+    "file": "20260908_143748",
+    "sample": "3 - 12",
+    "type": "Serum",
+    "datetime": "10/04/2025 14:38:41",
+    "sample_id": "LV-NORM-SGPT",
+    "rows": [{"item": "SGPT", "result": "29.76", "rc": "134016"}]
+  },
+  {
+    "file": "20260908_143757",
+    "sample": "3 - 13",
+    "type": "Serum",
+    "datetime": "10/04/2025 14:38:45",
+    "sample_id": "LV-PATH-SGPT",
+    "rows": [{"item": "SGPT", "result": "132.54", "rc": "134017"}]
+  },
+  {
+    "file": "20260908_143803",
+    "sample": "3 - 14",
+    "type": "Serum",
+    "datetime": "10/04/2025 14:38:50",
+    "sample_id": "LV-NORM-CRT J",
+    "rows": [{"item": "CRT J", "result": "1.06", "rc": "134018"}]
+  },
+  {
+    "file": "20260908_143811",
+    "sample": "3 - 15",
+    "type": "Serum",
+    "datetime": "10/04/2025 14:38:56",
+    "sample_id": "LV-PATH-CRT J",
+    "rows": [{"item": "CRT J", "result": "4.02", "rc": "134019"}]
+  }
+]

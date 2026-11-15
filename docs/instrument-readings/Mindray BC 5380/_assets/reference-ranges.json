@@ -1,0 +1,578 @@
+{
+  "High": {
+    "meta": {
+      "file_no": 45,
+      "lot": "BC2509BH",
+      "level": "High",
+      "exp": "11-10-2025"
+    },
+    "params": {
+      "WBC": {
+        "name": "WBC",
+        "result": 17.87,
+        "unit": "x10^3/uL",
+        "lo": 14.8,
+        "hi": 19.8
+      },
+      "RBC": {
+        "name": "RBC",
+        "result": 4.8,
+        "unit": "x10^6/uL",
+        "lo": 4.51,
+        "hi": 5.11
+      },
+      "HGB": {
+        "name": "HGB",
+        "result": 15.4,
+        "unit": "g/dL",
+        "lo": 14.6,
+        "hi": 16.2
+      },
+      "Neu%": {
+        "name": "Neu%",
+        "result": 68.6,
+        "unit": "%",
+        "lo": 59.0,
+        "hi": 79.0
+      },
+      "HCT": {
+        "name": "HCT",
+        "result": 52.1,
+        "unit": "%",
+        "lo": 49.3,
+        "hi": 54.1
+      },
+      "Lym%": {
+        "name": "Lym%",
+        "result": 18.5,
+        "unit": "%",
+        "lo": 9.5,
+        "hi": 27.5
+      },
+      "MCV": {
+        "name": "MCV",
+        "result": 107.6,
+        "unit": "fL",
+        "lo": 102.5,
+        "hi": 112.5
+      },
+      "Mon%": {
+        "name": "Mon%",
+        "result": 2.6,
+        "unit": "%",
+        "lo": 0.0,
+        "hi": 5.0
+      },
+      "MCH": {
+        "name": "MCH",
+        "result": 32.0,
+        "unit": "pg",
+        "lo": 29.5,
+        "hi": 34.5
+      },
+      "Eos%": {
+        "name": "Eos%",
+        "result": 10.3,
+        "unit": "%",
+        "lo": 2.0,
+        "hi": 18.0
+      },
+      "MCHC": {
+        "name": "MCHC",
+        "result": 29.7,
+        "unit": "g/dL",
+        "lo": 26.8,
+        "hi": 32.8
+      },
+      "Bas%": {
+        "name": "Bas%",
+        "result": 78.4,
+        "unit": "%",
+        "lo": 69.0,
+        "hi": 89.0
+      },
+      "RDW-CV": {
+        "name": "RDW-CV",
+        "result": 12.9,
+        "unit": "%",
+        "lo": 10.0,
+        "hi": 16.0
+      },
+      "RDW-SD": {
+        "name": "RDW-SD",
+        "result": 61.7,
+        "unit": "fL",
+        "lo": 54.5,
+        "hi": 70.5
+      },
+      "Neu#": {
+        "name": "Neu#",
+        "result": 11.98,
+        "unit": "x10^3/uL",
+        "lo": 10.21,
+        "hi": 13.67
+      },
+      "Lym#": {
+        "name": "Lym#",
+        "result": 3.13,
+        "unit": "x10^3/uL",
+        "lo": 1.64,
+        "hi": 4.76
+      },
+      "PLT": {
+        "name": "PLT",
+        "result": 450.0,
+        "unit": "x10^3/uL",
+        "lo": 410.0,
+        "hi": 530.0
+      },
+      "Mon#": {
+        "name": "Mon#",
+        "result": 0.49,
+        "unit": "x10^3/uL",
+        "lo": 0.0,
+        "hi": 0.86
+      },
+      "MPV": {
+        "name": "MPV",
+        "result": 9.7,
+        "unit": "fL",
+        "lo": 6.4,
+        "hi": 12.4
+      },
+      "Eos#": {
+        "name": "Eos#",
+        "result": 1.86,
+        "unit": "x10^3/uL",
+        "lo": 0.34,
+        "hi": 3.12
+      },
+      "PDW": {
+        "name": "PDW",
+        "result": 16.3,
+        "unit": "",
+        "lo": 13.1,
+        "hi": 19.1
+      },
+      "Bas#": {
+        "name": "Bas#",
+        "result": 14.02,
+        "unit": "x10^3/uL",
+        "lo": 11.94,
+        "hi": 15.4
+      },
+      "PCT": {
+        "name": "PCT",
+        "result": 0.432,
+        "unit": "%",
+        "lo": 0.239,
+        "hi": 0.639
+      },
+      "GRAN-X": {
+        "name": "GRAN-X",
+        "result": 65.0,
+        "unit": "",
+        "lo": null,
+        "hi": null
+      },
+      "GRAN-Y": {
+        "name": "GRAN-Y",
+        "result": 69.0,
+        "unit": "",
+        "lo": null,
+        "hi": null
+      },
+      "GRAN-Y(W)": {
+        "name": "GRAN-Y(W)",
+        "result": 20.0,
+        "unit": "",
+        "lo": null,
+        "hi": null
+      }
+    }
+  },
+  "Low": {
+    "meta": {
+      "file_no": 43,
+      "lot": "BC2509BL",
+      "level": "Low",
+      "exp": "11-10-2025"
+    },
+    "params": {
+      "WBC": {
+        "name": "WBC",
+        "result": 3.06,
+        "unit": "x10^3/uL",
+        "lo": 2.7,
+        "hi": 3.7
+      },
+      "RBC": {
+        "name": "RBC",
+        "result": 2.11,
+        "unit": "x10^6/uL",
+        "lo": 2.01,
+        "hi": 2.37
+      },
+      "HGB": {
+        "name": "HGB",
+        "result": 5.9,
+        "unit": "g/dL",
+        "lo": 5.6,
+        "hi": 6.4
+      },
+      "Neu%": {
+        "name": "Neu%",
+        "result": 54.7,
+        "unit": "%",
+        "lo": 44.0,
+        "hi": 64.0
+      },
+      "HCT": {
+        "name": "HCT",
+        "result": 19.6,
+        "unit": "%",
+        "lo": 18.1,
+        "hi": 21.1
+      },
+      "Lym%": {
+        "name": "Lym%",
+        "result": 41.4,
+        "unit": "%",
+        "lo": 30.5,
+        "hi": 48.5
+      },
+      "MCV": {
+        "name": "MCV",
+        "result": 92.9,
+        "unit": "fL",
+        "lo": 84.5,
+        "hi": 94.5
+      },
+      "Mon%": {
+        "name": "Mon%",
+        "result": 0.8,
+        "unit": "%",
+        "lo": 0.0,
+        "hi": 5.0
+      },
+      "MCH": {
+        "name": "MCH",
+        "result": 27.8,
+        "unit": "pg",
+        "lo": 24.9,
+        "hi": 29.9
+      },
+      "Eos%": {
+        "name": "Eos%",
+        "result": 3.1,
+        "unit": "%",
+        "lo": 0.5,
+        "hi": 7.5
+      },
+      "MCHC": {
+        "name": "MCHC",
+        "result": 30.7,
+        "unit": "g/dL",
+        "lo": 27.6,
+        "hi": 33.6
+      },
+      "Bas%": {
+        "name": "Bas%",
+        "result": 54.6,
+        "unit": "%",
+        "lo": 45.0,
+        "hi": 65.0
+      },
+      "RDW-CV": {
+        "name": "RDW-CV",
+        "result": 15.2,
+        "unit": "%",
+        "lo": 12.0,
+        "hi": 18.0
+      },
+      "RDW-SD": {
+        "name": "RDW-SD",
+        "result": 59.9,
+        "unit": "fL",
+        "lo": 50.5,
+        "hi": 66.5
+      },
+      "Neu#": {
+        "name": "Neu#",
+        "result": 1.66,
+        "unit": "x10^3/uL",
+        "lo": 1.41,
+        "hi": 2.05
+      },
+      "Lym#": {
+        "name": "Lym#",
+        "result": 1.33,
+        "unit": "x10^3/uL",
+        "lo": 0.97,
+        "hi": 1.55
+      },
+      "PLT": {
+        "name": "PLT",
+        "result": 53.0,
+        "unit": "x10^3/uL",
+        "lo": 28.0,
+        "hi": 68.0
+      },
+      "Mon#": {
+        "name": "Mon#",
+        "result": 0.02,
+        "unit": "x10^3/uL",
+        "lo": 0.0,
+        "hi": 0.16
+      },
+      "MPV": {
+        "name": "MPV",
+        "result": 10.3,
+        "unit": "fL",
+        "lo": 6.6,
+        "hi": 12.6
+      },
+      "Eos#": {
+        "name": "Eos#",
+        "result": 0.1,
+        "unit": "x10^3/uL",
+        "lo": 0.01,
+        "hi": 0.25
+      },
+      "PDW": {
+        "name": "PDW",
+        "result": 16.9,
+        "unit": "",
+        "lo": 12.8,
+        "hi": 18.8
+      },
+      "Bas#": {
+        "name": "Bas#",
+        "result": 1.63,
+        "unit": "x10^3/uL",
+        "lo": 1.44,
+        "hi": 2.08
+      },
+      "PCT": {
+        "name": "PCT",
+        "result": 0.057,
+        "unit": "%",
+        "lo": 0.0,
+        "hi": 0.092
+      },
+      "GRAN-X": {
+        "name": "GRAN-X",
+        "result": 54.0,
+        "unit": "",
+        "lo": null,
+        "hi": null
+      },
+      "GRAN-Y": {
+        "name": "GRAN-Y",
+        "result": 61.0,
+        "unit": "",
+        "lo": null,
+        "hi": null
+      },
+      "GRAN-Y(W)": {
+        "name": "GRAN-Y(W)",
+        "result": 20.0,
+        "unit": "",
+        "lo": null,
+        "hi": null
+      }
+    }
+  },
+  "Normal": {
+    "meta": {
+      "file_no": 44,
+      "lot": "BC2509BN",
+      "level": "Normal",
+      "exp": "11-10-2025"
+    },
+    "params": {
+      "WBC": {
+        "name": "WBC",
+        "result": 7.52,
+        "unit": "x10^3/uL",
+        "lo": 6.4,
+        "hi": 8.4
+      },
+      "RBC": {
+        "name": "RBC",
+        "result": 3.93,
+        "unit": "x10^6/uL",
+        "lo": 3.72,
+        "hi": 4.2
+      },
+      "HGB": {
+        "name": "HGB",
+        "result": 11.5,
+        "unit": "g/dL",
+        "lo": 11.1,
+        "hi": 12.3
+      },
+      "Neu%": {
+        "name": "Neu%",
+        "result": 62.5,
+        "unit": "%",
+        "lo": 50.5,
+        "hi": 70.5
+      },
+      "HCT": {
+        "name": "HCT",
+        "result": 38.8,
+        "unit": "%",
+        "lo": 36.8,
+        "hi": 40.8
+      },
+      "Lym%": {
+        "name": "Lym%",
+        "result": 30.4,
+        "unit": "%",
+        "lo": 20.5,
+        "hi": 38.5
+      },
+      "MCV": {
+        "name": "MCV",
+        "result": 99.6,
+        "unit": "fL",
+        "lo": 93.0,
+        "hi": 103.0
+      },
+      "Mon%": {
+        "name": "Mon%",
+        "result": 2.5,
+        "unit": "%",
+        "lo": 0.0,
+        "hi": 5.0
+      },
+      "MCH": {
+        "name": "MCH",
+        "result": 29.4,
+        "unit": "pg",
+        "lo": 27.0,
+        "hi": 32.0
+      },
+      "Eos%": {
+        "name": "Eos%",
+        "result": 4.6,
+        "unit": "%",
+        "lo": 1.0,
+        "hi": 14.0
+      },
+      "MCHC": {
+        "name": "MCHC",
+        "result": 29.3,
+        "unit": "g/dL",
+        "lo": 27.1,
+        "hi": 33.1
+      },
+      "Bas%": {
+        "name": "Bas%",
+        "result": 66.8,
+        "unit": "%",
+        "lo": 56.5,
+        "hi": 76.5
+      },
+      "RDW-CV": {
+        "name": "RDW-CV",
+        "result": 13.5,
+        "unit": "%",
+        "lo": 10.5,
+        "hi": 16.5
+      },
+      "RDW-SD": {
+        "name": "RDW-SD",
+        "result": 60.0,
+        "unit": "fL",
+        "lo": 51.5,
+        "hi": 67.5
+      },
+      "Neu#": {
+        "name": "Neu#",
+        "result": 4.63,
+        "unit": "x10^3/uL",
+        "lo": 3.74,
+        "hi": 5.22
+      },
+      "Lym#": {
+        "name": "Lym#",
+        "result": 2.33,
+        "unit": "x10^3/uL",
+        "lo": 1.51,
+        "hi": 2.85
+      },
+      "PLT": {
+        "name": "PLT",
+        "result": 232.0,
+        "unit": "x10^3/uL",
+        "lo": 195.0,
+        "hi": 275.0
+      },
+      "Mon#": {
+        "name": "Mon#",
+        "result": 0.2,
+        "unit": "x10^3/uL",
+        "lo": 0.0,
+        "hi": 0.38
+      },
+      "MPV": {
+        "name": "MPV",
+        "result": 9.3,
+        "unit": "fL",
+        "lo": 6.1,
+        "hi": 12.1
+      },
+      "Eos#": {
+        "name": "Eos#",
+        "result": 0.37,
+        "unit": "x10^3/uL",
+        "lo": 0.07,
+        "hi": 1.05
+      },
+      "PDW": {
+        "name": "PDW",
+        "result": 16.7,
+        "unit": "",
+        "lo": 13.5,
+        "hi": 19.5
+      },
+      "Bas#": {
+        "name": "Bas#",
+        "result": 4.81,
+        "unit": "x10^3/uL",
+        "lo": 4.18,
+        "hi": 5.66
+      },
+      "PCT": {
+        "name": "PCT",
+        "result": 0.222,
+        "unit": "%",
+        "lo": 0.114,
+        "hi": 0.314
+      },
+      "GRAN-X": {
+        "name": "GRAN-X",
+        "result": 60.0,
+        "unit": "",
+        "lo": null,
+        "hi": null
+      },
+      "GRAN-Y": {
+        "name": "GRAN-Y",
+        "result": 63.0,
+        "unit": "",
+        "lo": null,
+        "hi": null
+      },
+      "GRAN-Y(W)": {
+        "name": "GRAN-Y(W)",
+        "result": 20.0,
+        "unit": "",
+        "lo": null,
+        "hi": null
+      }
+    }
+  }
+}

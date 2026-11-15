@@ -1,0 +1,274 @@
+[
+  {
+    "form_date": "09/07/2025",
+    "form_id": "10251552",
+    "form_dept": "Biochem",
+    "yesterday_date": "08/07/2025",
+    "today_biochem": {
+      "file": "20260908_200520",
+      "sample": "1 - 2",
+      "datetime": "09/07/2025 12:40:22",
+      "patient": "10251552-02",
+      "rc0": 140111,
+      "values": {
+        "CHOL": 214.1,
+        "ALB": 4.47,
+        "TGL": 128.2,
+        "SGOT": 19.1,
+        "UAC": 5.17,
+        "CRT J": 0.87,
+        "TPR": 7.36,
+        "CAL A": 9.84,
+        "UREA UV": 15.8,
+        "SGPT": 22.8,
+        "GGT": 29.4,
+        "BIL D": 0.24,
+        "BIL T": 0.77,
+        "ALP IFCC": 93.6
+      }
+    },
+    "today_glu": {
+      "file": "20260908_200526",
+      "sample": "1 - 3",
+      "datetime": "09/07/2025 12:43:39",
+      "patient": "10251552-02",
+      "rc": 140125,
+      "value": 101.2
+    },
+    "yesterday_biochem": {
+      "file": "20260908_200532",
+      "sample": "2 - 1",
+      "datetime": "08/07/2025 10:23:20",
+      "patient": "10251552-01",
+      "rc0": 124321,
+      "values": {
+        "CHOL": 211.0,
+        "ALB": 4.65,
+        "TGL": 130.5,
+        "SGOT": 20.5,
+        "UAC": 5.39,
+        "CRT J": 0.83,
+        "TPR": 7.21,
+        "CAL A": 9.67,
+        "UREA UV": 16.1,
+        "SGPT": 24.9,
+        "GGT": 30.2,
+        "BIL D": 0.26,
+        "BIL T": 0.76,
+        "ALP IFCC": 92.5
+      }
+    },
+    "yesterday_glu": {
+      "file": "20260908_200538",
+      "sample": "2 - 2",
+      "datetime": "08/07/2025 10:26:26",
+      "patient": "10251552-01",
+      "rc": 124335,
+      "value": 99.6
+    }
+  },
+  {
+    "form_date": "10/04/2025",
+    "form_id": "1025486",
+    "form_dept": "Biochem",
+    "yesterday_date": "09/04/2025",
+    "today_biochem": {
+      "file": "20260908_200602",
+      "sample": "2 - 3",
+      "datetime": "10/04/2025 12:49:11",
+      "patient": "1025486-02",
+      "rc0": 118021,
+      "values": {
+        "CHOL": 205.1,
+        "ALB": 4.04,
+        "TGL": 112.7,
+        "SGOT": 12.2,
+        "UAC": 6.16,
+        "CRT J": 0.9,
+        "TPR": 6.51,
+        "CAL A": 10.45,
+        "UREA UV": 32.7,
+        "SGPT": 12.4,
+        "GGT": 20.1,
+        "BIL D": 0.21,
+        "BIL T": 0.77,
+        "ALP IFCC": 91.1
+      }
+    },
+    "today_glu": {
+      "file": "20260908_200608",
+      "sample": "2 - 4",
+      "datetime": "10/04/2025 12:52:40",
+      "patient": "1025486-02",
+      "rc": 118035,
+      "value": 86.1
+    },
+    "yesterday_biochem": {
+      "file": "20260908_200613",
+      "sample": "3 - 1",
+      "datetime": "09/04/2025 10:50:54",
+      "patient": "1025486-01",
+      "rc0": 116654,
+      "values": {
+        "CHOL": 209.3,
+        "ALB": 4.11,
+        "TGL": 108.3,
+        "SGOT": 11.8,
+        "UAC": 6.08,
+        "CRT J": 0.94,
+        "TPR": 6.66,
+        "CAL A": 10.32,
+        "UREA UV": 31.5,
+        "SGPT": 13.0,
+        "GGT": 20.8,
+        "BIL D": 0.2,
+        "BIL T": 0.75,
+        "ALP IFCC": 90.2
+      }
+    },
+    "yesterday_glu": {
+      "file": "20260908_200619",
+      "sample": "3 - 2",
+      "datetime": "09/04/2025 10:57:10",
+      "patient": "1025486-01",
+      "rc": 116668,
+      "value": 88.9
+    }
+  },
+  {
+    "form_date": "11/01/2025",
+    "form_id": "102416239",
+    "form_dept": "",
+    "yesterday_date": "10/01/2025",
+    "today_biochem": {
+      "file": "20260908_200646",
+      "sample": "2 - 4",
+      "datetime": "11/01/2025 12:58:33",
+      "patient": "102416239-02",
+      "rc0": 109913,
+      "values": {
+        "CHOL": 173.1,
+        "ALB": 4.58,
+        "TGL": 97.6,
+        "SGOT": 10.7,
+        "UAC": 2.71,
+        "CRT J": 0.88,
+        "TPR": 7.55,
+        "CAL A": 10.13,
+        "UREA UV": 18.8,
+        "SGPT": 11.9,
+        "GGT": 32.2,
+        "BIL D": 0.1,
+        "BIL T": 0.25,
+        "ALP IFCC": 120.8
+      }
+    },
+    "today_glu": {
+      "file": "20260908_200658",
+      "sample": "2 - 5",
+      "datetime": "11/01/2025 13:01:54",
+      "patient": "102416239-02",
+      "rc": 109927,
+      "value": 70.6
+    },
+    "yesterday_biochem": {
+      "file": "20260908_200708",
+      "sample": "2 - 14",
+      "datetime": "10/01/2025 10:45:54",
+      "patient": "102416239-01",
+      "rc0": 108719,
+      "values": {
+        "CHOL": 176.6,
+        "ALB": 4.73,
+        "TGL": 99.9,
+        "SGOT": 11.2,
+        "UAC": 2.88,
+        "CRT J": 0.9,
+        "TPR": 7.62,
+        "CAL A": 10.07,
+        "UREA UV": 19.4,
+        "SGPT": 12.5,
+        "GGT": 34.1,
+        "BIL D": 0.1,
+        "BIL T": 0.23,
+        "ALP IFCC": 125.3
+      }
+    },
+    "yesterday_glu": {
+      "file": "20260908_200718",
+      "sample": "2 - 15",
+      "datetime": "10/01/2025 10:52:10",
+      "patient": "102416239-01",
+      "rc": 108733,
+      "value": 73.9
+    }
+  },
+  {
+    "form_date": "10/10/2024",
+    "form_id": "102411384",
+    "form_dept": "",
+    "yesterday_date": "09/10/2024",
+    "today_biochem": {
+      "file": "20260908_200745",
+      "sample": "1 - 1",
+      "datetime": "10/10/2024 12:37:27",
+      "patient": "102411384-02",
+      "rc0": 99745,
+      "values": {
+        "CHOL": 175.2,
+        "ALB": 4.11,
+        "TGL": 400.2,
+        "SGOT": 15.1,
+        "UAC": 4.71,
+        "CRT J": 0.75,
+        "TPR": 7.17,
+        "CAL A": 9.71,
+        "UREA UV": 15.9,
+        "SGPT": 16.2,
+        "GGT": 26.2,
+        "BIL D": 0.12,
+        "BIL T": 0.39,
+        "ALP IFCC": 85.4
+      }
+    },
+    "today_glu": {
+      "file": "20260908_200755",
+      "sample": "1 - 2",
+      "datetime": "10/10/2024 12:40:41",
+      "patient": "102411384-02",
+      "rc": 99759,
+      "value": 97.3
+    },
+    "yesterday_biochem": {
+      "file": "20260908_200806",
+      "sample": "2 - 1",
+      "datetime": "09/10/2024 10:11:28",
+      "patient": "102411384-01",
+      "rc0": 97715,
+      "values": {
+        "CHOL": 179.5,
+        "ALB": 4.18,
+        "TGL": 389.8,
+        "SGOT": 14.6,
+        "UAC": 4.84,
+        "CRT J": 0.79,
+        "TPR": 7.13,
+        "CAL A": 9.55,
+        "UREA UV": 16.4,
+        "SGPT": 16.7,
+        "GGT": 27.8,
+        "BIL D": 0.13,
+        "BIL T": 0.42,
+        "ALP IFCC": 88.0
+      }
+    },
+    "yesterday_glu": {
+      "file": "20260908_200818",
+      "sample": "2 - 2",
+      "datetime": "09/10/2024 10:14:34",
+      "patient": "102411384-01",
+      "rc": 97729,
+      "value": 99.2
+    }
+  }
+]

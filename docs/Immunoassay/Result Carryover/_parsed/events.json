@@ -1,0 +1,18 @@
+[
+  {
+    "file": "20260918_135156",
+    "form_date": "4/7/25",
+    "header": "2025-07-04 14:08:19",
+    "start": "2025-07-04 12:07:44",
+    "params": ["T3", "T4", "TSH", "FSH", "LH", "PRL", "E2", "Testo", "BHCG"],
+    "mag_order": ["HCG", "TEST", "TSH", "T3", "T4", "PRL", "LH", "FSH", "E2"]
+  },
+  {
+    "file": "20260918_135220",
+    "form_date": "5/1/25",
+    "header": "2025-01-05 13:38:09",
+    "start": "2025-01-05 12:23:40",
+    "params": ["T3", "T4", "TSH", "Testo", "E2", "FSH", "LH", "BHCG", "PRL"],
+    "mag_order": ["HCG", "TSH", "T3", "T4", "E2", "FSH", "LH", "PRL", "TEST"]
+  }
+]

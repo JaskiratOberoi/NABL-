@@ -1,0 +1,192 @@
+[
+  {
+    "file": "20260910_134754",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2025-03-09 11:22:15",
+    "rows": [
+      {"reagent": "TT4 II", "lot": "002230131", "kit": "52987", "cal1": "682132", "cal2": "35143"}
+    ]
+  },
+  {
+    "file": "20260910_134759",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2025-03-02 10:55:05",
+    "rows": [
+      {"reagent": "TT3 II", "lot": "242230321", "kit": "31874", "cal1": "549278", "cal2": "37654"}
+    ]
+  },
+  {
+    "file": "20260910_134803",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2025-02-28 11:44:09",
+    "rows": [
+      {"reagent": "PRL II", "lot": "013230321", "kit": "20456", "cal1": "44872", "cal2": "1386712"}
+    ]
+  },
+  {
+    "file": "20260910_134807",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2025-02-24 11:39:19",
+    "rows": [
+      {"reagent": "TSH II", "lot": "241230321", "kit": "43941", "cal1": "14093", "cal2": "1588394"},
+      {"reagent": "TT4 II", "lot": "002230221", "kit": "30056", "cal1": "608983", "cal2": "48364"},
+      {"reagent": "TEST II", "lot": "016230421", "kit": "6337", "cal1": "376624", "cal2": "86284"},
+      {"reagent": "E2 II", "lot": "015230211", "kit": "5575", "cal1": "1115610", "cal2": "31506"},
+      {"reagent": "TT3 II", "lot": "001230121", "kit": "52169", "cal1": "630918", "cal2": "31321"},
+      {"reagent": "T-BHCG II", "lot": "017230111", "kit": "8412", "cal1": "24399", "cal2": "1222707"},
+      {"reagent": "LH II", "lot": "012230211", "kit": "50328", "cal1": "12929", "cal2": "518923"},
+      {"reagent": "PRL II", "lot": "013230311", "kit": "7494", "cal1": "3154", "cal2": "336354"},
+      {"reagent": "FSH II", "lot": "011230111", "kit": "5798", "cal1": "12059", "cal2": "913604"}
+    ]
+  },
+  {
+    "file": "20260910_134811",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2025-01-27 09:40:56",
+    "rows": [
+      {"reagent": "LH II", "lot": "012230211", "kit": "5348", "cal1": "13991", "cal2": "535424"},
+      {"reagent": "T-BHCG II", "lot": "017230111", "kit": "30631", "cal1": "2094", "cal2": "978940"},
+      {"reagent": "TEST II", "lot": "016230421", "kit": "5321", "cal1": "401678", "cal2": "106230"},
+      {"reagent": "FSH II", "lot": "011230111", "kit": "6150", "cal1": "12590", "cal2": "972508"},
+      {"reagent": "TSH II", "lot": "241230321", "kit": "78378", "cal1": "15196", "cal2": "1666300"},
+      {"reagent": "TT3 II", "lot": "001230121", "kit": "7546", "cal1": "686002", "cal2": "50069"},
+      {"reagent": "TT4 II", "lot": "002230221", "kit": "28841", "cal1": "795022", "cal2": "51393"},
+      {"reagent": "PRL II", "lot": "013230311", "kit": "6857", "cal1": "47542", "cal2": "2016582"},
+      {"reagent": "E2 II", "lot": "015230211", "kit": "7282", "cal1": "1644794", "cal2": "39910"}
+    ]
+  },
+  {
+    "file": "20260910_134817",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2025-01-23 11:09:02",
+    "rows": [
+      {"reagent": "TSH II", "lot": "241230321", "kit": "45871", "cal1": "13208", "cal2": "142589"}
+    ]
+  },
+  {
+    "file": "20260910_134822",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2025-01-05 14:44:03",
+    "rows": [
+      {"reagent": "T-BHCG II", "lot": "017230111", "kit": "7224", "cal1": "4091", "cal2": "1672557"}
+    ]
+  },
+  {
+    "file": "20260910_134832",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2024-12-30 08:42:05",
+    "rows": [
+      {"reagent": "TT4 II", "lot": "002230221", "kit": "28841", "cal1": "774593", "cal2": "51356"},
+      {"reagent": "TT3 II", "lot": "001230121", "kit": "7546", "cal1": "684090", "cal2": "52488"},
+      {"reagent": "TSH II", "lot": "005230211", "kit": "76791", "cal1": "15193", "cal2": "1676041"},
+      {"reagent": "TEST II", "lot": "016230421", "kit": "5321", "cal1": "415435", "cal2": "106466"},
+      {"reagent": "E2 II", "lot": "015230211", "kit": "7282", "cal1": "1645718", "cal2": "39262"},
+      {"reagent": "PRL II", "lot": "013230311", "kit": "6857", "cal1": "46886", "cal2": "1992963"},
+      {"reagent": "FSH II", "lot": "011230111", "kit": "5798", "cal1": "13018", "cal2": "935507"},
+      {"reagent": "LH II", "lot": "012230211", "kit": "5348", "cal1": "14979", "cal2": "560077"},
+      {"reagent": "T-BHCG II", "lot": "017220421", "kit": "30631", "cal1": "2276", "cal2": "1003602"}
+    ]
+  },
+  {
+    "file": "20260910_134851",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2024-12-02 08:59:08",
+    "rows": [
+      {"reagent": "TEST II", "lot": "016230421", "kit": "5321", "cal1": "416702", "cal2": "107960"},
+      {"reagent": "E2 II", "lot": "015230211", "kit": "7282", "cal1": "1681507", "cal2": "42609"},
+      {"reagent": "TSH II", "lot": "005230211", "kit": "76791", "cal1": "15149", "cal2": "1670284"},
+      {"reagent": "TT3 II", "lot": "001230121", "kit": "7546", "cal1": "709681", "cal2": "50064"},
+      {"reagent": "TT4 II", "lot": "002230221", "kit": "28841", "cal1": "783888", "cal2": "49909"},
+      {"reagent": "PRL II", "lot": "013230311", "kit": "6857", "cal1": "47905", "cal2": "2051346"},
+      {"reagent": "T-BHCG II", "lot": "017220421", "kit": "30631", "cal1": "2374", "cal2": "990567"},
+      {"reagent": "FSH II", "lot": "011230111", "kit": "5798", "cal1": "13108", "cal2": "939375"},
+      {"reagent": "LH II", "lot": "012230211", "kit": "5348", "cal1": "15187", "cal2": "564494"}
+    ]
+  },
+  {
+    "file": "20260910_134909",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2024-11-04 08:44:00",
+    "rows": [
+      {"reagent": "TT3 II", "lot": "001230121", "kit": "7546", "cal1": "688114", "cal2": "51197"},
+      {"reagent": "TT4 II", "lot": "002230221", "kit": "28841", "cal1": "871590", "cal2": "63909"},
+      {"reagent": "TSH II", "lot": "005230211", "kit": "82300", "cal1": "15401", "cal2": "1648333"},
+      {"reagent": "TEST II", "lot": "016230421", "kit": "5321", "cal1": "423667", "cal2": "108476"},
+      {"reagent": "PRL II", "lot": "013230311", "kit": "6857", "cal1": "57822", "cal2": "2426629"},
+      {"reagent": "FSH II", "lot": "011230111", "kit": "5798", "cal1": "12653", "cal2": "877611"},
+      {"reagent": "LH II", "lot": "012230211", "kit": "5348", "cal1": "14396", "cal2": "573075"},
+      {"reagent": "T-BHCG II", "lot": "017220421", "kit": "30631", "cal1": "3391", "cal2": "1065878"},
+      {"reagent": "E2 II", "lot": "015230211", "kit": "7282", "cal1": "1709685", "cal2": "42685"}
+    ]
+  },
+  {
+    "file": "20260910_134914",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2024-10-24 11:06:03",
+    "rows": [
+      {"reagent": "TSH II", "lot": "005230211", "kit": "70592", "cal1": "14191", "cal2": "1425923"}
+    ]
+  },
+  {
+    "file": "20260910_134919",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2024-10-07 08:35:04",
+    "rows": [
+      {"reagent": "TEST II", "lot": "016230421", "kit": "5321", "cal1": "355802", "cal2": "83191"},
+      {"reagent": "TT3 II", "lot": "001230121", "kit": "7546", "cal1": "665019", "cal2": "48502"},
+      {"reagent": "TT4 II", "lot": "002230221", "kit": "28841", "cal1": "743589", "cal2": "49485"},
+      {"reagent": "E2 II", "lot": "015230211", "kit": "7282", "cal1": "1522123", "cal2": "37548"},
+      {"reagent": "PRL II", "lot": "013230311", "kit": "6857", "cal1": "47412", "cal2": "1995795"},
+      {"reagent": "FSH II", "lot": "011230111", "kit": "5798", "cal1": "12236", "cal2": "893540"},
+      {"reagent": "LH II", "lot": "012230211", "kit": "5348", "cal1": "14136", "cal2": "556961"},
+      {"reagent": "T-BHCG II", "lot": "017220421", "kit": "30631", "cal1": "2023", "cal2": "913041"},
+      {"reagent": "TSH II", "lot": "005220431", "kit": "76817", "cal1": "15083", "cal2": "1654857"}
+    ]
+  },
+  {
+    "file": "20260910_134923",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2024-09-01 11:08:30",
+    "rows": [
+      {"reagent": "TSH II", "lot": "241240111", "kit": "10480", "cal1": "13322", "cal2": "1420513"},
+      {"reagent": "TT4 II", "lot": "243240121", "kit": "62852", "cal1": "750593", "cal2": "35549"},
+      {"reagent": "TT3 II", "lot": "242230421", "kit": "41177", "cal1": "582143", "cal2": "40365"},
+      {"reagent": "TEST II", "lot": "255230321", "kit": "11072", "cal1": "505005", "cal2": "51665"},
+      {"reagent": "FSH II", "lot": "251240111", "kit": "5982", "cal1": "8035", "cal2": "342224"},
+      {"reagent": "LH II", "lot": "252240111", "kit": "6708", "cal1": "10544", "cal2": "584810"},
+      {"reagent": "E2 II", "lot": "256240111", "kit": "7146", "cal1": "14584", "cal2": "3697385"},
+      {"reagent": "T-BHCG II", "lot": "257230411", "kit": "7654", "cal1": "4455", "cal2": "1745208"},
+      {"reagent": "PRL II", "lot": "253240121", "kit": "7781", "cal1": "49382", "cal2": "1517214"}
+    ]
+  },
+  {
+    "file": "20260910_134927",
+    "kind": "calibration",
+    "model": "MAGLUMI X3",
+    "datetime": "2024-08-24 13:02:05",
+    "rows": [
+      {"reagent": "TSH II", "lot": "241240111", "kit": "6040", "cal1": "13867", "cal2": "1424784"},
+      {"reagent": "TT4 II", "lot": "243240121", "kit": "62852", "cal1": "695340", "cal2": "33109"},
+      {"reagent": "TT3 II", "lot": "242230421", "kit": "41177", "cal1": "551603", "cal2": "38981"},
+      {"reagent": "TEST II", "lot": "255230321", "kit": "11072", "cal1": "503956", "cal2": "52531"},
+      {"reagent": "FSH II", "lot": "251240111", "kit": "5982", "cal1": "7331", "cal2": "319322"},
+      {"reagent": "LH II", "lot": "252240111", "kit": "6708", "cal1": "11064", "cal2": "594672"},
+      {"reagent": "E2 II", "lot": "256240111", "kit": "7146", "cal1": "15782", "cal2": "3829130"},
+      {"reagent": "T-BHCG II", "lot": "257230411", "kit": "7654", "cal1": "4373", "cal2": "1691993"},
+      {"reagent": "PRL II", "lot": "253240121", "kit": "8438", "cal1": "45369", "cal2": "1370163"}
+    ]
+  }
+]

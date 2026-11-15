@@ -1,0 +1,148 @@
+[
+  {"date": "28-07-2025", "lid": "L1", "pid": "QC L", "kit": ""},
+  {"date": "12-04-2025", "lid": "L3", "pid": "QC H", "kit": ""},
+  {"date": "12-04-2025", "lid": "L2", "pid": "QC N", "kit": ""},
+  {"date": "25-07-2025", "lid": "L3", "pid": "QC H", "kit": ""},
+  {"date": "25-07-2025", "lid": "L2", "pid": "QC N", "kit": ""},
+  {"date": "26-02-2025", "lid": "L2", "pid": "QC N", "kit": ""},
+  {
+    "date": "25-07-2024",
+    "lid": "L3",
+    "pid": "HC",
+    "kit": "Diluent",
+    "new_lot": "20250521752",
+    "new_exp": "May 26",
+    "old_lot": "2025042108",
+    "old_exp": "Apr 25"
+  },
+  {
+    "date": "25-07-2024",
+    "lid": "L2",
+    "pid": "NC",
+    "kit": "Diluent",
+    "new_lot": "20250521752",
+    "new_exp": "May 26",
+    "old_lot": "2025042108",
+    "old_exp": "Apr 25"
+  },
+  {
+    "date": "17-05-2024",
+    "lid": "L2",
+    "pid": "",
+    "kit": "LH Lyse",
+    "new_lot": "2023061901",
+    "new_exp": "June 25",
+    "old_lot": "2023031502",
+    "old_exp": "March 25"
+  },
+  {
+    "date": "17-05-2024",
+    "lid": "L1",
+    "pid": "",
+    "kit": "LH Lyse",
+    "new_lot": "2023061901",
+    "new_exp": "June 25",
+    "old_lot": "2023031502",
+    "old_exp": "March 25"
+  },
+  {
+    "date": "12-04-2024",
+    "lid": "L3",
+    "pid": "",
+    "kit": "Lyse I",
+    "new_lot": "20231019511",
+    "new_exp": "Oct-25",
+    "old_lot": "202310730",
+    "old_exp": "May-25"
+  },
+  {
+    "date": "12-04-2024",
+    "lid": "L2",
+    "pid": "",
+    "kit": "Lyse I",
+    "new_lot": "20231019511",
+    "new_exp": "Oct-25",
+    "old_lot": "202310730",
+    "old_exp": "May-25"
+  },
+  {
+    "date": "09-03-2024",
+    "lid": "L3",
+    "pid": "",
+    "kit": "Lyse II",
+    "new_lot": "20240415001",
+    "new_exp": "Apr 24",
+    "old_lot": "2023021507",
+    "old_exp": "Mar 25"
+  },
+  {
+    "date": "09-03-2024",
+    "lid": "L2",
+    "pid": "",
+    "kit": "Lyse II",
+    "new_lot": "20240415001",
+    "new_exp": "Apr 24",
+    "old_lot": "2023021507",
+    "old_exp": "Mar 25"
+  },
+  {
+    "date": "26-02-2024",
+    "lid": "L2",
+    "pid": "",
+    "kit": "Diluent",
+    "new_lot": "2023052103",
+    "new_exp": "Apr 25",
+    "old_lot": "2022052101",
+    "old_exp": "May 25"
+  },
+  {
+    "date": "26-02-2024",
+    "lid": "L1",
+    "pid": "",
+    "kit": "Diluent",
+    "new_lot": "2023052103",
+    "new_exp": "Apr 25",
+    "old_lot": "2022052101",
+    "old_exp": "May 25"
+  },
+  {
+    "date": "03-01-2024",
+    "lid": "L3",
+    "pid": "",
+    "kit": "LH Lyse",
+    "new_lot": "2023031502",
+    "new_exp": "Mar 25",
+    "old_lot": "2023031605",
+    "old_exp": "Nov 24"
+  },
+  {
+    "date": "03-01-2024",
+    "lid": "L1",
+    "pid": "",
+    "kit": "LH Lyse",
+    "new_lot": "2023031502",
+    "new_exp": "Mar 25",
+    "old_lot": "2022031502",
+    "old_exp": "Nov 24"
+  },
+  {
+    "date": "09-10-2023",
+    "lid": "L3",
+    "pid": "",
+    "kit": "Diluent",
+    "new_lot": "2023052101",
+    "new_exp": "29/5/25",
+    "old_lot": "2023032402",
+    "old_exp": "25/4/25"
+  },
+  {
+    "date": "09-10-2023",
+    "lid": "L1",
+    "pid": "",
+    "kit": "Diluent",
+    "new_lot": "2023052601",
+    "new_exp": "29/5/25",
+    "old_lot": "2023032402",
+    "old_exp": "25/4/25"
+  }
+]

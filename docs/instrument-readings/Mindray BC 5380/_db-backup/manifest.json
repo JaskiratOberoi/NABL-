@@ -1,0 +1,19 @@
+{
+  "dumped": "2026-10-16",
+  "policy": "Printed QCLJ File Nos 43-63 are frozen. Live rows on FileNo 43-60 are copied here before any replace.",
+  "QcLjRecord": {
+    "file": "QcLjRecord_fileno_43_60.json",
+    "rows": 682,
+    "file_nos": "43-59 occupied; 60 empty"
+  },
+  "QcLjRefLimit": {
+    "file": "QcLjRefLimit_fileno_43_60.json",
+    "rows": 18,
+    "file_nos": "43-60"
+  },
+  "insert_after_approval": {
+    "delete_then_insert_records": "DELETE QcLjRecord WHERE RTRIM(FileNo) IN ('43'..'63'); INSERT 906 new rows",
+    "update_or_insert_reflimit": "UPDATE FileNo 43-60; INSERT FileNo 61-63",
+    "identity": "QcLjRecord.ID and QcLjRefLimit.ID are IDENTITY; omit ID on insert"
+  }
+}

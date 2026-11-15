@@ -1,0 +1,18 @@
+PY
+. — Calibration Result Report |
+|Reagent $$ -—-————[____ —
+-_ % Lot-No, | Kit-No. |Calibrator 1|Calibrator  2|
+PR a |Mean |Mean | |
+fi
+: az
+e - =
+: &
++ >
+z
+. 8
+ft
+= :
+|
+Page 1 of F
+(Snibe)
+ac ist

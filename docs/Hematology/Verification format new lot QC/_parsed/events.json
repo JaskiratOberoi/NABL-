@@ -1,0 +1,101 @@
+[
+  {
+    "date": "10-09-2024",
+    "lid": "L2",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2409BN",
+    "new_exp": "10/11/24",
+    "old_lot": "BC2407BN",
+    "old_exp": "10/9/24"
+  },
+  {
+    "date": "09-09-2024",
+    "lid": "L3",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2409BH",
+    "new_exp": "10/11/24",
+    "old_lot": "BC2407BH",
+    "old_exp": "10/9/24"
+  },
+  {
+    "date": "09-07-2024",
+    "lid": "L2",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2407BN",
+    "new_exp": "10/9/24",
+    "old_lot": "BC2405BN",
+    "old_exp": "10/7/24"
+  },
+  {
+    "date": "10-07-2024",
+    "lid": "L1",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2407BL",
+    "new_exp": "10/9/24",
+    "old_lot": "BC2405BL",
+    "old_exp": "10/7/24"
+  },
+  {
+    "date": "09-05-2024",
+    "lid": "L3",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2405BH",
+    "new_exp": "10/7/24",
+    "old_lot": "BC2403BH",
+    "old_exp": "10/5/24"
+  },
+  {
+    "date": "10-05-2024",
+    "lid": "L2",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2405BN",
+    "new_exp": "10/7/24",
+    "old_lot": "BC2403BN",
+    "old_exp": "10/5/24"
+  },
+  {
+    "date": "09-03-2024",
+    "lid": "L3",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2403BH",
+    "new_exp": "10/5/24",
+    "old_lot": "BC2401BH",
+    "old_exp": "10/3/24"
+  },
+  {
+    "date": "10-03-2024",
+    "lid": "L2",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2403BN",
+    "new_exp": "10/5/24",
+    "old_lot": "BC2401BN",
+    "old_exp": "10/3/24"
+  },
+  {
+    "date": "09-01-2024",
+    "lid": "L1",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2401BL",
+    "new_exp": "10/3/24",
+    "old_lot": "BC2311BL",
+    "old_exp": "10/1/24"
+  },
+  {
+    "date": "10-01-2024",
+    "lid": "L3",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2401BH",
+    "new_exp": "10/3/24",
+    "old_lot": "BC2311BH",
+    "old_exp": "10/1/24"
+  },
+  {
+    "date": "10-11-2023",
+    "lid": "L3",
+    "qc_name": "Mindray BC-5D",
+    "new_lot": "BC2311BH",
+    "new_exp": "10/1/24",
+    "old_lot": "BC2309BH",
+    "old_exp": "10/11/23"
+  }
+]

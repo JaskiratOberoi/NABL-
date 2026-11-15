@@ -1,0 +1,418 @@
+[
+  {
+    "form_date": "08/07/2025",
+    "form_id": "10251552",
+    "form_dept": "Biochem",
+    "params_page1": ["Glu","Chol","Alb","TGL","SGOT","UAC","CRT J","TPR","Cal","Urea","SGPT","GGT"],
+    "params_page2": ["DBil","TBil","ALP"],
+    "readings": [
+      {
+        "n": 1,
+        "biochem_file": "20260908_185758",
+        "biochem_sample": "2 - 1",
+        "biochem_datetime": "08/07/2025 10:23:20",
+        "biochem_patient": "10251552-01",
+        "glu_file": "20260908_185824",
+        "glu_sample": "2 - 2",
+        "glu_datetime": "08/07/2025 10:26:26",
+        "glu_patient": "10251552-01",
+        "values": {
+          "Glu": 99.6, "Chol": 211.0, "Alb": 4.65, "TGL": 130.5,
+          "SGOT": 20.5, "UAC": 5.39, "CRT J": 0.83, "TPR": 7.21,
+          "Cal": 9.67, "Urea": 16.1, "SGPT": 24.9, "GGT": 30.2,
+          "DBil": 0.26, "TBil": 0.76, "ALP": 92.5
+        },
+        "rc_biochem0": 124321,
+        "rc_glu": 124335
+      },
+      {
+        "n": 2,
+        "biochem_file": "20260908_185803",
+        "biochem_sample": "2 - 3",
+        "biochem_datetime": "08/07/2025 11:40:55",
+        "biochem_patient": "10251552-02",
+        "glu_file": "20260908_185830",
+        "glu_sample": "2 - 4",
+        "glu_datetime": "08/07/2025 11:43:13",
+        "glu_patient": "10251552-02",
+        "values": {
+          "Glu": 97.2, "Chol": 219.3, "Alb": 4.59, "TGL": 129.7,
+          "SGOT": 19.3, "UAC": 5.26, "CRT J": 0.78, "TPR": 7.11,
+          "Cal": 9.51, "Urea": 15.5, "SGPT": 23.3, "GGT": 28.7,
+          "DBil": 0.27, "TBil": 0.71, "ALP": 91.3
+        },
+        "rc_biochem0": 124336,
+        "rc_glu": 124350
+      },
+      {
+        "n": 3,
+        "biochem_file": "20260908_185809",
+        "biochem_sample": "2 - 5",
+        "biochem_datetime": "08/07/2025 12:51:05",
+        "biochem_patient": "10251552-03",
+        "glu_file": "20260908_185836",
+        "glu_sample": "2 - 6",
+        "glu_datetime": "08/07/2025 12:53:12",
+        "glu_patient": "10251552-03",
+        "values": {
+          "Glu": 100.3, "Chol": 221.5, "Alb": 4.72, "TGL": 133.9,
+          "SGOT": 21.1, "UAC": 5.45, "CRT J": 0.85, "TPR": 7.32,
+          "Cal": 9.78, "Urea": 16.4, "SGPT": 25.6, "GGT": 31.5,
+          "DBil": 0.28, "TBil": 0.79, "ALP": 94.1
+        },
+        "rc_biochem0": 124351,
+        "rc_glu": 124365
+      },
+      {
+        "n": 4,
+        "biochem_file": "20260908_185814",
+        "biochem_sample": "2 - 7",
+        "biochem_datetime": "08/07/2025 14:00:19",
+        "biochem_patient": "10251552-04",
+        "glu_file": "20260908_185842",
+        "glu_sample": "2 - 8",
+        "glu_datetime": "08/07/2025 14:03:26",
+        "glu_patient": "10251552-04",
+        "values": {
+          "Glu": 95.1, "Chol": 205.1, "Alb": 4.61, "TGL": 125.3,
+          "SGOT": 20.1, "UAC": 5.35, "CRT J": 0.81, "TPR": 7.25,
+          "Cal": 9.62, "Urea": 14.8, "SGPT": 25.9, "GGT": 32.6,
+          "DBil": 0.29, "TBil": 0.81, "ALP": 89.1
+        },
+        "rc_biochem0": 124366,
+        "rc_glu": 124380
+      },
+      {
+        "n": 5,
+        "biochem_file": "20260908_185819",
+        "biochem_sample": "2 - 9",
+        "biochem_datetime": "08/07/2025 15:10:20",
+        "biochem_patient": "10251552-05",
+        "glu_file": "20260908_185847",
+        "glu_sample": "2 - 10",
+        "glu_datetime": "08/07/2025 15:13:33",
+        "glu_patient": "10251552-05",
+        "values": {
+          "Glu": 102.1, "Chol": 202.6, "Alb": 4.51, "TGL": 134.6,
+          "SGOT": 22.5, "UAC": 5.43, "CRT J": 0.86, "TPR": 7.43,
+          "Cal": 9.81, "Urea": 17.2, "SGPT": 23.5, "GGT": 30.6,
+          "DBil": 0.23, "TBil": 0.84, "ALP": 95.6
+        },
+        "rc_biochem0": 124381,
+        "rc_glu": 124395
+      }
+    ]
+  },
+  {
+    "form_date": "09/04/2025",
+    "form_id": "1025486",
+    "form_dept": "Biochem",
+    "params_page1": ["Glu","Chol","Alb","TGL","SGOT","UAC","CRT J","TPR","Cal","Urea","SGPT","GGT"],
+    "params_page2": ["DBil","TBil","ALP"],
+    "readings": [
+      {
+        "n": 1,
+        "biochem_file": "20260908_185928",
+        "biochem_sample": "3 - 1",
+        "biochem_datetime": "09/04/2025 10:50:54",
+        "biochem_patient": "1025486-01",
+        "glu_file": "20260908_185956",
+        "glu_sample": "3 - 2",
+        "glu_datetime": "09/04/2025 10:57:10",
+        "glu_patient": "1025486-01",
+        "values": {
+          "Glu": 88.9, "Chol": 209.3, "Alb": 4.11, "TGL": 108.3,
+          "SGOT": 11.8, "UAC": 6.08, "CRT J": 0.94, "TPR": 6.66,
+          "Cal": 10.32, "Urea": 31.5, "SGPT": 13.0, "GGT": 20.8,
+          "DBil": 0.2, "TBil": 0.75, "ALP": 90.2
+        },
+        "rc_biochem0": 116654,
+        "rc_glu": 116668
+      },
+      {
+        "n": 2,
+        "biochem_file": "20260908_185933",
+        "biochem_sample": "3 - 3",
+        "biochem_datetime": "09/04/2025 12:03:18",
+        "biochem_patient": "1025486-02",
+        "glu_file": "20260908_190002",
+        "glu_sample": "3 - 4",
+        "glu_datetime": "09/04/2025 12:14:11",
+        "glu_patient": "1025486-02",
+        "values": {
+          "Glu": 90.4, "Chol": 205.1, "Alb": 4.09, "TGL": 104.1,
+          "SGOT": 11.1, "UAC": 6.01, "CRT J": 0.88, "TPR": 6.52,
+          "Cal": 10.21, "Urea": 30.1, "SGPT": 12.2, "GGT": 21.4,
+          "DBil": 0.17, "TBil": 0.69, "ALP": 90.8
+        },
+        "rc_biochem0": 116669,
+        "rc_glu": 116683
+      },
+      {
+        "n": 3,
+        "biochem_file": "20260908_185939",
+        "biochem_sample": "3 - 5",
+        "biochem_datetime": "09/04/2025 13:12:48",
+        "biochem_patient": "1025486-03",
+        "glu_file": "20260908_190007",
+        "glu_sample": "3 - 6",
+        "glu_datetime": "09/04/2025 13:15:54",
+        "glu_patient": "1025486-03",
+        "values": {
+          "Glu": 86.1, "Chol": 202.3, "Alb": 4.17, "TGL": 110.2,
+          "SGOT": 12.9, "UAC": 5.93, "CRT J": 0.92, "TPR": 6.71,
+          "Cal": 10.44, "Urea": 32.8, "SGPT": 13.4, "GGT": 20.2,
+          "DBil": 0.21, "TBil": 0.78, "ALP": 91.7
+        },
+        "rc_biochem0": 116684,
+        "rc_glu": 116698
+      },
+      {
+        "n": 4,
+        "biochem_file": "20260908_185944",
+        "biochem_sample": "3 - 7",
+        "biochem_datetime": "09/04/2025 14:23:06",
+        "biochem_patient": "1025486-04",
+        "glu_file": "20260908_190013",
+        "glu_sample": "3 - 8",
+        "glu_datetime": "09/04/2025 14:26:12",
+        "glu_patient": "1025486-04",
+        "values": {
+          "Glu": 91.2, "Chol": 214.1, "Alb": 4.19, "TGL": 113.1,
+          "SGOT": 12.3, "UAC": 6.24, "CRT J": 0.99, "TPR": 6.75,
+          "Cal": 10.49, "Urea": 31.3, "SGPT": 12.7, "GGT": 20.5,
+          "DBil": 0.19, "TBil": 0.81, "ALP": 89.1
+        },
+        "rc_biochem0": 116699,
+        "rc_glu": 116713
+      },
+      {
+        "n": 5,
+        "biochem_file": "20260908_185951",
+        "biochem_sample": "3 - 9",
+        "biochem_datetime": "09/04/2025 15:35:13",
+        "biochem_patient": "1025486-05",
+        "glu_file": "20260908_190019",
+        "glu_sample": "3 - 10",
+        "glu_datetime": "09/04/2025 15:38:19",
+        "glu_patient": "1025486-05",
+        "values": {
+          "Glu": 97.8, "Chol": 213.3, "Alb": 4.13, "TGL": 105.6,
+          "SGOT": 11.4, "UAC": 6.31, "CRT J": 1.0, "TPR": 6.55,
+          "Cal": 10.18, "Urea": 30.6, "SGPT": 13.2, "GGT": 21.6,
+          "DBil": 0.22, "TBil": 0.82, "ALP": 92.5
+        },
+        "rc_biochem0": 116714,
+        "rc_glu": 116728
+      }
+    ]
+  },
+  {
+    "form_date": "10/01/2025",
+    "form_id": "102416239",
+    "form_dept": "Biochemistry",
+    "params_page1": ["Glu","Chol","TGL","SGOT","UAC","CRT J","TPR","Cal","Urea","SGPT","GGT","DBil"],
+    "params_page2": ["TBil","ALP","Alb"],
+    "readings": [
+      {
+        "n": 1,
+        "biochem_file": "20260908_190059",
+        "biochem_sample": "2 - 14",
+        "biochem_datetime": "10/01/2025 10:45:54",
+        "biochem_patient": "102416239-01",
+        "glu_file": "20260908_190133",
+        "glu_sample": "2 - 15",
+        "glu_datetime": "10/01/2025 10:52:10",
+        "glu_patient": "102416239-01",
+        "values": {
+          "Glu": 73.9, "Chol": 176.6, "Alb": 4.73, "TGL": 99.9,
+          "SGOT": 11.2, "UAC": 2.88, "CRT J": 0.90, "TPR": 7.62,
+          "Cal": 10.07, "Urea": 19.4, "SGPT": 12.5, "GGT": 34.1,
+          "DBil": 0.10, "TBil": 0.23, "ALP": 125.3
+        },
+        "rc_biochem0": 108719,
+        "rc_glu": 108733
+      },
+      {
+        "n": 2,
+        "biochem_file": "20260908_190105",
+        "biochem_sample": "2 - 16",
+        "biochem_datetime": "10/01/2025 11:48:18",
+        "biochem_patient": "102416239-02",
+        "glu_file": "20260908_190140",
+        "glu_sample": "2 - 17",
+        "glu_datetime": "10/01/2025 12:09:11",
+        "glu_patient": "102416239-02",
+        "values": {
+          "Glu": 70.6, "Chol": 169.8, "Alb": 4.65, "TGL": 97.2,
+          "SGOT": 10.7, "UAC": 2.81, "CRT J": 0.87, "TPR": 7.54,
+          "Cal": 9.96, "Urea": 18.5, "SGPT": 12.1, "GGT": 32.9,
+          "DBil": 0.12, "TBil": 0.2, "ALP": 122.1
+        },
+        "rc_biochem0": 108734,
+        "rc_glu": 108748
+      },
+      {
+        "n": 3,
+        "biochem_file": "20260908_190111",
+        "biochem_sample": "2 - 18",
+        "biochem_datetime": "10/01/2025 13:07:48",
+        "biochem_patient": "102416239-03",
+        "glu_file": "20260908_190155",
+        "glu_sample": "2 - 19",
+        "glu_datetime": "10/01/2025 13:10:54",
+        "glu_patient": "102416239-03",
+        "values": {
+          "Glu": 71.8, "Chol": 170.3, "Alb": 4.79, "TGL": 100.3,
+          "SGOT": 11.3, "UAC": 2.83, "CRT J": 0.93, "TPR": 7.66,
+          "Cal": 10.15, "Urea": 19.2, "SGPT": 12.8, "GGT": 35.3,
+          "DBil": 0.11, "TBil": 0.25, "ALP": 121.7
+        },
+        "rc_biochem0": 108749,
+        "rc_glu": 108763
+      },
+      {
+        "n": 4,
+        "biochem_file": "20260908_190115",
+        "biochem_sample": "2 - 20",
+        "biochem_datetime": "10/01/2025 14:18:06",
+        "biochem_patient": "102416239-04",
+        "glu_file": "20260908_190203",
+        "glu_sample": "2 - 21",
+        "glu_datetime": "10/01/2025 14:21:12",
+        "glu_patient": "102416239-04",
+        "values": {
+          "Glu": 74.2, "Chol": 178.7, "Alb": 4.61, "TGL": 101.4,
+          "SGOT": 10.8, "UAC": 2.9, "CRT J": 0.91, "TPR": 7.68,
+          "Cal": 10.23, "Urea": 19.8, "SGPT": 12.9, "GGT": 31.7,
+          "DBil": 0.1, "TBil": 0.24, "ALP": 126.2
+        },
+        "rc_biochem0": 108764,
+        "rc_glu": 108778
+      },
+      {
+        "n": 5,
+        "biochem_file": "20260908_190122",
+        "biochem_sample": "2 - 22",
+        "biochem_datetime": "10/01/2025 15:30:13",
+        "biochem_patient": "102416239-05",
+        "glu_file": "20260908_190209",
+        "glu_sample": "2 - 23",
+        "glu_datetime": "10/01/2025 15:33:19",
+        "glu_patient": "102416239-05",
+        "values": {
+          "Glu": 73.5, "Chol": 180.6, "Alb": 4.72, "TGL": 98.5,
+          "SGOT": 11.5, "UAC": 2.84, "CRT J": 0.92, "TPR": 7.59,
+          "Cal": 9.91, "Urea": 19.1, "SGPT": 13.1, "GGT": 34.8,
+          "DBil": 0.1, "TBil": 0.22, "ALP": 125.8
+        },
+        "rc_biochem0": 108779,
+        "rc_glu": 108793
+      }
+    ]
+  },
+  {
+    "form_date": "09/10/2024",
+    "form_id": "102411384",
+    "form_dept": "Biochemistry",
+    "params_page1": ["Glu","Chol","Alb","TGL","SGOT","UAC","CRT J","TPR","Cal","Urea","SGPT","GGT"],
+    "params_page2": ["DBil","TBil","ALP"],
+    "readings": [
+      {
+        "n": 1,
+        "biochem_file": "20260908_190721",
+        "biochem_sample": "2 - 1",
+        "biochem_datetime": "09/10/2024 10:11:28",
+        "biochem_patient": "102411384-01",
+        "glu_file": "20260908_190821",
+        "glu_sample": "2 - 2",
+        "glu_datetime": "09/10/2024 10:14:34",
+        "glu_patient": "102411384-01",
+        "values": {
+          "Glu": 99.2, "Chol": 179.5, "Alb": 4.18, "TGL": 389.8,
+          "SGOT": 14.6, "UAC": 4.84, "CRT J": 0.79, "TPR": 7.13,
+          "Cal": 9.55, "Urea": 16.4, "SGPT": 16.7, "GGT": 27.8,
+          "DBil": 0.13, "TBil": 0.42, "ALP": 88.0
+        },
+        "rc_biochem0": 97715,
+        "rc_glu": 97729
+      },
+      {
+        "n": 2,
+        "biochem_file": "20260908_190732",
+        "biochem_sample": "2 - 3",
+        "biochem_datetime": "09/10/2024 11:29:03",
+        "biochem_patient": "102411384-02",
+        "glu_file": "20260908_190831",
+        "glu_sample": "2 - 4",
+        "glu_datetime": "09/10/2024 11:32:09",
+        "glu_patient": "102411384-02",
+        "values": {
+          "Glu": 96.8, "Chol": 175.3, "Alb": 4.03, "TGL": 395.1,
+          "SGOT": 13.2, "UAC": 4.72, "CRT J": 0.73, "TPR": 7.01,
+          "Cal": 9.42, "Urea": 15.2, "SGPT": 16.1, "GGT": 25.3,
+          "DBil": 0.13, "TBil": 0.39, "ALP": 89.1
+        },
+        "rc_biochem0": 97730,
+        "rc_glu": 97744
+      },
+      {
+        "n": 3,
+        "biochem_file": "20260908_190755",
+        "biochem_sample": "2 - 5",
+        "biochem_datetime": "09/10/2024 12:39:13",
+        "biochem_patient": "102411384-03",
+        "glu_file": "20260908_190843",
+        "glu_sample": "2 - 6",
+        "glu_datetime": "09/10/2024 12:42:20",
+        "glu_patient": "102411384-03",
+        "values": {
+          "Glu": 97.1, "Chol": 179.9, "Alb": 4.25, "TGL": 385.2,
+          "SGOT": 14.1, "UAC": 4.81, "CRT J": 0.81, "TPR": 7.19,
+          "Cal": 9.63, "Urea": 17.1, "SGPT": 17.2, "GGT": 29.1,
+          "DBil": 0.11, "TBil": 0.44, "ALP": 83.1
+        },
+        "rc_biochem0": 97745,
+        "rc_glu": 97759
+      },
+      {
+        "n": 4,
+        "biochem_file": "20260908_190804",
+        "biochem_sample": "2 - 7",
+        "biochem_datetime": "09/10/2024 13:48:27",
+        "biochem_patient": "102411384-04",
+        "glu_file": "20260908_190907",
+        "glu_sample": "2 - 8",
+        "glu_datetime": "09/10/2024 13:51:34",
+        "glu_patient": "102411384-04",
+        "values": {
+          "Glu": 99.9, "Chol": 182.4, "Alb": 4.11, "TGL": 383.6,
+          "SGOT": 15.3, "UAC": 4.92, "CRT J": 0.78, "TPR": 7.17,
+          "Cal": 9.74, "Urea": 16.8, "SGPT": 16.5, "GGT": 28.4,
+          "DBil": 0.12, "TBil": 0.45, "ALP": 84.3
+        },
+        "rc_biochem0": 97760,
+        "rc_glu": 97774
+      },
+      {
+        "n": 5,
+        "biochem_file": "20260908_190813",
+        "biochem_sample": "2 - 9",
+        "biochem_datetime": "09/10/2024 14:58:35",
+        "biochem_patient": "102411384-05",
+        "glu_file": "20260908_190921",
+        "glu_sample": "2 - 10",
+        "glu_datetime": "09/10/2024 15:01:41",
+        "glu_patient": "102411384-05",
+        "values": {
+          "Glu": 98.1, "Chol": 174.1, "Alb": 4.21, "TGL": 393.2,
+          "SGOT": 14.3, "UAC": 4.88, "CRT J": 0.83, "TPR": 7.2,
+          "Cal": 9.28, "Urea": 17.4, "SGPT": 17.3, "GGT": 27.9,
+          "DBil": 0.14, "TBil": 0.41, "ALP": 90.2
+        },
+        "rc_biochem0": 97775,
+        "rc_glu": 97789
+      }
+    ]
+  }
+]

@@ -1,0 +1,1607 @@
+[
+  {
+    "file": "20260908_123109",
+    "rows": [
+      {
+        "datetime": "12-05-2025 08:31:08",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3396"
+      },
+      {
+        "datetime": "12-05-2025 08:30:42",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0068"
+      },
+      {
+        "datetime": "12-05-2025 08:30:15",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0732"
+      },
+      {
+        "datetime": "12-05-2025 08:29:48",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0015"
+      },
+      {
+        "datetime": "12-05-2025 08:29:22",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.5003"
+      },
+      {
+        "datetime": "12-05-2025 08:28:55",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0054"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123113",
+    "rows": [
+      {
+        "datetime": "12-05-2025 08:31:08",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3396"
+      },
+      {
+        "datetime": "12-05-2025 08:30:42",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0068"
+      },
+      {
+        "datetime": "12-05-2025 08:30:15",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0732"
+      },
+      {
+        "datetime": "12-05-2025 08:29:48",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0015"
+      },
+      {
+        "datetime": "12-05-2025 08:29:22",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.5003"
+      },
+      {
+        "datetime": "12-05-2025 08:28:55",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0054"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123158",
+    "rows": [
+      {
+        "datetime": "07-05-2025 08:45:24",
+        "item": "BIL T",
+        "specimen": "Serum",
+        "lot": "2275",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.1438"
+      },
+      {
+        "datetime": "07-05-2025 08:44:57",
+        "item": "BIL T",
+        "specimen": "Serum",
+        "lot": "2275",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0003"
+      },
+      {
+        "datetime": "07-05-2025 08:44:31",
+        "item": "UAC",
+        "specimen": "Serum",
+        "lot": "9025",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0600"
+      },
+      {
+        "datetime": "07-05-2025 08:44:04",
+        "item": "UAC",
+        "specimen": "Serum",
+        "lot": "9025",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0023"
+      },
+      {
+        "datetime": "07-05-2025 08:43:37",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.2217"
+      },
+      {
+        "datetime": "07-05-2025 08:43:10",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0003"
+      },
+      {
+        "datetime": "07-05-2025 08:42:44",
+        "item": "UREA UV",
+        "specimen": "Serum",
+        "lot": "8061",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.2772"
+      },
+      {
+        "datetime": "07-05-2025 08:42:17",
+        "item": "UREA UV",
+        "specimen": "Serum",
+        "lot": "8061",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0165"
+      },
+      {
+        "datetime": "07-05-2025 08:41:51",
+        "item": "CRT J",
+        "specimen": "Serum",
+        "lot": "0190",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0693"
+      },
+      {
+        "datetime": "07-05-2025 08:41:24",
+        "item": "CRT J",
+        "specimen": "Serum",
+        "lot": "0190",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0005"
+      },
+      {
+        "datetime": "07-05-2025 08:40:57",
+        "item": "GLU",
+        "specimen": "Serum",
+        "lot": "8256",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.4701"
+      },
+      {
+        "datetime": "07-05-2025 08:40:31",
+        "item": "GLU",
+        "specimen": "Serum",
+        "lot": "8256",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0012"
+      },
+      {
+        "datetime": "07-05-2025 08:40:04",
+        "item": "GGT",
+        "specimen": "Serum",
+        "lot": "1153",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0628"
+      },
+      {
+        "datetime": "07-05-2025 08:39:37",
+        "item": "GGT",
+        "specimen": "Serum",
+        "lot": "1153",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0017"
+      },
+      {
+        "datetime": "07-05-2025 08:39:10",
+        "item": "SGPT",
+        "specimen": "Serum",
+        "lot": "0465",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.0219"
+      },
+      {
+        "datetime": "07-05-2025 08:38:44",
+        "item": "SGPT",
+        "specimen": "Serum",
+        "lot": "0465",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0005"
+      },
+      {
+        "datetime": "07-05-2025 08:38:17",
+        "item": "BIL D",
+        "specimen": "Serum",
+        "lot": "2351",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0635"
+      },
+      {
+        "datetime": "07-05-2025 08:37:50",
+        "item": "BIL D",
+        "specimen": "Serum",
+        "lot": "2351",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0008"
+      },
+      {
+        "datetime": "07-05-2025 08:37:24",
+        "item": "SGOT",
+        "specimen": "Serum",
+        "lot": "5003",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.0241"
+      },
+      {
+        "datetime": "07-05-2025 08:36:57",
+        "item": "SGOT",
+        "specimen": "Serum",
+        "lot": "5003",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0020"
+      },
+      {
+        "datetime": "07-05-2025 08:36:30",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.8409"
+      },
+      {
+        "datetime": "07-05-2025 08:36:04",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0173"
+      },
+      {
+        "datetime": "07-05-2025 08:35:37",
+        "item": "TGL",
+        "specimen": "Serum",
+        "lot": "2305",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.1954"
+      },
+      {
+        "datetime": "07-05-2025 08:35:10",
+        "item": "TGL",
+        "specimen": "Serum",
+        "lot": "2305",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0003"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123209",
+    "rows": [
+      {
+        "datetime": "05-05-2025 08:33:20",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3402"
+      },
+      {
+        "datetime": "05-05-2025 08:32:53",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0076"
+      },
+      {
+        "datetime": "05-05-2025 08:32:26",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0741"
+      },
+      {
+        "datetime": "05-05-2025 08:32:00",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0018"
+      },
+      {
+        "datetime": "05-05-2025 08:31:33",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.5006"
+      },
+      {
+        "datetime": "05-05-2025 08:31:06",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0032"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123218",
+    "rows": [
+      {
+        "datetime": "28-04-2025 08:36:49",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3392"
+      },
+      {
+        "datetime": "28-04-2025 08:36:22",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0073"
+      },
+      {
+        "datetime": "28-04-2025 08:35:56",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0745"
+      },
+      {
+        "datetime": "28-04-2025 08:35:29",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0016"
+      },
+      {
+        "datetime": "28-04-2025 08:35:02",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.4975"
+      },
+      {
+        "datetime": "28-04-2025 08:34:37",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0055"
+      },
+      {
+        "datetime": "28-04-2025 08:34:09",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.8477"
+      },
+      {
+        "datetime": "28-04-2025 08:33:42",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0176"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123228",
+    "rows": [
+      {
+        "datetime": "22-04-2025 08:45:46",
+        "item": "BIL T",
+        "specimen": "Serum",
+        "lot": "2275",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.1464"
+      },
+      {
+        "datetime": "22-04-2025 08:45:19",
+        "item": "BIL T",
+        "specimen": "Serum",
+        "lot": "2275",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0003"
+      },
+      {
+        "datetime": "22-04-2025 08:44:53",
+        "item": "CRT J",
+        "specimen": "Serum",
+        "lot": "0190",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0710"
+      },
+      {
+        "datetime": "22-04-2025 08:44:26",
+        "item": "CRT J",
+        "specimen": "Serum",
+        "lot": "0190",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0010"
+      },
+      {
+        "datetime": "22-04-2025 08:43:59",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3455"
+      },
+      {
+        "datetime": "22-04-2025 08:43:33",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0072"
+      },
+      {
+        "datetime": "22-04-2025 08:43:06",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0742"
+      },
+      {
+        "datetime": "22-04-2025 08:42:39",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0014"
+      },
+      {
+        "datetime": "22-04-2025 08:42:13",
+        "item": "BIL D",
+        "specimen": "Serum",
+        "lot": "2351",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0633"
+      },
+      {
+        "datetime": "22-04-2025 08:41:46",
+        "item": "BIL D",
+        "specimen": "Serum",
+        "lot": "2351",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0003"
+      },
+      {
+        "datetime": "22-04-2025 08:41:19",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.5103"
+      },
+      {
+        "datetime": "22-04-2025 08:40:53",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0073"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123243",
+    "rows": [
+      {
+        "datetime": "18-04-2025 08:33:07",
+        "item": "UAC",
+        "specimen": "Serum",
+        "lot": null,
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.0005"
+      },
+      {
+        "datetime": "18-04-2025 08:32:41",
+        "item": "UAC",
+        "specimen": "Serum",
+        "lot": null,
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0016"
+      },
+      {
+        "datetime": "18-04-2025 08:32:14",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.2261"
+      },
+      {
+        "datetime": "18-04-2025 08:31:47",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0009"
+      },
+      {
+        "datetime": "18-04-2025 08:31:21",
+        "item": "UREA UV",
+        "specimen": "Serum",
+        "lot": "8061",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.2894"
+      },
+      {
+        "datetime": "18-04-2025 08:30:54",
+        "item": "UREA UV",
+        "specimen": "Serum",
+        "lot": "8061",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0157"
+      },
+      {
+        "datetime": "18-04-2025 08:30:27",
+        "item": "GLU",
+        "specimen": "Serum",
+        "lot": "8256",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.4883"
+      },
+      {
+        "datetime": "18-04-2025 08:30:01",
+        "item": "GLU",
+        "specimen": "Serum",
+        "lot": "8256",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0012"
+      },
+      {
+        "datetime": "18-04-2025 08:29:34",
+        "item": "GGT",
+        "specimen": "Serum",
+        "lot": "1153",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0642"
+      },
+      {
+        "datetime": "18-04-2025 08:29:07",
+        "item": "GGT",
+        "specimen": "Serum",
+        "lot": "1153",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0017"
+      },
+      {
+        "datetime": "18-04-2025 08:28:41",
+        "item": "SGPT",
+        "specimen": "Serum",
+        "lot": "0465",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.0227"
+      },
+      {
+        "datetime": "18-04-2025 08:28:14",
+        "item": "SGPT",
+        "specimen": "Serum",
+        "lot": "0465",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0006"
+      },
+      {
+        "datetime": "18-04-2025 08:27:47",
+        "item": "SGOT",
+        "specimen": "Serum",
+        "lot": "5003",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.0246"
+      },
+      {
+        "datetime": "18-04-2025 08:27:21",
+        "item": "SGOT",
+        "specimen": "Serum",
+        "lot": "5003",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0018"
+      },
+      {
+        "datetime": "18-04-2025 08:26:54",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.8609"
+      },
+      {
+        "datetime": "18-04-2025 08:26:27",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0145"
+      },
+      {
+        "datetime": "18-04-2025 08:26:01",
+        "item": "TGL",
+        "specimen": "Serum",
+        "lot": "2305",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.2031"
+      },
+      {
+        "datetime": "18-04-2025 08:25:34",
+        "item": "TGL",
+        "specimen": "Serum",
+        "lot": "2305",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0002"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123257",
+    "rows": [
+      {
+        "datetime": "15-04-2025 08:44:07",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3468"
+      },
+      {
+        "datetime": "15-04-2025 08:43:40",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0066"
+      },
+      {
+        "datetime": "15-04-2025 08:43:14",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0766"
+      },
+      {
+        "datetime": "15-04-2025 08:42:47",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0014"
+      },
+      {
+        "datetime": "15-04-2025 08:42:20",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.5102"
+      },
+      {
+        "datetime": "15-04-2025 08:41:54",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0068"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123311",
+    "rows": [
+      {
+        "datetime": "08-04-2025 08:44:28",
+        "item": "BIL T",
+        "specimen": "Serum",
+        "lot": "2275",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.1536"
+      },
+      {
+        "datetime": "08-04-2025 08:44:02",
+        "item": "BIL T",
+        "specimen": "Serum",
+        "lot": "2275",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0005"
+      },
+      {
+        "datetime": "08-04-2025 08:43:35",
+        "item": "CRT J",
+        "specimen": "Serum",
+        "lot": "0190",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0718"
+      },
+      {
+        "datetime": "08-04-2025 08:43:08",
+        "item": "CRT J",
+        "specimen": "Serum",
+        "lot": "0190",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0007"
+      },
+      {
+        "datetime": "08-04-2025 08:42:42",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3509"
+      },
+      {
+        "datetime": "08-04-2025 08:42:15",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0065"
+      },
+      {
+        "datetime": "08-04-2025 08:41:48",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0773"
+      },
+      {
+        "datetime": "08-04-2025 08:41:22",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0016"
+      },
+      {
+        "datetime": "08-04-2025 08:40:55",
+        "item": "BIL D",
+        "specimen": "Serum",
+        "lot": "2351",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0651"
+      },
+      {
+        "datetime": "08-04-2025 08:40:28",
+        "item": "BIL D",
+        "specimen": "Serum",
+        "lot": "2351",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0003"
+      },
+      {
+        "datetime": "08-04-2025 08:40:02",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.5199"
+      },
+      {
+        "datetime": "08-04-2025 08:39:35",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0038"
+      },
+      {
+        "datetime": "08-04-2025 08:39:08",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.8759"
+      },
+      {
+        "datetime": "08-04-2025 08:38:42",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0104"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123333",
+    "rows": [
+      {
+        "datetime": "02-04-2025 08:27:35",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3291"
+      },
+      {
+        "datetime": "02-04-2025 08:27:08",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0077"
+      },
+      {
+        "datetime": "02-04-2025 08:26:41",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0717"
+      },
+      {
+        "datetime": "02-04-2025 08:26:15",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0013"
+      },
+      {
+        "datetime": "02-04-2025 08:25:48",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.4993"
+      },
+      {
+        "datetime": "02-04-2025 08:25:21",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0046"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123357",
+    "rows": [
+      {
+        "datetime": "29-03-2025 08:37:53",
+        "item": "UAC",
+        "specimen": "Serum",
+        "lot": "1431",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0738"
+      },
+      {
+        "datetime": "29-03-2025 08:37:26",
+        "item": "UAC",
+        "specimen": "Serum",
+        "lot": "1431",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0016"
+      },
+      {
+        "datetime": "29-03-2025 08:37:00",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.2176"
+      },
+      {
+        "datetime": "29-03-2025 08:36:33",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0008"
+      },
+      {
+        "datetime": "29-03-2025 08:36:06",
+        "item": "UREA UV",
+        "specimen": "Serum",
+        "lot": "8061",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.2758"
+      },
+      {
+        "datetime": "29-03-2025 08:35:40",
+        "item": "UREA UV",
+        "specimen": "Serum",
+        "lot": "8061",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0170"
+      },
+      {
+        "datetime": "29-03-2025 08:35:13",
+        "item": "GLU",
+        "specimen": "Serum",
+        "lot": "8256",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.4669"
+      },
+      {
+        "datetime": "29-03-2025 08:34:47",
+        "item": "GLU",
+        "specimen": "Serum",
+        "lot": "8256",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0009"
+      },
+      {
+        "datetime": "29-03-2025 08:34:20",
+        "item": "GGT",
+        "specimen": "Serum",
+        "lot": "1153",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0615"
+      },
+      {
+        "datetime": "29-03-2025 08:33:53",
+        "item": "GGT",
+        "specimen": "Serum",
+        "lot": "1153",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0019"
+      },
+      {
+        "datetime": "29-03-2025 08:33:26",
+        "item": "SGPT",
+        "specimen": "Serum",
+        "lot": "0465",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.0216"
+      },
+      {
+        "datetime": "29-03-2025 08:33:00",
+        "item": "SGPT",
+        "specimen": "Serum",
+        "lot": "0465",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0009"
+      },
+      {
+        "datetime": "29-03-2025 08:32:33",
+        "item": "SGOT",
+        "specimen": "Serum",
+        "lot": "5003",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.0236"
+      },
+      {
+        "datetime": "29-03-2025 08:32:06",
+        "item": "SGOT",
+        "specimen": "Serum",
+        "lot": "5003",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0016"
+      },
+      {
+        "datetime": "29-03-2025 08:31:40",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.8398"
+      },
+      {
+        "datetime": "29-03-2025 08:31:13",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0188"
+      },
+      {
+        "datetime": "29-03-2025 08:30:46",
+        "item": "TGL",
+        "specimen": "Serum",
+        "lot": "2305",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.1990"
+      },
+      {
+        "datetime": "29-03-2025 08:30:20",
+        "item": "TGL",
+        "specimen": "Serum",
+        "lot": "2305",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0023"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123411",
+    "rows": [
+      {
+        "datetime": "26-03-2025 18:31:23",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0702"
+      },
+      {
+        "datetime": "26-03-2025 18:30:56",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0013"
+      },
+      {
+        "datetime": "26-03-2025 18:30:30",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.2116"
+      },
+      {
+        "datetime": "26-03-2025 18:30:03",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0197"
+      },
+      {
+        "datetime": "26-03-2025 17:41:28",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.1415"
+      },
+      {
+        "datetime": "26-03-2025 17:41:01",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0017"
+      },
+      {
+        "datetime": "26-03-2025 17:40:35",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.2335"
+      },
+      {
+        "datetime": "26-03-2025 17:40:08",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0110"
+      },
+      {
+        "datetime": "26-03-2025 17:00:25",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0928"
+      },
+      {
+        "datetime": "26-03-2025 16:59:58",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0014"
+      },
+      {
+        "datetime": "26-03-2025 16:59:31",
+        "item": "CRT J",
+        "specimen": "Serum",
+        "lot": "0190",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0307"
+      },
+      {
+        "datetime": "26-03-2025 16:59:05",
+        "item": "CRT J",
+        "specimen": "Serum",
+        "lot": "0190",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0005"
+      },
+      {
+        "datetime": "26-03-2025 16:58:38",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.4199"
+      },
+      {
+        "datetime": "26-03-2025 16:58:11",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0081"
+      },
+      {
+        "datetime": "26-03-2025 16:57:45",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.2178"
+      },
+      {
+        "datetime": "26-03-2025 16:57:18",
+        "item": "CHOL",
+        "specimen": "Serum",
+        "lot": "4170",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0099"
+      },
+      {
+        "datetime": "26-03-2025 16:56:51",
+        "item": "SGPT",
+        "specimen": "Serum",
+        "lot": "0465",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.0215"
+      },
+      {
+        "datetime": "26-03-2025 16:56:25",
+        "item": "SGPT",
+        "specimen": "Serum",
+        "lot": "0465",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0012"
+      },
+      {
+        "datetime": "26-03-2025 16:55:58",
+        "item": "SGOT",
+        "specimen": "Serum",
+        "lot": "5003",
+        "tray": "C1",
+        "pos": "2",
+        "result": "-0.0269"
+      },
+      {
+        "datetime": "26-03-2025 16:55:31",
+        "item": "SGOT",
+        "specimen": "Serum",
+        "lot": "5003",
+        "tray": "C1",
+        "pos": "1",
+        "result": "-0.0014"
+      },
+      {
+        "datetime": "26-03-2025 08:36:59",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3355"
+      },
+      {
+        "datetime": "26-03-2025 08:36:33",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0212"
+      },
+      {
+        "datetime": "26-03-2025 08:36:06",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0774"
+      },
+      {
+        "datetime": "26-03-2025 08:35:39",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0010"
+      },
+      {
+        "datetime": "26-03-2025 08:35:13",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.4898"
+      },
+      {
+        "datetime": "26-03-2025 08:34:46",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0061"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123423",
+    "rows": [
+      {
+        "datetime": "24-03-2025 08:28:50",
+        "item": "BIL T",
+        "specimen": "Serum",
+        "lot": "2275",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.1436"
+      },
+      {
+        "datetime": "24-03-2025 08:28:23",
+        "item": "BIL T",
+        "specimen": "Serum",
+        "lot": "2275",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0004"
+      },
+      {
+        "datetime": "24-03-2025 08:27:56",
+        "item": "CRT J",
+        "specimen": "Serum",
+        "lot": "0190",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0689"
+      },
+      {
+        "datetime": "24-03-2025 08:27:30",
+        "item": "CRT J",
+        "specimen": "Serum",
+        "lot": "0190",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0006"
+      },
+      {
+        "datetime": "24-03-2025 08:27:03",
+        "item": "BIL D",
+        "specimen": "Serum",
+        "lot": "2351",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0632"
+      },
+      {
+        "datetime": "24-03-2025 08:26:36",
+        "item": "BIL D",
+        "specimen": "Serum",
+        "lot": "2351",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0002"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123448",
+    "rows": [
+      {
+        "datetime": "19-03-2025 08:53:26",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3428"
+      },
+      {
+        "datetime": "19-03-2025 08:52:59",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0063"
+      },
+      {
+        "datetime": "19-03-2025 08:52:33",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0800"
+      },
+      {
+        "datetime": "19-03-2025 08:52:06",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0020"
+      },
+      {
+        "datetime": "19-03-2025 08:51:39",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.5261"
+      },
+      {
+        "datetime": "19-03-2025 08:51:13",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0035"
+      },
+      {
+        "datetime": "19-03-2025 08:50:46",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.8713"
+      },
+      {
+        "datetime": "19-03-2025 08:50:19",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0085"
+      }
+    ]
+  },
+  {
+    "file": "20260908_123508",
+    "rows": [
+      {
+        "datetime": "13-03-2025 08:32:36",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.3469"
+      },
+      {
+        "datetime": "13-03-2025 08:32:09",
+        "item": "TPR",
+        "specimen": "Serum",
+        "lot": "8394",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0087"
+      },
+      {
+        "datetime": "13-03-2025 08:31:43",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.0804"
+      },
+      {
+        "datetime": "13-03-2025 08:31:16",
+        "item": "ALP IFCC",
+        "specimen": "Serum",
+        "lot": "0229",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0012"
+      },
+      {
+        "datetime": "13-03-2025 08:30:49",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.5280"
+      },
+      {
+        "datetime": "13-03-2025 08:30:23",
+        "item": "CAL A",
+        "specimen": "Serum",
+        "lot": "2114",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0049"
+      }
+    ]
+  }
+]

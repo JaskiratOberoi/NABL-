@@ -1,0 +1,29 @@
+{
+  "High": {
+    "file": "plots_template_High.png",
+    "mcv": 107.6,
+    "mpv": 9.7,
+    "size": [
+      1169,
+      278
+    ]
+  },
+  "Low": {
+    "file": "plots_template_Low.png",
+    "mcv": 92.9,
+    "mpv": 10.3,
+    "size": [
+      1163,
+      256
+    ]
+  },
+  "Normal": {
+    "file": "plots_template_Normal.png",
+    "mcv": 99.6,
+    "mpv": 9.3,
+    "size": [
+      1169,
+      264
+    ]
+  }
+}

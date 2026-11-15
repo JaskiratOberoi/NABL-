@@ -1,0 +1,357 @@
+[
+  {
+    "name": "00_backup_tables",
+    "file": "00_backup_tables.sql",
+    "chars": 593
+  },
+  {
+    "name": "01_delete_records",
+    "file": "01_delete_records.sql",
+    "chars": 157
+  },
+  {
+    "name": "02_limit_43",
+    "file": "02_limit_43.sql",
+    "chars": 1578
+  },
+  {
+    "name": "02_limit_44",
+    "file": "02_limit_44.sql",
+    "chars": 1583
+  },
+  {
+    "name": "02_limit_45",
+    "file": "02_limit_45.sql",
+    "chars": 1592
+  },
+  {
+    "name": "02_limit_46",
+    "file": "02_limit_46.sql",
+    "chars": 1576
+  },
+  {
+    "name": "02_limit_47",
+    "file": "02_limit_47.sql",
+    "chars": 1583
+  },
+  {
+    "name": "02_limit_48",
+    "file": "02_limit_48.sql",
+    "chars": 1593
+  },
+  {
+    "name": "02_limit_49",
+    "file": "02_limit_49.sql",
+    "chars": 1578
+  },
+  {
+    "name": "02_limit_50",
+    "file": "02_limit_50.sql",
+    "chars": 1583
+  },
+  {
+    "name": "02_limit_51",
+    "file": "02_limit_51.sql",
+    "chars": 1592
+  },
+  {
+    "name": "02_limit_52",
+    "file": "02_limit_52.sql",
+    "chars": 1577
+  },
+  {
+    "name": "02_limit_53",
+    "file": "02_limit_53.sql",
+    "chars": 1583
+  },
+  {
+    "name": "02_limit_54",
+    "file": "02_limit_54.sql",
+    "chars": 1592
+  },
+  {
+    "name": "02_limit_55",
+    "file": "02_limit_55.sql",
+    "chars": 1576
+  },
+  {
+    "name": "02_limit_56",
+    "file": "02_limit_56.sql",
+    "chars": 1583
+  },
+  {
+    "name": "02_limit_57",
+    "file": "02_limit_57.sql",
+    "chars": 1593
+  },
+  {
+    "name": "02_limit_58",
+    "file": "02_limit_58.sql",
+    "chars": 1577
+  },
+  {
+    "name": "02_limit_59",
+    "file": "02_limit_59.sql",
+    "chars": 1583
+  },
+  {
+    "name": "02_limit_60",
+    "file": "02_limit_60.sql",
+    "chars": 1594
+  },
+  {
+    "name": "02_limit_61",
+    "file": "02_limit_61.sql",
+    "chars": 1502
+  },
+  {
+    "name": "02_limit_62",
+    "file": "02_limit_62.sql",
+    "chars": 1508
+  },
+  {
+    "name": "02_limit_63",
+    "file": "02_limit_63.sql",
+    "chars": 1519
+  },
+  {
+    "name": "03_records_01",
+    "file": "03_records_01.sql",
+    "chars": 4636
+  },
+  {
+    "name": "03_records_02",
+    "file": "03_records_02.sql",
+    "chars": 4666
+  },
+  {
+    "name": "03_records_03",
+    "file": "03_records_03.sql",
+    "chars": 4702
+  },
+  {
+    "name": "03_records_04",
+    "file": "03_records_04.sql",
+    "chars": 4723
+  },
+  {
+    "name": "03_records_05",
+    "file": "03_records_05.sql",
+    "chars": 4690
+  },
+  {
+    "name": "03_records_06",
+    "file": "03_records_06.sql",
+    "chars": 4642
+  },
+  {
+    "name": "03_records_07",
+    "file": "03_records_07.sql",
+    "chars": 4636
+  },
+  {
+    "name": "03_records_08",
+    "file": "03_records_08.sql",
+    "chars": 4654
+  },
+  {
+    "name": "03_records_09",
+    "file": "03_records_09.sql",
+    "chars": 4702
+  },
+  {
+    "name": "03_records_10",
+    "file": "03_records_10.sql",
+    "chars": 4720
+  },
+  {
+    "name": "03_records_11",
+    "file": "03_records_11.sql",
+    "chars": 4699
+  },
+  {
+    "name": "03_records_12",
+    "file": "03_records_12.sql",
+    "chars": 4642
+  },
+  {
+    "name": "03_records_13",
+    "file": "03_records_13.sql",
+    "chars": 4636
+  },
+  {
+    "name": "03_records_14",
+    "file": "03_records_14.sql",
+    "chars": 4651
+  },
+  {
+    "name": "03_records_15",
+    "file": "03_records_15.sql",
+    "chars": 4692
+  },
+  {
+    "name": "03_records_16",
+    "file": "03_records_16.sql",
+    "chars": 4710
+  },
+  {
+    "name": "03_records_17",
+    "file": "03_records_17.sql",
+    "chars": 4693
+  },
+  {
+    "name": "03_records_18",
+    "file": "03_records_18.sql",
+    "chars": 4642
+  },
+  {
+    "name": "03_records_19",
+    "file": "03_records_19.sql",
+    "chars": 4636
+  },
+  {
+    "name": "03_records_20",
+    "file": "03_records_20.sql",
+    "chars": 4646
+  },
+  {
+    "name": "03_records_21",
+    "file": "03_records_21.sql",
+    "chars": 4692
+  },
+  {
+    "name": "03_records_22",
+    "file": "03_records_22.sql",
+    "chars": 4707
+  },
+  {
+    "name": "03_records_23",
+    "file": "03_records_23.sql",
+    "chars": 4700
+  },
+  {
+    "name": "03_records_24",
+    "file": "03_records_24.sql",
+    "chars": 4642
+  },
+  {
+    "name": "03_records_25",
+    "file": "03_records_25.sql",
+    "chars": 4636
+  },
+  {
+    "name": "03_records_26",
+    "file": "03_records_26.sql",
+    "chars": 4663
+  },
+  {
+    "name": "03_records_27",
+    "file": "03_records_27.sql",
+    "chars": 4698
+  },
+  {
+    "name": "03_records_28",
+    "file": "03_records_28.sql",
+    "chars": 4722
+  },
+  {
+    "name": "03_records_29",
+    "file": "03_records_29.sql",
+    "chars": 4687
+  },
+  {
+    "name": "03_records_30",
+    "file": "03_records_30.sql",
+    "chars": 4642
+  },
+  {
+    "name": "03_records_31",
+    "file": "03_records_31.sql",
+    "chars": 4636
+  },
+  {
+    "name": "03_records_32",
+    "file": "03_records_32.sql",
+    "chars": 4657
+  },
+  {
+    "name": "03_records_33",
+    "file": "03_records_33.sql",
+    "chars": 4691
+  },
+  {
+    "name": "03_records_34",
+    "file": "03_records_34.sql",
+    "chars": 4712
+  },
+  {
+    "name": "03_records_35",
+    "file": "03_records_35.sql",
+    "chars": 4696
+  },
+  {
+    "name": "03_records_36",
+    "file": "03_records_36.sql",
+    "chars": 4642
+  },
+  {
+    "name": "03_records_37",
+    "file": "03_records_37.sql",
+    "chars": 4636
+  },
+  {
+    "name": "03_records_38",
+    "file": "03_records_38.sql",
+    "chars": 4654
+  },
+  {
+    "name": "03_records_39",
+    "file": "03_records_39.sql",
+    "chars": 4693
+  },
+  {
+    "name": "03_records_40",
+    "file": "03_records_40.sql",
+    "chars": 4713
+  },
+  {
+    "name": "03_records_41",
+    "file": "03_records_41.sql",
+    "chars": 4695
+  },
+  {
+    "name": "03_records_42",
+    "file": "03_records_42.sql",
+    "chars": 4642
+  },
+  {
+    "name": "03_records_43",
+    "file": "03_records_43.sql",
+    "chars": 4615
+  },
+  {
+    "name": "03_records_44",
+    "file": "03_records_44.sql",
+    "chars": 4618
+  },
+  {
+    "name": "03_records_45",
+    "file": "03_records_45.sql",
+    "chars": 4671
+  },
+  {
+    "name": "03_records_46",
+    "file": "03_records_46.sql",
+    "chars": 1690
+  },
+  {
+    "name": "04_sampleid",
+    "file": "04_sampleid.sql",
+    "chars": 210
+  },
+  {
+    "name": "05_verify",
+    "file": "05_verify.sql",
+    "chars": 725
+  }
+]

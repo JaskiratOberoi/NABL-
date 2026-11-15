@@ -1,0 +1,644 @@
+[
+  {
+    "file": "20260910_141143",
+    "kind": "form",
+    "date": "24/8/25",
+    "blocks": [
+      {
+        "date": "24/8/25",
+        "patient_id": [
+          "L1",
+          "L2"
+        ],
+        "kit_name": "Testo",
+        "old_lot": "016230421",
+        "old_exp": "7/02/26",
+        "new_lot": "255240111",
+        "new_exp": "29/03/2026",
+        "old_L1": "84.8",
+        "new_L1": "88.05",
+        "var_L1": "3.69",
+        "old_L2": "466.71",
+        "new_L2": "469.31",
+        "var_L2": "0.55",
+        "done_by": "",
+        "verified_by": ""
+      },
+      {
+        "date": "24/8/25",
+        "patient_id": [
+          "L1",
+          "L2"
+        ],
+        "kit_name": "FSH",
+        "old_lot": "011230211",
+        "old_exp": "9/08/26",
+        "new_lot": "251240111",
+        "new_exp": "06/03/2026",
+        "old_L1": "4.98",
+        "new_L1": "4.92",
+        "var_L1": "1.20",
+        "old_L2": "21.8",
+        "new_L2": "21.72",
+        "var_L2": "0.36",
+        "done_by": "",
+        "verified_by": ""
+      },
+      {
+        "date": "24/8/25",
+        "patient_id": [
+          "L1",
+          "L2"
+        ],
+        "kit_name": "LH",
+        "old_lot": "012230221",
+        "old_exp": "30/12/25",
+        "new_lot": "252240211",
+        "new_exp": "15-01-2027",
+        "old_L1": "2.75",
+        "new_L1": "2.71",
+        "var_L1": "1.45",
+        "old_L2": "31.42",
+        "new_L2": "30.04",
+        "var_L2": "4.39",
+        "done_by": "",
+        "verified_by": ""
+      },
+      {
+        "date": "24/8/25",
+        "patient_id": [
+          "L1",
+          "L2"
+        ],
+        "kit_name": "E2",
+        "old_lot": "015230211",
+        "old_exp": "10/03/26",
+        "new_lot": "256240111",
+        "new_exp": "29-11-2025",
+        "old_L1": "103.18",
+        "new_L1": "99.82",
+        "var_L1": "3.25",
+        "old_L2": "333.98",
+        "new_L2": "332.59",
+        "var_L2": "0.41",
+        "done_by": "",
+        "verified_by": ""
+      }
+    ]
+  },
+  {
+    "file": "20260910_141154",
+    "kind": "form",
+    "date": "24/8/25",
+    "blocks": [
+      {
+        "date": "24/8/25",
+        "patient_id": [
+          "L1",
+          "L2"
+        ],
+        "kit_name": "BhCG",
+        "old_lot": "017230221",
+        "old_exp": "10/05/26",
+        "new_lot": "257250111",
+        "new_exp": "22/09/2026",
+        "old_L1": "8.89",
+        "new_L1": "8.98",
+        "var_L1": "1.00",
+        "old_L2": "21.91",
+        "new_L2": "21.1",
+        "var_L2": "3.69",
+        "done_by": "",
+        "verified_by": ""
+      },
+      {
+        "date": "24/8/25",
+        "patient_id": [
+          "L1",
+          "L2"
+        ],
+        "kit_name": "T3",
+        "old_lot": "001230221",
+        "old_exp": "24/12/25",
+        "new_lot": "242230421",
+        "new_exp": "10/01/2026",
+        "old_L1": "0.82",
+        "new_L1": "0.86",
+        "var_L1": "4.65",
+        "old_L2": "1.67",
+        "new_L2": "1.74",
+        "var_L2": "4.02",
+        "done_by": "",
+        "verified_by": ""
+      }
+    ]
+  },
+  {
+    "file": "20260910_141159",
+    "kind": "sample",
+    "datetime": "2025-08-24 14:18:12",
+    "rows": [
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "FSH",
+        "rlu": "51400",
+        "rlu_cv": "0",
+        "conc": "4.98 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:21:01"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "LH",
+        "rlu": "14252",
+        "rlu_cv": "0",
+        "conc": "2.75 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:31:02"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "PRL",
+        "rlu": "165559",
+        "rlu_cv": "0",
+        "conc": "8.08 ng/ml",
+        "flag": "",
+        "finish": "2025-08-24 09:11:38"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "E2",
+        "rlu": "1306461",
+        "rlu_cv": "0",
+        "conc": "103.18 pg/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:48:34"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "T3",
+        "rlu": "590759",
+        "rlu_cv": "0",
+        "conc": "0.82 ng/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:18:35"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "T4",
+        "rlu": "136911",
+        "rlu_cv": "0",
+        "conc": "7.40 ug/dl",
+        "flag": "",
+        "finish": "2025-08-24 09:05:42"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "TEST",
+        "rlu": "4051378",
+        "rlu_cv": "0",
+        "conc": "84.80 ng/dl",
+        "flag": "",
+        "finish": "2025-08-24 09:46:56"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "HCG/B-HCG",
+        "rlu": "7938",
+        "rlu_cv": "0",
+        "conc": "8.89 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:35:31"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "TSH",
+        "rlu": "24719",
+        "rlu_cv": "0",
+        "conc": "0.52 uIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:15:27"
+      }
+    ]
+  },
+  {
+    "file": "20260910_141208",
+    "kind": "sample",
+    "datetime": "2025-08-24 14:18:12",
+    "rows": [
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "FSH",
+        "rlu": "77237",
+        "rlu_cv": "0",
+        "conc": "21.8 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:44:06"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "LH",
+        "rlu": "165956",
+        "rlu_cv": "0",
+        "conc": "31.42 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:03:33"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "PRL",
+        "rlu": "261297",
+        "rlu_cv": "0",
+        "conc": "21.57 ng/ml",
+        "flag": "",
+        "finish": "2025-08-24 09:39:34"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "E2",
+        "rlu": "468840",
+        "rlu_cv": "0",
+        "conc": "333.98 pg/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:06:24"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "T3",
+        "rlu": "333395",
+        "rlu_cv": "0",
+        "conc": "1.67 ng/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:20:23"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "T4",
+        "rlu": "61090",
+        "rlu_cv": "0",
+        "conc": "11.62 ug/dl",
+        "flag": "",
+        "finish": "2025-08-24 09:18:43"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "TEST",
+        "rlu": "231734",
+        "rlu_cv": "0",
+        "conc": "466.71 ng/dl",
+        "flag": "",
+        "finish": "2025-08-24 09:07:17"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "HCG/B-HCG",
+        "rlu": "31503",
+        "rlu_cv": "0",
+        "conc": "21.91 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:08:46"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "TSH",
+        "rlu": "253283",
+        "rlu_cv": "0",
+        "conc": "5.09 uIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 09:25:01"
+      }
+    ]
+  },
+  {
+    "file": "20260910_141214",
+    "kind": "sample",
+    "datetime": "2025-08-24 14:20:22",
+    "rows": [
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "FSH",
+        "rlu": "50887",
+        "rlu_cv": "0",
+        "conc": "4.92 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 10:56:17"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "LH",
+        "rlu": "14122",
+        "rlu_cv": "0",
+        "conc": "2.71 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 10:30:41"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "E2",
+        "rlu": "1366830",
+        "rlu_cv": "0",
+        "conc": "99.82 pg/mL",
+        "flag": "",
+        "finish": "2025-08-24 10:26:01"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "T3",
+        "rlu": "576672",
+        "rlu_cv": "0",
+        "conc": "0.86 ng/mL",
+        "flag": "",
+        "finish": "2025-08-24 10:48:50"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "TEST",
+        "rlu": "3988027",
+        "rlu_cv": "0",
+        "conc": "88.05 ng/dl",
+        "flag": "",
+        "finish": "2025-08-24 10:33:41"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "HCG/B-HCG",
+        "rlu": "8031",
+        "rlu_cv": "0",
+        "conc": "8.98 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 10:53:41"
+      }
+    ]
+  },
+  {
+    "file": "20260910_141221",
+    "kind": "sample",
+    "datetime": "2025-08-24 14:20:22",
+    "rows": [
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "FSH",
+        "rlu": "76210",
+        "rlu_cv": "0",
+        "conc": "21.72 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 10:48:35"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "LH",
+        "rlu": "155530",
+        "rlu_cv": "0",
+        "conc": "30.04 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 10:39:12"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "E2",
+        "rlu": "467303",
+        "rlu_cv": "0",
+        "conc": "332.59 pg/mL",
+        "flag": "",
+        "finish": "2025-08-24 11:32:48"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "T3",
+        "rlu": "303059",
+        "rlu_cv": "0",
+        "conc": "1.74 ng/mL",
+        "flag": "",
+        "finish": "2025-08-24 11:56:09"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "TEST",
+        "rlu": "231738",
+        "rlu_cv": "0",
+        "conc": "469.31 ng/dl",
+        "flag": "",
+        "finish": "2025-08-24 10:40:29"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "HCG/B-HCG",
+        "rlu": "30046",
+        "rlu_cv": "0",
+        "conc": "21.1 mIU/mL",
+        "flag": "",
+        "finish": "2025-08-24 10:59:14"
+      }
+    ]
+  },
+  {
+    "file": "20260910_141234",
+    "kind": "form",
+    "date": "22/8/25",
+    "blocks": [
+      {
+        "date": "22/8/25",
+        "patient_id": [
+          "L1",
+          "L2"
+        ],
+        "kit_name": "TSH",
+        "old_lot": "005230421",
+        "old_exp": "26/3/26",
+        "new_lot": "241250121",
+        "new_exp": "14/07/2027",
+        "old_L1": "0.50",
+        "new_L1": "0.53",
+        "var_L1": "5.66",
+        "old_L2": "5.12",
+        "new_L2": "5.29",
+        "var_L2": "3.21",
+        "done_by": "",
+        "verified_by": ""
+      }
+    ]
+  },
+  {
+    "file": "20260910_141240",
+    "kind": "sample",
+    "datetime": "2025-08-22 12:21:45",
+    "rows": [
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "TSH",
+        "rlu": "24624",
+        "rlu_cv": "0",
+        "conc": "0.50 uIU/mL",
+        "flag": "",
+        "finish": "2025-08-22 09:24:15"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "TSH",
+        "rlu": "256197",
+        "rlu_cv": "0",
+        "conc": "5.12 uIU/mL",
+        "flag": "",
+        "finish": "2025-08-22 09:24:46"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "TSH",
+        "rlu": "24850",
+        "rlu_cv": "0",
+        "conc": "0.53 uIU/mL",
+        "flag": "",
+        "finish": "2025-08-22 12:19:31"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "TSH",
+        "rlu": "261240",
+        "rlu_cv": "0",
+        "conc": "5.29 uIU/mL",
+        "flag": "",
+        "finish": "2025-08-22 12:20:27"
+      }
+    ]
+  },
+  {
+    "file": "20260910_141246",
+    "kind": "form",
+    "date": "4/8/25",
+    "blocks": [
+      {
+        "date": "4/8/25",
+        "patient_id": [
+          "L1",
+          "L2"
+        ],
+        "kit_name": "PrL",
+        "old_lot": "013230321",
+        "old_exp": "1/8/26",
+        "new_lot": "253250111",
+        "new_exp": "12/09/2026",
+        "old_L1": "7.79",
+        "new_L1": "8.48",
+        "var_L1": "8.13",
+        "old_L2": "22.31",
+        "new_L2": "23.36",
+        "var_L2": "4.49",
+        "done_by": "",
+        "verified_by": ""
+      }
+    ]
+  },
+  {
+    "file": "20260910_141250",
+    "kind": "sample",
+    "datetime": "2025-08-04 12:41:33",
+    "rows": [
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "PRL",
+        "rlu": "159037",
+        "rlu_cv": "0",
+        "conc": "7.79 ng/ml",
+        "flag": "",
+        "finish": "2025-08-04 09:21:15"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "PRL",
+        "rlu": "268580",
+        "rlu_cv": "0",
+        "conc": "22.31 ng/ml",
+        "flag": "",
+        "finish": "2025-08-04 09:26:45"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "PRL",
+        "rlu": "170627",
+        "rlu_cv": "0",
+        "conc": "8.48 ng/ml",
+        "flag": "",
+        "finish": "2025-08-04 12:33:09"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "PRL",
+        "rlu": "285926",
+        "rlu_cv": "0",
+        "conc": "23.36 ng/ml",
+        "flag": "",
+        "finish": "2025-08-04 12:37:44"
+      }
+    ]
+  },
+  {
+    "file": "20260910_141259",
+    "kind": "form",
+    "date": "3/8/25",
+    "blocks": [
+      {
+        "date": "3/8/25",
+        "patient_id": [
+          "L1",
+          "L2"
+        ],
+        "kit_name": "T4",
+        "old_lot": "002230131",
+        "old_exp": "4/10/26",
+        "new_lot": "243240121",
+        "new_exp": "26/09/2026",
+        "old_L1": "6.23",
+        "new_L1": "6.33",
+        "var_L1": "1.57",
+        "old_L2": "11.42",
+        "new_L2": "11.63",
+        "var_L2": "1.80",
+        "done_by": "",
+        "verified_by": ""
+      }
+    ]
+  },
+  {
+    "file": "20260910_141304",
+    "kind": "sample",
+    "datetime": "2025-08-03 12:36:33",
+    "rows": [
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "T4",
+        "rlu": "153678",
+        "rlu_cv": "0",
+        "conc": "6.23 ug/dl",
+        "flag": "",
+        "finish": "2025-08-03 09:48:36"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "T4",
+        "rlu": "62556",
+        "rlu_cv": "0",
+        "conc": "11.42 ug/dl",
+        "flag": "",
+        "finish": "2025-08-03 09:11:01"
+      },
+      {
+        "sample_id": "BIORAD L1 CON",
+        "assay": "T4",
+        "rlu": "153228",
+        "rlu_cv": "0",
+        "conc": "6.33 ug/dl",
+        "flag": "",
+        "finish": "2025-08-03 12:33:09"
+      },
+      {
+        "sample_id": "BIORAD L2 CON",
+        "assay": "T4",
+        "rlu": "60354",
+        "rlu_cv": "0",
+        "conc": "11.63 ug/dl",
+        "flag": "",
+        "finish": "2025-08-03 12:10:44"
+      }
+    ]
+  }
+]

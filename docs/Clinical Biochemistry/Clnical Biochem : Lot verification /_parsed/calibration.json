@@ -1,0 +1,25 @@
+[
+  {
+    "file": "20260908_124905",
+    "rows": [
+      {
+        "datetime": "01-11-2024 08:32:09",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "2",
+        "result": "0.9143"
+      },
+      {
+        "datetime": "01-11-2024 08:31:42",
+        "item": "ALB",
+        "specimen": "Serum",
+        "lot": "0006",
+        "tray": "C1",
+        "pos": "1",
+        "result": "0.0197"
+      }
+    ]
+  }
+]

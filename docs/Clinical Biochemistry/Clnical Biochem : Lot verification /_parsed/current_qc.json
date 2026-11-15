@@ -1,0 +1,2378 @@
+[
+  {
+    "file": "20260908_142645",
+    "lot": "32312044",
+    "exp": "30-11-2025",
+    "norm": [
+      {
+        "datetime": "2025-08-18 08:55:20",
+        "item": "GLU",
+        "pos": "C1-36",
+        "result": "91.5",
+        "unit": "MG/DL",
+        "min": "82.00",
+        "max": "108.00"
+      },
+      {
+        "datetime": "2025-08-18 08:58:53",
+        "item": "CHOL",
+        "pos": "C1-36",
+        "result": "150.9",
+        "unit": "MG/DL",
+        "min": "133.00",
+        "max": "193.00"
+      },
+      {
+        "datetime": "2025-08-18 08:54:00",
+        "item": "TGL",
+        "pos": "C1-36",
+        "result": "144.3",
+        "unit": "MG/DL",
+        "min": "102.50",
+        "max": "146.50"
+      },
+      {
+        "datetime": "2025-08-18 08:04:01",
+        "item": "HDL-C",
+        "pos": "C1-36",
+        "result": "42.5",
+        "unit": "MG/DL",
+        "min": "32.00",
+        "max": "48.00"
+      },
+      {
+        "datetime": "2025-08-18 08:23:59",
+        "item": "UREA UV",
+        "pos": "C1-36",
+        "result": "26.9",
+        "unit": "MG/DL",
+        "min": "22.00",
+        "max": "38.00"
+      },
+      {
+        "datetime": "2025-08-18 08:35:06",
+        "item": "UAC",
+        "pos": "C1-36",
+        "result": "5.0",
+        "unit": "MG/DL",
+        "min": "4.10",
+        "max": "6.00"
+      },
+      {
+        "datetime": "2025-08-18 08:26:50",
+        "item": "BIL T",
+        "pos": "C1-36",
+        "result": "0.86",
+        "unit": "MG/DL",
+        "min": "0.55",
+        "max": "1.15"
+      },
+      {
+        "datetime": "2025-08-18 08:38:47",
+        "item": "BIL D",
+        "pos": "C1-36",
+        "result": "0.48",
+        "unit": "MG/DL",
+        "min": "0.25",
+        "max": "0.55"
+      },
+      {
+        "datetime": "2025-08-18 08:40:22",
+        "item": "SGOT",
+        "pos": "C1-36",
+        "result": "32.24",
+        "unit": "IU/L",
+        "min": "26.00",
+        "max": "39.00"
+      },
+      {
+        "datetime": "2025-08-18 08:46:56",
+        "item": "SGPT",
+        "pos": "C1-36",
+        "result": "35.09",
+        "unit": "IU/L",
+        "min": "28.10",
+        "max": "42.10"
+      },
+      {
+        "datetime": "2025-08-18 08:36:35",
+        "item": "ALP IFCC",
+        "pos": "C1-36",
+        "result": "141.09",
+        "unit": "IU/L",
+        "min": "111.20",
+        "max": "163.20"
+      },
+      {
+        "datetime": "2025-08-18 08:05:43",
+        "item": "TPR",
+        "pos": "C1-36",
+        "result": "5.73",
+        "unit": "GM/DL",
+        "min": "4.85",
+        "max": "6.75"
+      },
+      {
+        "datetime": "2025-08-18 08:02:52",
+        "item": "ALB",
+        "pos": "C1-36",
+        "result": "3.94",
+        "unit": "g/dL",
+        "min": "3.10",
+        "max": "4.30"
+      },
+      {
+        "datetime": "2025-08-18 08:17:41",
+        "item": "CAL A",
+        "pos": "C1-36",
+        "result": "8.33",
+        "unit": "MG/DL",
+        "min": "7.70",
+        "max": "9.90"
+      },
+      {
+        "datetime": "2025-08-18 08:31:20",
+        "item": "GGT",
+        "pos": "C1-36",
+        "result": "35.92",
+        "unit": "U/L",
+        "min": "27.10",
+        "max": "43.10"
+      },
+      {
+        "datetime": "2025-08-18 08:33:22",
+        "item": "CRT J",
+        "pos": "C1-36",
+        "result": "1.14",
+        "unit": "MG/DL",
+        "min": "0.75",
+        "max": "1.35"
+      }
+    ],
+    "path": [
+      {
+        "datetime": "2025-08-18 08:29:57",
+        "item": "GLU",
+        "pos": "C1-37",
+        "result": "240.3",
+        "unit": "MG/DL",
+        "min": "200.00",
+        "max": "260.00"
+      },
+      {
+        "datetime": "2025-08-18 08:28:30",
+        "item": "CHOL",
+        "pos": "C1-37",
+        "result": "298.2",
+        "unit": "MG/DL",
+        "min": "273.2",
+        "max": "345.2"
+      },
+      {
+        "datetime": "2025-08-18 08:50:27",
+        "item": "TGL",
+        "pos": "C1-37",
+        "result": "268.4",
+        "unit": "MG/DL",
+        "min": "220.1",
+        "max": "304.1"
+      },
+      {
+        "datetime": "2025-08-18 08:25:29",
+        "item": "HDL-C",
+        "pos": "C1-37",
+        "result": "59.1",
+        "unit": "MG/DL",
+        "min": "41.5",
+        "max": "71.5"
+      },
+      {
+        "datetime": "2025-08-18 08:04:38",
+        "item": "UREA UV",
+        "pos": "C1-37",
+        "result": "153.7",
+        "unit": "MG/DL",
+        "min": "126.0",
+        "max": "186.0"
+      },
+      {
+        "datetime": "2025-08-18 08:11:05",
+        "item": "UAC",
+        "pos": "C1-37",
+        "result": "11.3",
+        "unit": "MG/DL",
+        "min": "8.2",
+        "max": "13.4"
+      },
+      {
+        "datetime": "2025-08-18 08:56:44",
+        "item": "BIL T",
+        "pos": "C1-37",
+        "result": "4.52",
+        "unit": "MG/DL",
+        "min": "3.4",
+        "max": "5.20"
+      },
+      {
+        "datetime": "2025-08-18 08:47:58",
+        "item": "BIL D",
+        "pos": "C1-37",
+        "result": "2.12",
+        "unit": "MG/DL",
+        "min": "1.60",
+        "max": "2.40"
+      },
+      {
+        "datetime": "2025-08-18 08:36:25",
+        "item": "SGOT",
+        "pos": "C1-37",
+        "result": "128.81",
+        "unit": "IU/L",
+        "min": "110.4",
+        "max": "170.4"
+      },
+      {
+        "datetime": "2025-08-18 08:13:48",
+        "item": "SGPT",
+        "pos": "C1-37",
+        "result": "139.86",
+        "unit": "IU/L",
+        "min": "111.5",
+        "max": "167.5"
+      },
+      {
+        "datetime": "2025-08-18 08:45:10",
+        "item": "ALP IFCC",
+        "pos": "C1-37",
+        "result": "372.35",
+        "unit": "IU/L",
+        "min": "299.7",
+        "max": "429.7"
+      },
+      {
+        "datetime": "2025-08-18 08:46:34",
+        "item": "TPR",
+        "pos": "C1-37",
+        "result": "8.07",
+        "unit": "GM/DL",
+        "min": "6.5",
+        "max": "10.1"
+      },
+      {
+        "datetime": "2025-08-18 08:46:59",
+        "item": "ALB",
+        "pos": "C1-37",
+        "result": "4.41",
+        "unit": "g/dL",
+        "min": "3.55",
+        "max": "5.25"
+      },
+      {
+        "datetime": "2025-08-18 08:04:02",
+        "item": "CAL A",
+        "pos": "C1-37",
+        "result": "12.75",
+        "unit": "MG/DL",
+        "min": "11.10",
+        "max": "15.10"
+      },
+      {
+        "datetime": "2025-08-18 08:12:18",
+        "item": "GGT",
+        "pos": "C1-37",
+        "result": "154.15",
+        "unit": "U/L",
+        "min": "119.4",
+        "max": "169.4"
+      },
+      {
+        "datetime": "2025-08-18 08:25:48",
+        "item": "CRT J",
+        "pos": "C1-37",
+        "result": "4.17",
+        "unit": "MG/DL",
+        "min": "3.5",
+        "max": "5.1"
+      }
+    ]
+  },
+  {
+    "file": "20260908_142802",
+    "lot": "32312044",
+    "exp": "30-11-2025",
+    "norm": [
+      {
+        "datetime": "2025-09-20 08:48:55",
+        "item": "GLU",
+        "pos": "C1-36",
+        "result": "90.5",
+        "unit": "MG/DL",
+        "min": "82.00",
+        "max": "108.00"
+      },
+      {
+        "datetime": "2025-09-20 08:37:27",
+        "item": "CHOL",
+        "pos": "C1-36",
+        "result": "171.6",
+        "unit": "MG/DL",
+        "min": "133.00",
+        "max": "193.00"
+      },
+      {
+        "datetime": "2025-09-20 08:35:55",
+        "item": "TGL",
+        "pos": "C1-36",
+        "result": "136.5",
+        "unit": "MG/DL",
+        "min": "102.50",
+        "max": "146.50"
+      },
+      {
+        "datetime": "2025-09-20 08:04:18",
+        "item": "HDL-C",
+        "pos": "C1-36",
+        "result": "39.3",
+        "unit": "MG/DL",
+        "min": "32.00",
+        "max": "48.00"
+      },
+      {
+        "datetime": "2025-09-20 08:05:26",
+        "item": "UREA UV",
+        "pos": "C1-36",
+        "result": "33.6",
+        "unit": "MG/DL",
+        "min": "22.00",
+        "max": "38.00"
+      },
+      {
+        "datetime": "2025-09-20 08:45:51",
+        "item": "UAC",
+        "pos": "C1-36",
+        "result": "5.1",
+        "unit": "MG/DL",
+        "min": "4.10",
+        "max": "6.00"
+      },
+      {
+        "datetime": "2025-09-20 08:31:17",
+        "item": "BIL T",
+        "pos": "C1-36",
+        "result": "0.92",
+        "unit": "MG/DL",
+        "min": "0.55",
+        "max": "1.15"
+      },
+      {
+        "datetime": "2025-09-20 08:21:42",
+        "item": "BIL D",
+        "pos": "C1-36",
+        "result": "0.38",
+        "unit": "MG/DL",
+        "min": "0.25",
+        "max": "0.55"
+      },
+      {
+        "datetime": "2025-09-20 08:56:31",
+        "item": "SGOT",
+        "pos": "C1-36",
+        "result": "35.85",
+        "unit": "IU/L",
+        "min": "26.00",
+        "max": "39.00"
+      },
+      {
+        "datetime": "2025-09-20 08:18:58",
+        "item": "SGPT",
+        "pos": "C1-36",
+        "result": "33.08",
+        "unit": "IU/L",
+        "min": "28.10",
+        "max": "42.10"
+      },
+      {
+        "datetime": "2025-09-20 08:18:54",
+        "item": "ALP IFCC",
+        "pos": "C1-36",
+        "result": "135.43",
+        "unit": "IU/L",
+        "min": "111.20",
+        "max": "163.20"
+      },
+      {
+        "datetime": "2025-09-20 08:28:07",
+        "item": "TPR",
+        "pos": "C1-36",
+        "result": "5.31",
+        "unit": "GM/DL",
+        "min": "4.85",
+        "max": "6.75"
+      },
+      {
+        "datetime": "2025-09-20 08:03:08",
+        "item": "ALB",
+        "pos": "C1-36",
+        "result": "3.65",
+        "unit": "g/dL",
+        "min": "3.10",
+        "max": "4.30"
+      },
+      {
+        "datetime": "2025-09-20 08:26:35",
+        "item": "CAL A",
+        "pos": "C1-36",
+        "result": "8.31",
+        "unit": "MG/DL",
+        "min": "7.70",
+        "max": "9.90"
+      },
+      {
+        "datetime": "2025-09-20 08:38:12",
+        "item": "GGT",
+        "pos": "C1-36",
+        "result": "33.74",
+        "unit": "U/L",
+        "min": "27.10",
+        "max": "43.10"
+      },
+      {
+        "datetime": "2025-09-20 08:41:09",
+        "item": "CRT J",
+        "pos": "C1-36",
+        "result": "1.07",
+        "unit": "MG/DL",
+        "min": "0.75",
+        "max": "1.35"
+      }
+    ],
+    "path": [
+      {
+        "datetime": "2025-09-20 08:58:21",
+        "item": "GLU",
+        "pos": "C1-37",
+        "result": "239.3",
+        "unit": "MG/DL",
+        "min": "200.00",
+        "max": "260.00"
+      },
+      {
+        "datetime": "2025-09-20 08:31:50",
+        "item": "CHOL",
+        "pos": "C1-37",
+        "result": "313.7",
+        "unit": "MG/DL",
+        "min": "273.2",
+        "max": "345.2"
+      },
+      {
+        "datetime": "2025-09-20 08:29:37",
+        "item": "TGL",
+        "pos": "C1-37",
+        "result": "265.4",
+        "unit": "MG/DL",
+        "min": "220.1",
+        "max": "304.1"
+      },
+      {
+        "datetime": "2025-09-20 08:04:12",
+        "item": "HDL-C",
+        "pos": "C1-37",
+        "result": "50.8",
+        "unit": "MG/DL",
+        "min": "41.5",
+        "max": "71.5"
+      },
+      {
+        "datetime": "2025-09-20 08:13:40",
+        "item": "UREA UV",
+        "pos": "C1-37",
+        "result": "152.0",
+        "unit": "MG/DL",
+        "min": "126.0",
+        "max": "186.0"
+      },
+      {
+        "datetime": "2025-09-20 08:55:04",
+        "item": "UAC",
+        "pos": "C1-37",
+        "result": "10.4",
+        "unit": "MG/DL",
+        "min": "8.2",
+        "max": "13.4"
+      },
+      {
+        "datetime": "2025-09-20 08:28:35",
+        "item": "BIL T",
+        "pos": "C1-37",
+        "result": "4.45",
+        "unit": "MG/DL",
+        "min": "3.4",
+        "max": "5.20"
+      },
+      {
+        "datetime": "2025-09-20 08:04:13",
+        "item": "BIL D",
+        "pos": "C1-37",
+        "result": "1.88",
+        "unit": "MG/DL",
+        "min": "1.60",
+        "max": "2.40"
+      },
+      {
+        "datetime": "2025-09-20 08:57:10",
+        "item": "SGOT",
+        "pos": "C1-37",
+        "result": "131.03",
+        "unit": "IU/L",
+        "min": "110.4",
+        "max": "170.4"
+      },
+      {
+        "datetime": "2025-09-20 08:38:24",
+        "item": "SGPT",
+        "pos": "C1-37",
+        "result": "125.62",
+        "unit": "IU/L",
+        "min": "111.5",
+        "max": "167.5"
+      },
+      {
+        "datetime": "2025-09-20 08:06:53",
+        "item": "ALP IFCC",
+        "pos": "C1-37",
+        "result": "357.50",
+        "unit": "IU/L",
+        "min": "299.7",
+        "max": "429.7"
+      },
+      {
+        "datetime": "2025-09-20 08:30:26",
+        "item": "TPR",
+        "pos": "C1-37",
+        "result": "8.31",
+        "unit": "GM/DL",
+        "min": "6.5",
+        "max": "10.1"
+      },
+      {
+        "datetime": "2025-09-20 08:18:09",
+        "item": "ALB",
+        "pos": "C1-37",
+        "result": "4.43",
+        "unit": "g/dL",
+        "min": "3.55",
+        "max": "5.25"
+      },
+      {
+        "datetime": "2025-09-20 08:20:41",
+        "item": "CAL A",
+        "pos": "C1-37",
+        "result": "13.37",
+        "unit": "MG/DL",
+        "min": "11.10",
+        "max": "15.10"
+      },
+      {
+        "datetime": "2025-09-20 08:30:06",
+        "item": "GGT",
+        "pos": "C1-37",
+        "result": "154.68",
+        "unit": "U/L",
+        "min": "119.4",
+        "max": "169.4"
+      },
+      {
+        "datetime": "2025-09-20 08:57:18",
+        "item": "CRT J",
+        "pos": "C1-37",
+        "result": "4.25",
+        "unit": "MG/DL",
+        "min": "3.5",
+        "max": "5.1"
+      }
+    ]
+  },
+  {
+    "file": "20260908_143236",
+    "lot": "32312044",
+    "exp": "30-11-2025",
+    "norm": [
+      {
+        "datetime": "2025-07-07 08:53:27",
+        "item": "GLU",
+        "pos": "C1-36",
+        "result": "92.8",
+        "unit": "MG/DL",
+        "min": "82.00",
+        "max": "108.00"
+      },
+      {
+        "datetime": "2025-07-07 08:28:02",
+        "item": "CHOL",
+        "pos": "C1-36",
+        "result": "172.1",
+        "unit": "MG/DL",
+        "min": "133.00",
+        "max": "193.00"
+      },
+      {
+        "datetime": "2025-07-07 08:49:02",
+        "item": "TGL",
+        "pos": "C1-36",
+        "result": "136.4",
+        "unit": "MG/DL",
+        "min": "102.50",
+        "max": "146.50"
+      },
+      {
+        "datetime": "2025-07-07 08:09:46",
+        "item": "HDL-C",
+        "pos": "C1-36",
+        "result": "39.4",
+        "unit": "MG/DL",
+        "min": "32.00",
+        "max": "48.00"
+      },
+        {
+          "datetime": "2025-07-07 08:34:12",
+          "item": "UREA UV",
+          "pos": "C1-36",
+          "result": "28.3",
+          "unit": "MG/DL",
+          "min": "22.00",
+          "max": "38.00"
+        },
+        {
+          "datetime": "2025-07-07 08:32:46",
+          "item": "UAC",
+          "pos": "C1-36",
+          "result": "5.0",
+          "unit": "MG/DL",
+          "min": "4.10",
+          "max": "6.00"
+        },
+      {
+        "datetime": "2025-07-07 08:50:44",
+        "item": "BIL T",
+        "pos": "C1-36",
+        "result": "0.88",
+        "unit": "MG/DL",
+        "min": "0.55",
+        "max": "1.15"
+      },
+      {
+        "datetime": "2025-07-07 08:34:23",
+        "item": "BIL D",
+        "pos": "C1-36",
+        "result": "0.47",
+        "unit": "MG/DL",
+        "min": "0.25",
+        "max": "0.55"
+      },
+      {
+        "datetime": "2025-07-07 08:07:23",
+        "item": "SGOT",
+        "pos": "C1-36",
+        "result": "32.51",
+        "unit": "IU/L",
+        "min": "26.00",
+        "max": "39.00"
+      },
+      {
+        "datetime": "2025-07-07 08:52:42",
+        "item": "SGPT",
+        "pos": "C1-36",
+        "result": "31.00",
+        "unit": "IU/L",
+        "min": "28.10",
+        "max": "42.10"
+      },
+      {
+        "datetime": "2025-07-07 08:43:26",
+        "item": "ALP IFCC",
+        "pos": "C1-36",
+        "result": "125.58",
+        "unit": "IU/L",
+        "min": "111.20",
+        "max": "163.20"
+      },
+      {
+        "datetime": "2025-07-07 08:10:28",
+        "item": "TPR",
+        "pos": "C1-36",
+        "result": "5.46",
+        "unit": "GM/DL",
+        "min": "4.85",
+        "max": "6.75"
+      },
+      {
+        "datetime": "2025-07-07 08:22:54",
+        "item": "ALB",
+        "pos": "C1-36",
+        "result": "4.00",
+        "unit": "g/dL",
+        "min": "3.10",
+        "max": "4.30"
+      },
+      {
+        "datetime": "2025-07-07 08:11:05",
+        "item": "CAL A",
+        "pos": "C1-36",
+        "result": "8.39",
+        "unit": "MG/DL",
+        "min": "7.70",
+        "max": "9.90"
+      },
+      {
+        "datetime": "2025-07-07 08:45:45",
+        "item": "GGT",
+        "pos": "C1-36",
+        "result": "33.94",
+        "unit": "U/L",
+        "min": "27.10",
+        "max": "43.10"
+      },
+      {
+        "datetime": "2025-07-07 08:30:49",
+        "item": "CRT J",
+        "pos": "C1-36",
+        "result": "1.12",
+        "unit": "MG/DL",
+        "min": "0.75",
+        "max": "1.35"
+      }
+    ],
+    "path": [
+      {
+        "datetime": "2025-07-07 08:33:07",
+        "item": "GLU",
+        "pos": "C1-37",
+        "result": "236.5",
+        "unit": "MG/DL",
+        "min": "200.00",
+        "max": "260.00"
+      },
+      {
+        "datetime": "2025-07-07 08:26:32",
+        "item": "CHOL",
+        "pos": "C1-37",
+        "result": "310.2",
+        "unit": "MG/DL",
+        "min": "273.2",
+        "max": "345.2"
+      },
+      {
+        "datetime": "2025-07-07 08:54:21",
+        "item": "TGL",
+        "pos": "C1-37",
+        "result": "277.3",
+        "unit": "MG/DL",
+        "min": "220.1",
+        "max": "304.1"
+      },
+      {
+        "datetime": "2025-07-07 08:05:46",
+        "item": "HDL-C",
+        "pos": "C1-37",
+        "result": "54.7",
+        "unit": "MG/DL",
+        "min": "41.5",
+        "max": "71.5"
+      },
+      {
+        "datetime": "2025-07-07 08:45:48",
+        "item": "UREA UV",
+        "pos": "C1-37",
+        "result": "140.9",
+        "unit": "MG/DL",
+        "min": "126.0",
+        "max": "186.0"
+      },
+      {
+        "datetime": "2025-07-07 08:57:48",
+        "item": "UAC",
+        "pos": "C1-37",
+        "result": "10.9",
+        "unit": "MG/DL",
+        "min": "8.2",
+        "max": "13.4"
+      },
+      {
+        "datetime": "2025-07-07 08:34:14",
+        "item": "BIL T",
+        "pos": "C1-37",
+        "result": "4.52",
+        "unit": "MG/DL",
+        "min": "3.4",
+        "max": "5.20"
+      },
+      {
+        "datetime": "2025-07-07 08:55:49",
+        "item": "BIL D",
+        "pos": "C1-37",
+        "result": "2.10",
+        "unit": "MG/DL",
+        "min": "1.60",
+        "max": "2.40"
+      },
+      {
+        "datetime": "2025-07-07 08:36:18",
+        "item": "SGOT",
+        "pos": "C1-37",
+        "result": "143.04",
+        "unit": "IU/L",
+        "min": "110.4",
+        "max": "170.4"
+      },
+      {
+        "datetime": "2025-07-07 08:18:35",
+        "item": "SGPT",
+        "pos": "C1-37",
+        "result": "139.40",
+        "unit": "IU/L",
+        "min": "111.5",
+        "max": "167.5"
+      },
+      {
+        "datetime": "2025-07-07 08:26:35",
+        "item": "ALP IFCC",
+        "pos": "C1-37",
+        "result": "341.08",
+        "unit": "IU/L",
+        "min": "299.7",
+        "max": "429.7"
+      },
+      {
+        "datetime": "2025-07-07 08:39:08",
+        "item": "TPR",
+        "pos": "C1-37",
+        "result": "8.16",
+        "unit": "GM/DL",
+        "min": "6.5",
+        "max": "10.1"
+      },
+      {
+        "datetime": "2025-07-07 08:53:30",
+        "item": "ALB",
+        "pos": "C1-37",
+        "result": "4.36",
+        "unit": "g/dL",
+        "min": "3.55",
+        "max": "5.25"
+      },
+      {
+        "datetime": "2025-07-07 08:53:26",
+        "item": "CAL A",
+        "pos": "C1-37",
+        "result": "13.09",
+        "unit": "MG/DL",
+        "min": "11.10",
+        "max": "15.10"
+      },
+      {
+        "datetime": "2025-07-07 08:34:57",
+        "item": "GGT",
+        "pos": "C1-37",
+        "result": "146.41",
+        "unit": "U/L",
+        "min": "119.4",
+        "max": "169.4"
+      },
+      {
+        "datetime": "2025-07-07 08:54:39",
+        "item": "CRT J",
+        "pos": "C1-37",
+        "result": "4.07",
+        "unit": "MG/DL",
+        "min": "3.5",
+        "max": "5.1"
+      }
+    ]
+  },
+  {
+    "file": "20260908_143407",
+    "lot": "32312044",
+    "exp": "31-11-2025",
+    "norm": [
+      {
+        "datetime": "2025-06-05 08:54:34",
+        "item": "GLU",
+        "pos": "C1-36",
+        "result": "98.1",
+        "unit": "MG/DL",
+        "min": "82.00",
+        "max": "108.00"
+      },
+      {
+        "datetime": "2025-06-05 08:41:02",
+        "item": "CHOL",
+        "pos": "C1-36",
+        "result": "173.2",
+        "unit": "MG/DL",
+        "min": "133.00",
+        "max": "193.00"
+      },
+      {
+        "datetime": "2025-06-05 08:09:44",
+        "item": "TGL",
+        "pos": "C1-36",
+        "result": "116.2",
+        "unit": "MG/DL",
+        "min": "102.50",
+        "max": "146.50"
+      },
+      {
+        "datetime": "2025-06-05 08:46:56",
+        "item": "HDL-C",
+        "pos": "C1-36",
+        "result": "41.3",
+        "unit": "MG/DL",
+        "min": "32.00",
+        "max": "48.00"
+      },
+      {
+        "datetime": "2025-06-05 08:01:03",
+        "item": "UREA UV",
+        "pos": "C1-36",
+        "result": "29.1",
+        "unit": "MG/DL",
+        "min": "22.00",
+        "max": "38.00"
+      },
+      {
+        "datetime": "2025-06-05 08:43:22",
+        "item": "UAC",
+        "pos": "C1-36",
+        "result": "4.7",
+        "unit": "MG/DL",
+        "min": "4.10",
+        "max": "6.00"
+      },
+      {
+        "datetime": "2025-06-05 08:52:08",
+        "item": "BIL T",
+        "pos": "C1-36",
+        "result": "0.86",
+        "unit": "MG/DL",
+        "min": "0.55",
+        "max": "1.15"
+      },
+      {
+        "datetime": "2025-06-05 08:09:35",
+        "item": "BIL D",
+        "pos": "C1-36",
+        "result": "0.47",
+        "unit": "MG/DL",
+        "min": "0.25",
+        "max": "0.55"
+      },
+      {
+        "datetime": "2025-06-05 08:16:01",
+        "item": "SGOT",
+        "pos": "C1-36",
+        "result": "34.64",
+        "unit": "IU/L",
+        "min": "26.00",
+        "max": "39.00"
+      },
+      {
+        "datetime": "2025-06-05 08:01:26",
+        "item": "SGPT",
+        "pos": "C1-36",
+        "result": "36.92",
+        "unit": "IU/L",
+        "min": "28.10",
+        "max": "42.10"
+      },
+      {
+        "datetime": "2025-06-05 08:50:37",
+        "item": "ALP IFCC",
+        "pos": "C1-36",
+        "result": "150.29",
+        "unit": "IU/L",
+        "min": "111.20",
+        "max": "163.20"
+      },
+      {
+        "datetime": "2025-06-05 08:18:46",
+        "item": "TPR",
+        "pos": "C1-36",
+        "result": "6.11",
+        "unit": "GM/DL",
+        "min": "4.85",
+        "max": "6.75"
+      },
+      {
+        "datetime": "2025-06-05 08:12:18",
+        "item": "ALB",
+        "pos": "C1-36",
+        "result": "3.91",
+        "unit": "g/dL",
+        "min": "3.10",
+        "max": "4.30"
+      },
+      {
+        "datetime": "2025-06-05 08:58:41",
+        "item": "CAL A",
+        "pos": "C1-36",
+        "result": "8.21",
+        "unit": "MG/DL",
+        "min": "7.70",
+        "max": "9.90"
+      },
+      {
+        "datetime": "2025-06-05 08:38:40",
+        "item": "GGT",
+        "pos": "C1-36",
+        "result": "34.45",
+        "unit": "U/L",
+        "min": "27.10",
+        "max": "43.10"
+      },
+      {
+        "datetime": "2025-06-05 08:35:31",
+        "item": "CRT J",
+        "pos": "C1-36",
+        "result": "1.04",
+        "unit": "MG/DL",
+        "min": "0.75",
+        "max": "1.35"
+      }
+    ],
+    "path": [
+      {
+        "datetime": "2025-06-05 08:19:01",
+        "item": "GLU",
+        "pos": "C1-37",
+        "result": "222.3",
+        "unit": "MG/DL",
+        "min": "200.00",
+        "max": "260.00"
+      },
+      {
+        "datetime": "2025-06-05 08:08:30",
+        "item": "CHOL",
+        "pos": "C1-37",
+        "result": "304.8",
+        "unit": "MG/DL",
+        "min": "273.2",
+        "max": "345.2"
+      },
+      {
+        "datetime": "2025-06-05 08:31:45",
+        "item": "TGL",
+        "pos": "C1-37",
+        "result": "270.6",
+        "unit": "MG/DL",
+        "min": "220.1",
+        "max": "304.1"
+      },
+      {
+        "datetime": "2025-06-05 08:54:30",
+        "item": "HDL-C",
+        "pos": "C1-37",
+        "result": "57.0",
+        "unit": "MG/DL",
+        "min": "41.5",
+        "max": "71.5"
+      },
+      {
+        "datetime": "2025-06-05 08:38:58",
+        "item": "UREA UV",
+        "pos": "C1-37",
+        "result": "136.6",
+        "unit": "MG/DL",
+        "min": "126.0",
+        "max": "186.0"
+      },
+      {
+        "datetime": "2025-06-05 08:06:35",
+        "item": "UAC",
+        "pos": "C1-37",
+        "result": "10.6",
+        "unit": "MG/DL",
+        "min": "8.2",
+        "max": "13.4"
+      },
+      {
+        "datetime": "2025-06-05 08:41:39",
+        "item": "BIL T",
+        "pos": "C1-37",
+        "result": "4.28",
+        "unit": "MG/DL",
+        "min": "3.4",
+        "max": "5.20"
+      },
+      {
+        "datetime": "2025-06-05 08:08:40",
+        "item": "BIL D",
+        "pos": "C1-37",
+        "result": "2.05",
+        "unit": "MG/DL",
+        "min": "1.60",
+        "max": "2.40"
+      },
+      {
+        "datetime": "2025-06-05 08:22:50",
+        "item": "SGOT",
+        "pos": "C1-37",
+        "result": "130.49",
+        "unit": "IU/L",
+        "min": "110.4",
+        "max": "170.4"
+      },
+      {
+        "datetime": "2025-06-05 08:10:04",
+        "item": "SGPT",
+        "pos": "C1-37",
+        "result": "126.30",
+        "unit": "IU/L",
+        "min": "111.5",
+        "max": "167.5"
+      },
+      {
+        "datetime": "2025-06-05 08:12:24",
+        "item": "ALP IFCC",
+        "pos": "C1-37",
+        "result": "357.06",
+        "unit": "IU/L",
+        "min": "299.7",
+        "max": "429.7"
+      },
+      {
+        "datetime": "2025-06-05 08:52:20",
+        "item": "TPR",
+        "pos": "C1-37",
+        "result": "8.02",
+        "unit": "GM/DL",
+        "min": "6.5",
+        "max": "10.1"
+      },
+      {
+        "datetime": "2025-06-05 08:31:24",
+        "item": "ALB",
+        "pos": "C1-37",
+        "result": "4.40",
+        "unit": "g/dL",
+        "min": "3.55",
+        "max": "5.25"
+      },
+      {
+        "datetime": "2025-06-05 08:46:55",
+        "item": "CAL A",
+        "pos": "C1-37",
+        "result": "13.27",
+        "unit": "MG/DL",
+        "min": "11.10",
+        "max": "15.10"
+      },
+      {
+        "datetime": "2025-06-05 08:18:53",
+        "item": "GGT",
+        "pos": "C1-37",
+        "result": "145.36",
+        "unit": "U/L",
+        "min": "119.4",
+        "max": "169.4"
+      },
+      {
+        "datetime": "2025-06-05 08:10:02",
+        "item": "CRT J",
+        "pos": "C1-37",
+        "result": "4.23",
+        "unit": "MG/DL",
+        "min": "3.5",
+        "max": "5.1"
+      }
+    ]
+  },
+  {
+    "file": "20260908_143559",
+    "lot": "32312044",
+    "exp": "31-11-2025",
+    "norm": [
+      {
+        "datetime": "2025-04-15 08:29:04",
+        "item": "GLU",
+        "pos": "C1-36",
+        "result": "89.5",
+        "unit": "MG/DL",
+        "min": "82.00",
+        "max": "108.00"
+      },
+      {
+        "datetime": "2025-04-15 08:41:55",
+        "item": "CHOL",
+        "pos": "C1-36",
+        "result": "156.2",
+        "unit": "MG/DL",
+        "min": "133.00",
+        "max": "193.00"
+      },
+      {
+        "datetime": "2025-04-15 08:42:44",
+        "item": "TGL",
+        "pos": "C1-36",
+        "result": "142.4",
+        "unit": "MG/DL",
+        "min": "102.50",
+        "max": "146.50"
+      },
+      {
+        "datetime": "2025-04-15 08:02:21",
+        "item": "HDL-C",
+        "pos": "C1-36",
+        "result": "42.1",
+        "unit": "MG/DL",
+        "min": "32.00",
+        "max": "48.00"
+      },
+      {
+        "datetime": "2025-04-15 08:45:33",
+        "item": "UREA UV",
+        "pos": "C1-36",
+        "result": "28.2",
+        "unit": "MG/DL",
+        "min": "22.00",
+        "max": "38.00"
+      },
+      {
+        "datetime": "2025-04-15 08:41:08",
+        "item": "UAC",
+        "pos": "C1-36",
+        "result": "5.2",
+        "unit": "MG/DL",
+        "min": "4.10",
+        "max": "6.00"
+      },
+      {
+        "datetime": "2025-04-15 08:51:14",
+        "item": "BIL T",
+        "pos": "C1-36",
+        "result": "1.01",
+        "unit": "MG/DL",
+        "min": "0.55",
+        "max": "1.15"
+      },
+      {
+        "datetime": "2025-04-15 08:40:21",
+        "item": "BIL D",
+        "pos": "C1-36",
+        "result": "0.42",
+        "unit": "MG/DL",
+        "min": "0.25",
+        "max": "0.55"
+      },
+      {
+        "datetime": "2025-04-15 08:32:18",
+        "item": "SGOT",
+        "pos": "C1-36",
+        "result": "28.59",
+        "unit": "IU/L",
+        "min": "26.00",
+        "max": "39.00"
+      },
+      {
+        "datetime": "2025-04-15 08:49:28",
+        "item": "SGPT",
+        "pos": "C1-36",
+        "result": "31.30",
+        "unit": "IU/L",
+        "min": "28.10",
+        "max": "42.10"
+      },
+      {
+        "datetime": "2025-04-15 08:52:42",
+        "item": "ALP IFCC",
+        "pos": "C1-36",
+        "result": "129.80",
+        "unit": "IU/L",
+        "min": "111.20",
+        "max": "163.20"
+      },
+      {
+        "datetime": "2025-04-15 08:13:43",
+        "item": "TPR",
+        "pos": "C1-36",
+        "result": "6.08",
+        "unit": "GM/DL",
+        "min": "4.85",
+        "max": "6.75"
+      },
+      {
+        "datetime": "2025-04-15 08:55:52",
+        "item": "ALB",
+        "pos": "C1-36",
+        "result": "3.80",
+        "unit": "g/dL",
+        "min": "3.10",
+        "max": "4.30"
+      },
+      {
+        "datetime": "2025-04-15 08:22:25",
+        "item": "CAL A",
+        "pos": "C1-36",
+        "result": "8.30",
+        "unit": "MG/DL",
+        "min": "7.70",
+        "max": "9.90"
+      },
+      {
+        "datetime": "2025-04-15 08:58:21",
+        "item": "GGT",
+        "pos": "C1-36",
+        "result": "34.30",
+        "unit": "U/L",
+        "min": "27.10",
+        "max": "43.10"
+      },
+      {
+        "datetime": "2025-04-15 08:14:41",
+        "item": "CRT J",
+        "pos": "C1-36",
+        "result": "1.07",
+        "unit": "MG/DL",
+        "min": "0.75",
+        "max": "1.35"
+      }
+    ],
+    "path": [
+      {
+        "datetime": "2025-04-15 08:41:47",
+        "item": "GLU",
+        "pos": "C1-37",
+        "result": "234.5",
+        "unit": "MG/DL",
+        "min": "200.00",
+        "max": "260.00"
+      },
+      {
+        "datetime": "2025-04-15 08:16:23",
+        "item": "CHOL",
+        "pos": "C1-37",
+        "result": "321.5",
+        "unit": "MG/DL",
+        "min": "273.2",
+        "max": "345.2"
+      },
+      {
+        "datetime": "2025-04-15 08:57:01",
+        "item": "TGL",
+        "pos": "C1-37",
+        "result": "241.2",
+        "unit": "MG/DL",
+        "min": "220.1",
+        "max": "304.1"
+      },
+      {
+        "datetime": "2025-04-15 08:12:41",
+        "item": "HDL-C",
+        "pos": "C1-37",
+        "result": "59.0",
+        "unit": "MG/DL",
+        "min": "41.5",
+        "max": "71.5"
+      },
+      {
+        "datetime": "2025-04-15 08:35:34",
+        "item": "UREA UV",
+        "pos": "C1-37",
+        "result": "153.4",
+        "unit": "MG/DL",
+        "min": "126.0",
+        "max": "186.0"
+      },
+      {
+        "datetime": "2025-04-15 08:37:39",
+        "item": "UAC",
+        "pos": "C1-37",
+        "result": "11.2",
+        "unit": "MG/DL",
+        "min": "8.2",
+        "max": "13.4"
+      },
+      {
+        "datetime": "2025-04-15 08:57:32",
+        "item": "BIL T",
+        "pos": "C1-37",
+        "result": "4.13",
+        "unit": "MG/DL",
+        "min": "3.4",
+        "max": "5.20"
+      },
+      {
+        "datetime": "2025-04-15 08:15:32",
+        "item": "BIL D",
+        "pos": "C1-37",
+        "result": "1.83",
+        "unit": "MG/DL",
+        "min": "1.60",
+        "max": "2.40"
+      },
+      {
+        "datetime": "2025-04-15 08:57:56",
+        "item": "SGOT",
+        "pos": "C1-37",
+        "result": "149.37",
+        "unit": "IU/L",
+        "min": "110.4",
+        "max": "170.4"
+      },
+      {
+        "datetime": "2025-04-15 08:09:46",
+        "item": "SGPT",
+        "pos": "C1-37",
+        "result": "125.38",
+        "unit": "IU/L",
+        "min": "111.5",
+        "max": "167.5"
+      },
+      {
+        "datetime": "2025-04-15 08:21:08",
+        "item": "ALP IFCC",
+        "pos": "C1-37",
+        "result": "338.88",
+        "unit": "IU/L",
+        "min": "299.7",
+        "max": "429.7"
+      },
+      {
+        "datetime": "2025-04-15 08:30:19",
+        "item": "TPR",
+        "pos": "C1-37",
+        "result": "7.94",
+        "unit": "GM/DL",
+        "min": "6.5",
+        "max": "10.1"
+      },
+      {
+        "datetime": "2025-04-15 08:33:02",
+        "item": "ALB",
+        "pos": "C1-37",
+        "result": "4.52",
+        "unit": "g/dL",
+        "min": "3.55",
+        "max": "5.25"
+      },
+      {
+        "datetime": "2025-04-15 08:53:09",
+        "item": "CAL A",
+        "pos": "C1-37",
+        "result": "12.80",
+        "unit": "MG/DL",
+        "min": "11.10",
+        "max": "15.10"
+      },
+      {
+        "datetime": "2025-04-15 08:52:44",
+        "item": "GGT",
+        "pos": "C1-37",
+        "result": "145.81",
+        "unit": "U/L",
+        "min": "119.4",
+        "max": "169.4"
+      },
+      {
+        "datetime": "2025-04-15 08:50:55",
+        "item": "CRT J",
+        "pos": "C1-37",
+        "result": "4.37",
+        "unit": "MG/DL",
+        "min": "3.5",
+        "max": "5.1"
+      }
+    ]
+  },
+  {
+    "file": "20260908_143605",
+    "lot": "32312044",
+    "exp": "31-11-2025",
+    "norm": [
+      {
+        "datetime": "2025-05-07 08:59:09",
+        "item": "GLU",
+        "pos": "C1-36",
+        "result": "94.4",
+        "unit": "MG/DL",
+        "min": "82.00",
+        "max": "108.00"
+      },
+      {
+        "datetime": "2025-05-07 08:28:01",
+        "item": "CHOL",
+        "pos": "C1-36",
+        "result": "153.4",
+        "unit": "MG/DL",
+        "min": "133.00",
+        "max": "193.00"
+      },
+      {
+        "datetime": "2025-05-07 08:18:26",
+        "item": "TGL",
+        "pos": "C1-36",
+        "result": "106.9",
+        "unit": "MG/DL",
+        "min": "102.50",
+        "max": "146.50"
+      },
+      {
+        "datetime": "2025-05-07 08:06:55",
+        "item": "HDL-C",
+        "pos": "C1-36",
+        "result": "39.3",
+        "unit": "MG/DL",
+        "min": "32.00",
+        "max": "48.00"
+      },
+      {
+        "datetime": "2025-05-07 08:17:54",
+        "item": "UREA UV",
+        "pos": "C1-36",
+        "result": "33.5",
+        "unit": "MG/DL",
+        "min": "22.00",
+        "max": "38.00"
+      },
+      {
+        "datetime": "2025-05-07 08:58:05",
+        "item": "UAC",
+        "pos": "C1-36",
+        "result": "4.8",
+        "unit": "MG/DL",
+        "min": "4.10",
+        "max": "6.00"
+      },
+      {
+        "datetime": "2025-05-07 08:27:05",
+        "item": "BIL T",
+        "pos": "C1-36",
+        "result": "0.89",
+        "unit": "MG/DL",
+        "min": "0.55",
+        "max": "1.15"
+      },
+      {
+        "datetime": "2025-05-07 08:45:14",
+        "item": "BIL D",
+        "pos": "C1-36",
+        "result": "0.38",
+        "unit": "MG/DL",
+        "min": "0.25",
+        "max": "0.55"
+      },
+      {
+        "datetime": "2025-05-07 08:00:07",
+        "item": "SGOT",
+        "pos": "C1-36",
+        "result": "34.92",
+        "unit": "IU/L",
+        "min": "26.00",
+        "max": "39.00"
+      },
+      {
+        "datetime": "2025-05-07 08:44:03",
+        "item": "SGPT",
+        "pos": "C1-36",
+        "result": "37.95",
+        "unit": "IU/L",
+        "min": "28.10",
+        "max": "42.10"
+      },
+      {
+        "datetime": "2025-05-07 08:00:23",
+        "item": "ALP IFCC",
+        "pos": "C1-36",
+        "result": "143.82",
+        "unit": "IU/L",
+        "min": "111.20",
+        "max": "163.20"
+      },
+      {
+        "datetime": "2025-05-07 08:26:57",
+        "item": "TPR",
+        "pos": "C1-36",
+        "result": "5.52",
+        "unit": "GM/DL",
+        "min": "4.85",
+        "max": "6.75"
+      },
+      {
+        "datetime": "2025-05-07 08:41:51",
+        "item": "ALB",
+        "pos": "C1-36",
+        "result": "3.68",
+        "unit": "g/dL",
+        "min": "3.10",
+        "max": "4.30"
+      },
+      {
+        "datetime": "2025-05-07 08:49:11",
+        "item": "CAL A",
+        "pos": "C1-36",
+        "result": "8.28",
+        "unit": "MG/DL",
+        "min": "7.70",
+        "max": "9.90"
+      },
+      {
+        "datetime": "2025-05-07 08:16:22",
+        "item": "GGT",
+        "pos": "C1-36",
+        "result": "37.12",
+        "unit": "U/L",
+        "min": "27.10",
+        "max": "43.10"
+      },
+      {
+        "datetime": "2025-05-07 08:52:34",
+        "item": "CRT J",
+        "pos": "C1-36",
+        "result": "1.13",
+        "unit": "MG/DL",
+        "min": "0.75",
+        "max": "1.35"
+      }
+    ],
+    "path": [
+      {
+        "datetime": "2025-05-07 08:29:18",
+        "item": "GLU",
+        "pos": "C1-37",
+        "result": "243.5",
+        "unit": "MG/DL",
+        "min": "200.00",
+        "max": "260.00"
+      },
+      {
+        "datetime": "2025-05-07 08:05:54",
+        "item": "CHOL",
+        "pos": "C1-37",
+        "result": "302.6",
+        "unit": "MG/DL",
+        "min": "273.2",
+        "max": "345.2"
+      },
+      {
+        "datetime": "2025-05-07 08:28:21",
+        "item": "TGL",
+        "pos": "C1-37",
+        "result": "244.2",
+        "unit": "MG/DL",
+        "min": "220.1",
+        "max": "304.1"
+      },
+      {
+        "datetime": "2025-05-07 08:41:51",
+        "item": "HDL-C",
+        "pos": "C1-37",
+        "result": "54.1",
+        "unit": "MG/DL",
+        "min": "41.5",
+        "max": "71.5"
+      },
+      {
+        "datetime": "2025-05-07 08:37:22",
+        "item": "UREA UV",
+        "pos": "C1-37",
+        "result": "143.2",
+        "unit": "MG/DL",
+        "min": "126.0",
+        "max": "186.0"
+      },
+      {
+        "datetime": "2025-05-07 08:41:14",
+        "item": "UAC",
+        "pos": "C1-37",
+        "result": "11.5",
+        "unit": "MG/DL",
+        "min": "8.2",
+        "max": "13.4"
+      },
+      {
+        "datetime": "2025-05-07 08:06:35",
+        "item": "BIL T",
+        "pos": "C1-37",
+        "result": "4.12",
+        "unit": "MG/DL",
+        "min": "3.4",
+        "max": "5.20"
+      },
+      {
+        "datetime": "2025-05-07 08:15:53",
+        "item": "BIL D",
+        "pos": "C1-37",
+        "result": "2.05",
+        "unit": "MG/DL",
+        "min": "1.60",
+        "max": "2.40"
+      },
+      {
+        "datetime": "2025-05-07 08:08:54",
+        "item": "SGOT",
+        "pos": "C1-37",
+        "result": "138.83",
+        "unit": "IU/L",
+        "min": "110.4",
+        "max": "170.4"
+      },
+      {
+        "datetime": "2025-05-07 08:49:56",
+        "item": "SGPT",
+        "pos": "C1-37",
+        "result": "133.51",
+        "unit": "IU/L",
+        "min": "111.5",
+        "max": "167.5"
+      },
+      {
+        "datetime": "2025-05-07 08:09:49",
+        "item": "ALP IFCC",
+        "pos": "C1-37",
+        "result": "348.20",
+        "unit": "IU/L",
+        "min": "299.7",
+        "max": "429.7"
+      },
+      {
+        "datetime": "2025-05-07 08:09:50",
+        "item": "TPR",
+        "pos": "C1-37",
+        "result": "7.94",
+        "unit": "GM/DL",
+        "min": "6.5",
+        "max": "10.1"
+      },
+      {
+        "datetime": "2025-05-07 08:01:14",
+        "item": "ALB",
+        "pos": "C1-37",
+        "result": "4.44",
+        "unit": "g/dL",
+        "min": "3.55",
+        "max": "5.25"
+      },
+      {
+        "datetime": "2025-05-07 08:04:34",
+        "item": "CAL A",
+        "pos": "C1-37",
+        "result": "13.19",
+        "unit": "MG/DL",
+        "min": "11.10",
+        "max": "15.10"
+      },
+      {
+        "datetime": "2025-05-07 08:44:09",
+        "item": "GGT",
+        "pos": "C1-37",
+        "result": "155.34",
+        "unit": "U/L",
+        "min": "119.4",
+        "max": "169.4"
+      },
+      {
+        "datetime": "2025-05-07 08:11:45",
+        "item": "CRT J",
+        "pos": "C1-37",
+        "result": "4.40",
+        "unit": "MG/DL",
+        "min": "3.5",
+        "max": "5.1"
+      }
+    ]
+  },
+  {
+    "file": "20260908_143611",
+    "lot": "32312044",
+    "exp": "31-11-2025",
+    "norm": [
+      {
+        "datetime": "2025-05-15 08:44:25",
+        "item": "GLU",
+        "pos": "C1-36",
+        "result": "94.9",
+        "unit": "MG/DL",
+        "min": "82.00",
+        "max": "108.00"
+      },
+      {
+        "datetime": "2025-05-15 08:43:23",
+        "item": "CHOL",
+        "pos": "C1-36",
+        "result": "156.4",
+        "unit": "MG/DL",
+        "min": "133.00",
+        "max": "193.00"
+      },
+      {
+        "datetime": "2025-05-15 08:09:26",
+        "item": "TGL",
+        "pos": "C1-36",
+        "result": "124.7",
+        "unit": "MG/DL",
+        "min": "102.50",
+        "max": "146.50"
+      },
+      {
+        "datetime": "2025-05-15 08:33:37",
+        "item": "HDL-C",
+        "pos": "C1-36",
+        "result": "41.7",
+        "unit": "MG/DL",
+        "min": "32.00",
+        "max": "48.00"
+      },
+      {
+        "datetime": "2025-05-15 08:02:04",
+        "item": "UREA UV",
+        "pos": "C1-36",
+        "result": "30.9",
+        "unit": "MG/DL",
+        "min": "22.00",
+        "max": "38.00"
+      },
+      {
+        "datetime": "2025-05-15 08:00:04",
+        "item": "UAC",
+        "pos": "C1-36",
+        "result": "5.3",
+        "unit": "MG/DL",
+        "min": "4.10",
+        "max": "6.00"
+      },
+      {
+        "datetime": "2025-05-15 08:24:56",
+        "item": "BIL T",
+        "pos": "C1-36",
+        "result": "0.80",
+        "unit": "MG/DL",
+        "min": "0.55",
+        "max": "1.15"
+      },
+      {
+        "datetime": "2025-05-15 08:12:25",
+        "item": "BIL D",
+        "pos": "C1-36",
+        "result": "0.48",
+        "unit": "MG/DL",
+        "min": "0.25",
+        "max": "0.55"
+      },
+      {
+        "datetime": "2025-05-15 08:46:41",
+        "item": "SGOT",
+        "pos": "C1-36",
+        "result": "34.29",
+        "unit": "IU/L",
+        "min": "26.00",
+        "max": "39.00"
+      },
+      {
+        "datetime": "2025-05-15 08:01:59",
+        "item": "SGPT",
+        "pos": "C1-36",
+        "result": "30.59",
+        "unit": "IU/L",
+        "min": "28.10",
+        "max": "42.10"
+      },
+      {
+        "datetime": "2025-05-15 08:04:07",
+        "item": "ALP IFCC",
+        "pos": "C1-36",
+        "result": "123.30",
+        "unit": "IU/L",
+        "min": "111.20",
+        "max": "163.20"
+      },
+      {
+        "datetime": "2025-05-15 08:06:36",
+        "item": "TPR",
+        "pos": "C1-36",
+        "result": "6.17",
+        "unit": "GM/DL",
+        "min": "4.85",
+        "max": "6.75"
+      },
+      {
+        "datetime": "2025-05-15 08:08:33",
+        "item": "ALB",
+        "pos": "C1-36",
+        "result": "3.93",
+        "unit": "g/dL",
+        "min": "3.10",
+        "max": "4.30"
+      },
+      {
+        "datetime": "2025-05-15 08:58:29",
+        "item": "CAL A",
+        "pos": "C1-36",
+        "result": "8.59",
+        "unit": "MG/DL",
+        "min": "7.70",
+        "max": "9.90"
+      },
+      {
+        "datetime": "2025-05-15 08:06:25",
+        "item": "GGT",
+        "pos": "C1-36",
+        "result": "34.16",
+        "unit": "U/L",
+        "min": "27.10",
+        "max": "43.10"
+      },
+      {
+        "datetime": "2025-05-15 08:08:21",
+        "item": "CRT J",
+        "pos": "C1-36",
+        "result": "1.05",
+        "unit": "MG/DL",
+        "min": "0.75",
+        "max": "1.35"
+      }
+    ],
+    "path": [
+      {
+        "datetime": "2025-05-15 08:12:32",
+        "item": "GLU",
+        "pos": "C1-37",
+        "result": "242.2",
+        "unit": "MG/DL",
+        "min": "200.00",
+        "max": "260.00"
+      },
+      {
+        "datetime": "2025-05-15 08:15:59",
+        "item": "CHOL",
+        "pos": "C1-37",
+        "result": "320.8",
+        "unit": "MG/DL",
+        "min": "273.2",
+        "max": "345.2"
+      },
+      {
+        "datetime": "2025-05-15 08:27:56",
+        "item": "TGL",
+        "pos": "C1-37",
+        "result": "272.3",
+        "unit": "MG/DL",
+        "min": "220.1",
+        "max": "304.1"
+      },
+      {
+        "datetime": "2025-05-15 08:32:42",
+        "item": "HDL-C",
+        "pos": "C1-37",
+        "result": "58.3",
+        "unit": "MG/DL",
+        "min": "41.5",
+        "max": "71.5"
+      },
+      {
+        "datetime": "2025-05-15 08:27:54",
+        "item": "UREA UV",
+        "pos": "C1-37",
+        "result": "161.4",
+        "unit": "MG/DL",
+        "min": "126.0",
+        "max": "186.0"
+      },
+      {
+        "datetime": "2025-05-15 08:05:10",
+        "item": "UAC",
+        "pos": "C1-37",
+        "result": "11.4",
+        "unit": "MG/DL",
+        "min": "8.2",
+        "max": "13.4"
+      },
+      {
+        "datetime": "2025-05-15 08:54:54",
+        "item": "BIL T",
+        "pos": "C1-37",
+        "result": "4.47",
+        "unit": "MG/DL",
+        "min": "3.4",
+        "max": "5.20"
+      },
+      {
+        "datetime": "2025-05-15 08:31:04",
+        "item": "BIL D",
+        "pos": "C1-37",
+        "result": "1.94",
+        "unit": "MG/DL",
+        "min": "1.60",
+        "max": "2.40"
+      },
+      {
+        "datetime": "2025-05-15 08:15:31",
+        "item": "SGOT",
+        "pos": "C1-37",
+        "result": "143.14",
+        "unit": "IU/L",
+        "min": "110.4",
+        "max": "170.4"
+      },
+      {
+        "datetime": "2025-05-15 08:01:53",
+        "item": "SGPT",
+        "pos": "C1-37",
+        "result": "127.70",
+        "unit": "IU/L",
+        "min": "111.5",
+        "max": "167.5"
+      },
+      {
+        "datetime": "2025-05-15 08:32:48",
+        "item": "ALP IFCC",
+        "pos": "C1-37",
+        "result": "349.33",
+        "unit": "IU/L",
+        "min": "299.7",
+        "max": "429.7"
+      },
+      {
+        "datetime": "2025-05-15 08:23:19",
+        "item": "TPR",
+        "pos": "C1-37",
+        "result": "8.55",
+        "unit": "GM/DL",
+        "min": "6.5",
+        "max": "10.1"
+      },
+      {
+        "datetime": "2025-05-15 08:34:12",
+        "item": "ALB",
+        "pos": "C1-37",
+        "result": "4.35",
+        "unit": "g/dL",
+        "min": "3.55",
+        "max": "5.25"
+      },
+      {
+        "datetime": "2025-05-15 08:55:14",
+        "item": "CAL A",
+        "pos": "C1-37",
+        "result": "12.69",
+        "unit": "MG/DL",
+        "min": "11.10",
+        "max": "15.10"
+      },
+      {
+        "datetime": "2025-05-15 08:58:36",
+        "item": "GGT",
+        "pos": "C1-37",
+        "result": "153.92",
+        "unit": "U/L",
+        "min": "119.4",
+        "max": "169.4"
+      },
+      {
+        "datetime": "2025-05-15 08:44:11",
+        "item": "CRT J",
+        "pos": "C1-37",
+        "result": "4.07",
+        "unit": "MG/DL",
+        "min": "3.5",
+        "max": "5.1"
+      }
+    ]
+  },
+  {
+    "file": "20260908_143817",
+    "lot": "32312044",
+    "exp": "31-11-2025",
+    "norm": [
+      {
+        "datetime": "2025-04-10 08:03:19",
+        "item": "GLU",
+        "pos": "C1-36",
+        "result": "96.4",
+        "unit": "MG/DL",
+        "min": "82.00",
+        "max": "108.00"
+      },
+      {
+        "datetime": "2025-04-10 08:24:20",
+        "item": "CHOL",
+        "pos": "C1-36",
+        "result": "172.1",
+        "unit": "MG/DL",
+        "min": "133.00",
+        "max": "193.00"
+      },
+      {
+        "datetime": "2025-04-10 08:38:09",
+        "item": "TGL",
+        "pos": "C1-36",
+        "result": "142.7",
+        "unit": "MG/DL",
+        "min": "102.50",
+        "max": "146.50"
+      },
+      {
+        "datetime": "2025-04-10 08:46:30",
+        "item": "HDL-C",
+        "pos": "C1-36",
+        "result": "40.5",
+        "unit": "MG/DL",
+        "min": "32.00",
+        "max": "48.00"
+      },
+      {
+        "datetime": "2025-04-10 08:57:25",
+        "item": "UREA UV",
+        "pos": "C1-36",
+        "result": "32.7",
+        "unit": "MG/DL",
+        "min": "22.00",
+        "max": "38.00"
+      },
+      {
+        "datetime": "2025-04-10 08:43:14",
+        "item": "UAC",
+        "pos": "C1-36",
+        "result": "4.9",
+        "unit": "MG/DL",
+        "min": "4.10",
+        "max": "6.00"
+      },
+      {
+        "datetime": "2025-04-10 08:18:33",
+        "item": "BIL T",
+        "pos": "C1-36",
+        "result": "0.87",
+        "unit": "MG/DL",
+        "min": "0.55",
+        "max": "1.15"
+      },
+      {
+        "datetime": "2025-04-10 08:27:28",
+        "item": "BIL D",
+        "pos": "C1-36",
+        "result": "0.45",
+        "unit": "MG/DL",
+        "min": "0.25",
+        "max": "0.55"
+      },
+      {
+        "datetime": "2025-04-10 08:30:03",
+        "item": "SGOT",
+        "pos": "C1-36",
+        "result": "31.99",
+        "unit": "IU/L",
+        "min": "26.00",
+        "max": "39.00"
+      },
+      {
+        "datetime": "2025-04-10 08:41:09",
+        "item": "SGPT",
+        "pos": "C1-36",
+        "result": "32.01",
+        "unit": "IU/L",
+        "min": "28.10",
+        "max": "42.10"
+      },
+      {
+        "datetime": "2025-04-10 08:00:32",
+        "item": "ALP IFCC",
+        "pos": "C1-36",
+        "result": "140.12",
+        "unit": "IU/L",
+        "min": "111.20",
+        "max": "163.20"
+      },
+      {
+        "datetime": "2025-04-10 08:33:04",
+        "item": "TPR",
+        "pos": "C1-36",
+        "result": "5.57",
+        "unit": "GM/DL",
+        "min": "4.85",
+        "max": "6.75"
+      },
+      {
+        "datetime": "2025-04-10 08:44:43",
+        "item": "ALB",
+        "pos": "C1-36",
+        "result": "3.48",
+        "unit": "g/dL",
+        "min": "3.10",
+        "max": "4.30"
+      },
+      {
+        "datetime": "2025-04-10 08:29:08",
+        "item": "CAL A",
+        "pos": "C1-36",
+        "result": "8.14",
+        "unit": "MG/DL",
+        "min": "7.70",
+        "max": "9.90"
+      },
+      {
+        "datetime": "2025-04-10 08:52:29",
+        "item": "GGT",
+        "pos": "C1-36",
+        "result": "34.35",
+        "unit": "U/L",
+        "min": "27.10",
+        "max": "43.10"
+      },
+      {
+        "datetime": "2025-04-10 08:20:51",
+        "item": "CRT J",
+        "pos": "C1-36",
+        "result": "1.13",
+        "unit": "MG/DL",
+        "min": "0.75",
+        "max": "1.35"
+      }
+    ],
+    "path": [
+      {
+        "datetime": "2025-04-10 08:43:39",
+        "item": "GLU",
+        "pos": "C1-37",
+        "result": "215.9",
+        "unit": "MG/DL",
+        "min": "200.00",
+        "max": "260.00"
+      },
+      {
+        "datetime": "2025-04-10 08:45:16",
+        "item": "CHOL",
+        "pos": "C1-37",
+        "result": "301.0",
+        "unit": "MG/DL",
+        "min": "273.2",
+        "max": "345.2"
+      },
+      {
+        "datetime": "2025-04-10 08:20:12",
+        "item": "TGL",
+        "pos": "C1-37",
+        "result": "256.6",
+        "unit": "MG/DL",
+        "min": "220.1",
+        "max": "304.1"
+      },
+      {
+        "datetime": "2025-04-10 08:30:59",
+        "item": "HDL-C",
+        "pos": "C1-37",
+        "result": "61.4",
+        "unit": "MG/DL",
+        "min": "41.5",
+        "max": "71.5"
+      },
+      {
+        "datetime": "2025-04-10 08:09:15",
+        "item": "UREA UV",
+        "pos": "C1-37",
+        "result": "157.2",
+        "unit": "MG/DL",
+        "min": "126.0",
+        "max": "186.0"
+      },
+      {
+        "datetime": "2025-04-10 08:04:41",
+        "item": "UAC",
+        "pos": "C1-37",
+        "result": "14.72",
+        "unit": "MG/DL",
+        "min": "8.2",
+        "max": "13.4"
+      },
+      {
+        "datetime": "2025-04-10 08:33:03",
+        "item": "BIL T",
+        "pos": "C1-37",
+        "result": "4.29",
+        "unit": "MG/DL",
+        "min": "3.4",
+        "max": "5.20"
+      },
+      {
+        "datetime": "2025-04-10 08:29:13",
+        "item": "BIL D",
+        "pos": "C1-37",
+        "result": "2.05",
+        "unit": "MG/DL",
+        "min": "1.60",
+        "max": "2.40"
+      },
+      {
+        "datetime": "2025-04-10 08:56:18",
+        "item": "SGOT",
+        "pos": "C1-37",
+        "result": "131.70",
+        "unit": "IU/L",
+        "min": "110.4",
+        "max": "170.4"
+      },
+      {
+        "datetime": "2025-04-10 08:26:03",
+        "item": "SGPT",
+        "pos": "C1-37",
+        "result": "138.12",
+        "unit": "IU/L",
+        "min": "111.5",
+        "max": "167.5"
+      },
+      {
+        "datetime": "2025-04-10 08:32:38",
+        "item": "ALP IFCC",
+        "pos": "C1-37",
+        "result": "367.89",
+        "unit": "IU/L",
+        "min": "299.7",
+        "max": "429.7"
+      },
+      {
+        "datetime": "2025-04-10 08:58:57",
+        "item": "TPR",
+        "pos": "C1-37",
+        "result": "8.35",
+        "unit": "GM/DL",
+        "min": "6.5",
+        "max": "10.1"
+      },
+      {
+        "datetime": "2025-04-10 08:01:22",
+        "item": "ALB",
+        "pos": "C1-37",
+        "result": "4.26",
+        "unit": "g/dL",
+        "min": "3.55",
+        "max": "5.25"
+      },
+      {
+        "datetime": "2025-04-10 08:14:46",
+        "item": "CAL A",
+        "pos": "C1-37",
+        "result": "13.00",
+        "unit": "MG/DL",
+        "min": "11.10",
+        "max": "15.10"
+      },
+      {
+        "datetime": "2025-04-10 08:39:11",
+        "item": "GGT",
+        "pos": "C1-37",
+        "result": "134.98",
+        "unit": "U/L",
+        "min": "119.4",
+        "max": "169.4"
+      },
+      {
+        "datetime": "2025-04-10 08:26:23",
+        "item": "CRT J",
+        "pos": "C1-37",
+        "result": "4.25",
+        "unit": "MG/DL",
+        "min": "3.5",
+        "max": "5.1"
+      }
+    ]
+  }
+]
