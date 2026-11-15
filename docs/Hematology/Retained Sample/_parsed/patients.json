@@ -1,0 +1,50 @@
+[
+  {
+    "id": "10268736",
+    "form_date": "08-09-2026",
+    "collected": "08:55:36",
+    "plot_level": "Normal",
+    "source": "RS_SEP_26.pdf",
+    "cbc": {
+      "WBC": 5.76, "RBC": 4.73, "HGB": 12.8, "HCT": 39.4,
+      "MCV": 83.2, "MCH": 27.1, "MCHC": 32.5, "RDW-CV": 15.1, "PLT": 231,
+      "Neu%": 54.6, "Lym%": 35.2, "Mon%": 7.3, "Eos%": 2.8, "Bas%": 0.1
+    }
+  },
+  {
+    "id": "10263620",
+    "form_date": "06-06-2026",
+    "collected": "08:54:57",
+    "plot_level": "Low",
+    "source": "RS_JUNE_26.pdf",
+    "cbc": {
+      "WBC": 6.21, "RBC": 4.49, "HGB": 10.1, "HCT": 33.7,
+      "MCV": 75.0, "MCH": 22.4, "MCHC": 29.9, "RDW-CV": 13.6, "PLT": 233,
+      "Neu%": 54.2, "Lym%": 36.8, "Mon%": 5.2, "Eos%": 3.8, "Bas%": 0.0
+    }
+  },
+  {
+    "id": "102514080",
+    "form_date": "07-03-2026",
+    "collected": "10:39:57",
+    "plot_level": "Low",
+    "source": "RS_MARCH_26.pdf",
+    "cbc": {
+      "WBC": 3.96, "RBC": 4.49, "HGB": 12.3, "HCT": 38.3,
+      "MCV": 85.2, "MCH": 27.4, "MCHC": 32.2, "RDW-CV": 14.6, "PLT": 152,
+      "Neu%": 57.9, "Lym%": 32.6, "Mon%": 4.6, "Eos%": 4.4, "Bas%": 0.5
+    }
+  },
+  {
+    "id": "10259874",
+    "form_date": "09-12-2025",
+    "collected": "10:03:00",
+    "plot_level": "Normal",
+    "source": "RS_DEC_25.pdf",
+    "cbc": {
+      "WBC": 7.42, "RBC": 4.70, "HGB": 12.0, "HCT": 35.7,
+      "MCV": 76.0, "MCH": 25.5, "MCHC": 33.6, "RDW-CV": 14.5, "PLT": 347,
+      "Neu%": 69.3, "Lym%": 27.2, "Mon%": 2.2, "Eos%": 0.9, "Bas%": 0.4
+    }
+  }
+]
